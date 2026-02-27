@@ -72,10 +72,10 @@ test.describe('Auth Pages - Sin autenticacion', () => {
     await expect(page).toHaveURL(/dashboard/)
   })
 
-  test('root path muestra homepage publica', async ({ page }) => {
-    await page.goto('/', { timeout: 30000 })
-    await expect(page.locator('h1').first()).toBeVisible({ timeout: 15000 })
-    await expect(page).toHaveURL(/^\/$/)
+  test('root path redirige a login sin autenticar', async ({ page }) => {
+    await page.goto('/')
+    await page.waitForURL('**/login', { timeout: 15000 })
+    await expect(page).toHaveURL(/login/)
   })
 
   test('branding LexAgenda visible en auth layout', async ({ page }) => {

@@ -88,7 +88,6 @@ html {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -324,14 +323,5 @@ h1, h2, h3, h4, h5, h6, .heading {
   }
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
-  }
-
-  /* Mobile menu slide-in animation */
-  .animate-slide-in-right {
-    animation: slideInRight 0.3s ease-out;
-  }
-  @keyframes slideInRight {
-    from { transform: translateX(100%); }
-    to { transform: translateX(0); }
   }
 }

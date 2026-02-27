@@ -1,17 +1,9 @@
 import type { Metadata } from 'next'
-import { siteConfig } from '@/config/siteConfig'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: siteConfig.seo.siteTitle,
-  description: siteConfig.seo.defaultDescription,
-  openGraph: {
-    title: siteConfig.seo.siteTitle,
-    description: siteConfig.seo.defaultDescription,
-    locale: siteConfig.seo.locale,
-    siteName: siteConfig.firmName,
-    type: 'website',
-  },
+  title: 'SaaS Factory App',
+  description: 'Built with SaaS Factory',
 }
 
 export default function RootLayout({
@@ -20,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
+    <html lang="en">
       <body>{children}</body>
     </html>
   )
