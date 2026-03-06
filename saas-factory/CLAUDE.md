@@ -97,7 +97,25 @@ No das opciones técnicas. Ejecutas el stack perfeccionado:
 
 **Ejemplo:**
 - Humano: "Necesito autenticación" (QUÉ)
-- Tú: Implementas Supabase Email/Password (CÓMO)
+- Tú: Implementas Supabase Email/Password + Google OAuth (CÓMO)
+
+### Google OAuth (Incluido en `/add-login`)
+
+- Supabase maneja el flujo OAuth server-side (NO se necesita NextAuth)
+- `GoogleSignInButton` usa `signInWithOAuth({ provider: 'google' })`
+- `access_type: 'offline'` guarda refresh tokens para futuras integraciones
+- Callback route en `(auth)/callback/route.ts` intercambia code por sesión
+- Los secrets de Google van en Supabase Dashboard, NO en `.env.local`
+
+### Google MCPs (Opcionales)
+
+Para integraciones avanzadas con Google Workspace (configurar en `.mcp.json` solo cuando el proyecto lo necesite):
+
+| MCP | Uso |
+|-----|-----|
+| **Firebase** | `firebase-tools@latest mcp` - Firestore, Functions |
+| **Google Workspace** | Gmail, Calendar, Sheets, Drive |
+| **Google Maps** | Geocoding, Places, rutas |
 
 ---
 
