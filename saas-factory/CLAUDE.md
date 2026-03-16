@@ -33,26 +33,32 @@ Usuario dice algo
     ├── "Necesito login / registro / autenticacion"
     |       → Ejecutar skill ADD-LOGIN (Supabase auth completo)
     |
-    ├── "Necesito una landing page" / "scroll animation" / "video on scroll"
-    |       → Ejecutar skill LANDING (scroll-stop cinematico + copy de alta conversion)
+    ├── "Necesito pagos / cobrar / suscripciones / Polar / checkout"
+    |       → Ejecutar skill ADD-PAYMENTS (Polar + webhooks + checkout completo)
+    |
+    ├── "Necesito emails / correos / Resend / email transaccional"
+    |       → Ejecutar skill ADD-EMAILS (Resend + React Email + batch + unsubscribe)
+    |
+    ├── "Necesito PWA / notificaciones push / instalar en telefono / mobile"
+    |       → Ejecutar skill ADD-MOBILE (PWA + push notifications + iOS compatible)
+    |
+    ├── "Necesito una landing page" / "scroll animation" / "website 3d"
+    |       → Ejecutar skill WEBSITE-3D (scroll-stop cinematico + copy de alta conversion)
     |
     ├── "Quiero agregar [feature compleja]" (multiples fases, DB + UI + API)
     |       → Ejecutar skill PRP → humano aprueba → ejecutar BUCLE-AGENTICO
-    |
-    ├── "Necesito [tarea rapida]" (un componente, un fix, algo simple)
-    |       → Ejecutar skill SPRINT (ejecutar directo sin planificacion)
     |
     ├── "Quiero agregar IA / chat / vision / RAG"
     |       → Ejecutar skill AI con el template apropiado
     |
     ├── "Revisa que funcione / testea / hay un bug"
-    |       → Ejecutar skill QA (Playwright CLI automatizado)
+    |       → Ejecutar skill PLAYWRIGHT-CLI (testing automatizado)
+    |
+    ├── "Necesito algo de la base de datos" / "tabla" / "query" / "metricas"
+    |       → Ejecutar skill SUPABASE (estructura + datos + metricas)
     |
     ├── "Quiero hacer deploy / publicar"
-    |       → Activar agent VERCEL-DEPLOYER
-    |
-    ├── "Explica como funciona [parte del codigo]"
-    |       → Activar agent CODEBASE-ANALYST
+    |       → Deploy directo con Vercel CLI o git push
     |
     ├── "Quiero remover SaaS Factory"
     |       → Ejecutar skill EJECT-SF (DESTRUCTIVO, confirmar antes)
@@ -67,47 +73,33 @@ Usuario dice algo
     |       → Ejecutar skill AUTORESEARCH (loop autonomo de mejora)
     |
     └── No encaja en nada
-            → Usar tu juicio. Si es frontend → agent FRONTEND.
-              Si es backend → agent BACKEND.
-              Si es DB → agent SUPABASE-ADMIN.
-              Si es docs → agent DOCUMENTACION.
+            → Usar tu juicio. Leer el codebase, entender patrones, ejecutar.
 ```
 
 ---
 
-## Skills: Tu Caja de Herramientas
+## Skills: 15 Herramientas Especializadas
 
-### Que el usuario puede pedir (o tu sugieres)
-
-| Skill | Cuando usarlo |
-|-------|---------------|
-| `new-app` | El usuario quiere empezar un proyecto desde cero. Entrevista de negocio que genera BUSINESS_LOGIC.md |
-| `landing` | Landing cinematica estilo Apple: scroll-driven video + copy AIDA/PAS de alta conversion |
-| `primer` | Al inicio de cada conversacion para cargar contexto del proyecto |
-| `add-login` | Agregar autenticacion completa (Email/Password + Google OAuth + profiles + RLS) |
-| `eject-sf` | El usuario quiere remover SaaS Factory del proyecto. DESTRUCTIVO. Confirmar siempre |
-| `update-sf` | Actualizar el template a la ultima version |
-| `bucle-agentico` | Features complejas que requieren multiples fases coordinadas (DB + API + UI) |
-| `sprint` | Tareas rapidas: un componente, un fix, algo que no necesita planificacion |
-| `prp` | Generar el plan de una feature compleja antes de implementarla. Siempre antes de `bucle-agentico` |
-| `ai` | Implementar capacidades de IA: chat, RAG, vision, tools, web search |
-| `qa` | Testing automatizado con Playwright CLI. Verificar bugs, testear flujos completos |
-| `skill-creator` | Crear nuevos skills para extender la fabrica |
-| `memory-manager` | Memoria persistente POR PROYECTO en `.claude/memory/`. Reemplaza auto-memory de Claude Code |
-| `image-generation` | Generar y editar imagenes con OpenRouter + Gemini |
-| `autoresearch` | Auto-optimizar skills con loop autonomo (patron Karpathy) |
-
-### Que tu activas automaticamente (el usuario no necesita saber)
-
-| Skill | Se activa cuando... |
-|-------|---------------------|
-| `backend` | Trabajas en Server Actions, APIs, logica de negocio, validaciones Zod |
-| `frontend` | Trabajas en UI/UX, componentes React, Tailwind, animaciones |
-| `supabase-admin` | Necesitas migraciones, RLS, queries SQL, configurar auth |
-| `codebase-analyst` | Necesitas entender patrones y arquitectura del proyecto |
-| `vercel-deployer` | Deploy, env vars, dominios, rollbacks |
-| `documentacion` | Actualizar docs despues de cambios en codigo |
-| `calidad` | Testing, validacion, quality gates |
+| # | Skill | Cuando usarlo |
+|---|-------|---------------|
+| 1 | `new-app` | Empezar proyecto desde cero. Entrevista de negocio → BUSINESS_LOGIC.md |
+| 2 | `add-login` | Auth completa: Email/Password + Google OAuth + profiles + RLS |
+| 3 | `add-payments` | Pagos con Polar (MoR): checkout, webhooks, suscripciones, acceso |
+| 4 | `add-emails` | Emails transaccionales: Resend + React Email + batch + unsubscribe |
+| 5 | `add-mobile` | PWA instalable + notificaciones push (iOS compatible, 14 commits de gotchas) |
+| 6 | `website-3d` | Landing cinematica Apple-style: scroll-driven video + copy AIDA/PAS |
+| 4 | `prp` | Plan de feature compleja antes de implementar. Siempre antes de bucle-agentico |
+| 5 | `bucle-agentico` | Features complejas: multiples fases coordinadas (DB + API + UI) |
+| 6 | `ai` | Capacidades de IA: chat, RAG, vision, tools, web search |
+| 7 | `supabase` | Todo BD: crear tablas, RLS, migraciones, queries, metricas, CRUD |
+| 8 | `playwright-cli` | Testing automatizado con browser real |
+| 9 | `primer` | Cargar contexto completo del proyecto al inicio de sesion |
+| 10 | `update-sf` | Actualizar SaaS Factory a la ultima version |
+| 11 | `eject-sf` | Remover SaaS Factory del proyecto. DESTRUCTIVO. Confirmar siempre |
+| 12 | `memory-manager` | Memoria persistente POR PROYECTO en `.claude/memory/` (git-versioned) |
+| 13 | `image-generation` | Generar y editar imagenes con OpenRouter + Gemini |
+| 14 | `autoresearch` | Auto-optimizar skills con loop autonomo (patron Karpathy) |
+| 15 | `skill-creator` | Crear nuevos skills para extender la fabrica |
 
 ---
 
@@ -119,9 +111,10 @@ Usuario dice algo
 1. NEW-APP → Entrevista de negocio → BUSINESS_LOGIC.md
 2. Preguntar diseño visual (design system)
 3. ADD-LOGIN → Auth completo
-4. PRP → Plan de primera feature
+4. ADD-PAYMENTS → Pagos con Polar (si el proyecto cobra)
+5. PRP → Plan de primera feature
 5. BUCLE-AGENTICO → Implementar fase por fase
-6. QA → Verificar que todo funciona
+6. PLAYWRIGHT-CLI → Verificar que todo funciona
 ```
 
 ### Flujo 2: Feature Compleja
@@ -134,18 +127,10 @@ Usuario dice algo
    - EJECUTAR subtareas basadas en contexto REAL
    - AUTO-BLINDAJE si hay errores
    - TRANSICIONAR a siguiente fase
-3. QA → Validar resultado final
+3. PLAYWRIGHT-CLI → Validar resultado final
 ```
 
-### Flujo 3: Tarea Rapida
-
-```
-1. SPRINT → Ejecutar directo
-2. MCPs on-demand si necesitas ver algo
-3. Confirmar con usuario
-```
-
-### Flujo 4: Agregar IA
+### Flujo 3: Agregar IA
 
 ```
 1. AI → Elegir template apropiado:
@@ -284,34 +269,25 @@ npm run lint         # ESLint
 │   ├── project/              # Decisiones y estado de iniciativas
 │   └── reference/            # Patrones, soluciones, donde encontrar cosas
 │
-├── skills/                    # Skills 2.0 (V4) - 22 skills
+├── skills/                    # 15 skills especializados
 │   ├── new-app/              # Entrevista de negocio
-│   ├── landing/              # Landing pages
-│   ├── primer/               # Context initialization
 │   ├── add-login/            # Auth completo
-│   ├── eject-sf/             # Remover SF
-│   ├── update-sf/            # Actualizar SF
-│   ├── bucle-agentico/       # Bucle Agentico BLUEPRINT
-│   ├── sprint/               # Bucle Agentico SPRINT
+│   ├── website-3d/           # Landing pages cinematicas
 │   ├── prp/                  # Generar PRPs
+│   ├── bucle-agentico/       # Bucle Agentico BLUEPRINT
 │   ├── ai/                   # AI Templates hub
-│   ├── qa/                   # Playwright CLI QA
-│   ├── skill-creator/        # Crear nuevos skills
-│   ├── backend/              # Agent: backend
-│   ├── frontend/             # Agent: frontend
-│   ├── supabase-admin/       # Agent: Supabase
-│   ├── codebase-analyst/     # Agent: analisis
-│   ├── vercel-deployer/      # Agent: deploy
-│   ├── documentacion/        # Agent: docs
-│   ├── calidad/              # Agent: testing
+│   ├── supabase/             # BD completa: estructura + datos + metricas
+│   ├── playwright-cli/       # Testing automatizado
+│   ├── primer/               # Context initialization
+│   ├── update-sf/            # Actualizar SF
+│   ├── eject-sf/             # Remover SF
 │   ├── memory-manager/       # Memoria persistente por proyecto
 │   ├── image-generation/     # Generacion de imagenes (OpenRouter + Gemini)
-│   └── autoresearch/         # Auto-optimizacion de skills
+│   ├── autoresearch/         # Auto-optimizacion de skills
+│   └── skill-creator/        # Crear nuevos skills
 │
 ├── PRPs/                      # Product Requirements Proposals
 │   └── prp-base.md           # Template base
-│
-│   │   └── references/       # AI Templates (11 bloques)
 │
 └── design-systems/            # 5 sistemas de diseno
     ├── neobrutalism/

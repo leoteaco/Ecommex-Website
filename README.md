@@ -2,6 +2,10 @@
   <img src="assets/factory-overview.png" alt="SaaS Factory - The Machine that Builds the Machine" width="800"/>
 </p>
 
+<p align="center">
+  <img src="assets/v4-skill-first.png" alt="SaaS Factory V4 — Skill First: Construir, Inteligencia, Calidad, Evolucion" width="800"/>
+</p>
+
 <h1 align="center">SaaS Factory V4</h1>
 
 <p align="center">
@@ -12,7 +16,7 @@
 <p align="center">
   <a href="#que-es-saas-factory">Que Es</a> &bull;
   <a href="#el-golden-path">Tech Stack</a> &bull;
-  <a href="#22-skills-tu-caja-de-herramientas">22 Skills</a> &bull;
+  <a href="#15-skills-tu-caja-de-herramientas">15 Skills</a> &bull;
   <a href="#3-mcps-tus-sentidos">MCPs</a> &bull;
   <a href="#instalacion-2-minutos">Instalacion</a>
 </p>

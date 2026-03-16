@@ -4,7 +4,7 @@
 
 ---
 
-## Inventario de Skills (22 total)
+## Inventario de Skills (25 total)
 
 ### Invocables por el Usuario (/)
 
@@ -14,6 +14,9 @@
 | `landing` | `/landing` | Landing cinematica: scroll-driven video + copy AIDA/PAS + glass-morphism |
 | `primer` | `/primer` | Inicializar contexto del proyecto |
 | `add-login` | `/add-login` | Auth completo Supabase (login, signup, password reset, profiles, RLS) |
+| `add-payments` | `/add-payments` | Pagos con Polar (MoR): checkout, webhooks, suscripciones, acceso |
+| `add-emails` | `/add-emails` | Emails transaccionales: Resend + React Email + batch + unsubscribe |
+| `add-mobile` | `/add-mobile` | PWA instalable + push notifications (iOS compatible) |
 | `eject-sf` | `/eject-sf` | Remover SaaS Factory del proyecto (DESTRUCTIVO) |
 | `update-sf` | `/update-sf` | Actualizar a ultima version |
 | `bucle-agentico` | `/bucle-agentico` | Bucle Agentico para sistemas complejos (por fases) |
