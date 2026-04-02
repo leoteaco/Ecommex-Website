@@ -1,0 +1,859 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Ecommex | Fulfillment y Logística E-Commerce en México",
+      "description": "Fulfillment integral para marcas que quieren escalar en el mercado mexicano de e-commerce. Almacenamiento, envíos, aduanas y más desde Guadalajara."
+    },
+    "whyMexico": {
+      "title": "Por Qué México | Ecommex",
+      "description": "México es el mercado de e-commerce de mayor crecimiento en LATAM. Descubre por qué es el momento ideal para escalar tu operación aquí."
+    },
+    "services": {
+      "title": "Servicios de Fulfillment | Ecommex",
+      "description": "Almacenamiento, pick & pack, envíos, gestión aduanal e integraciones tecnológicas para tu operación de e-commerce en México."
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona | Ecommex",
+      "description": "Conoce nuestro proceso paso a paso: desde la integración inicial hasta el envío de tus pedidos en todo México."
+    },
+    "industries": {
+      "title": "Industrias | Ecommex",
+      "description": "Atendemos marcas de belleza, moda, electrónica, salud, alimentos y más con soluciones de fulfillment especializadas."
+    },
+    "caseStudies": {
+      "title": "Casos de Éxito | Ecommex",
+      "description": "Conoce cómo marcas reales han escalado su operación en México con nuestra infraestructura de fulfillment."
+    },
+    "resources": {
+      "title": "Recursos | Ecommex",
+      "description": "Guías, artículos y herramientas para dominar el e-commerce y la logística en México."
+    },
+    "pricing": {
+      "title": "Precios | Ecommex",
+      "description": "Precios transparentes y escalables para fulfillment en México. Sin costos ocultos, sin contratos de largo plazo."
+    },
+    "contact": {
+      "title": "Contacto | Ecommex",
+      "description": "Solicita tu cotización personalizada. Nuestro equipo en Guadalajara está listo para ayudarte a escalar."
+    }
+  },
+  "nav": {
+    "logo": "Ecommex",
+    "links": {
+      "whyMexico": "Por Qué México",
+      "services": "Servicios",
+      "howItWorks": "Cómo Funciona",
+      "industries": "Industrias",
+      "caseStudies": "Casos de Éxito",
+      "resources": "Recursos",
+      "pricing": "Precios",
+      "contact": "Contacto"
+    },
+    "cta": "Cotizar",
+    "mobileMenuOpen": "Abrir menú",
+    "mobileMenuClose": "Cerrar menú",
+    "languageToggle": "EN"
+  },
+  "footer": {
+    "description": "Fulfillment integral para marcas que quieren conquistar el mercado mexicano de e-commerce. Operamos desde Guadalajara con estándares globales.",
+    "columns": {
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "about": "Nosotros",
+          "careers": "Trabaja con Nosotros",
+          "contact": "Contacto",
+          "blog": "Blog"
+        }
+      },
+      "services": {
+        "title": "Servicios",
+        "links": {
+          "import": "Importación y Aduanas",
+          "warehousing": "Almacenamiento",
+          "fulfillment": "Fulfillment",
+          "shipping": "Envíos",
+          "returns": "Devoluciones",
+          "technology": "Tecnología"
+        }
+      },
+      "resources": {
+        "title": "Recursos",
+        "links": {
+          "guides": "Guías",
+          "caseStudies": "Casos de Éxito",
+          "blog": "Blog",
+          "faq": "Preguntas Frecuentes"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Aviso de Privacidad",
+          "terms": "Términos y Condiciones",
+          "cookies": "Política de Cookies"
+        }
+      }
+    },
+    "newsletter": {
+      "headline": "Recibe tendencias de e-commerce en México",
+      "placeholder": "Tu correo electrónico",
+      "button": "Suscribirme",
+      "consent": "Al suscribirte, aceptas nuestro Aviso de Privacidad."
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)",
+      "instagram": "Instagram"
+    },
+    "copyright": "Ecommex. Todos los derechos reservados.",
+    "location": "Guadalajara, Jalisco, México"
+  },
+  "home": {
+    "hero": {
+      "headline": "El aliado que tu marca necesita para escalar en México",
+      "subheadline": "Fulfillment integral para marcas que quieren conquistar el mercado mexicano. Importación, almacenamiento, envíos y tecnología — nosotros nos encargamos de todo para que tú te enfoques en vender.",
+      "cta": "Obtén Tu Cotización",
+      "ctaSecondary": "Cómo Funciona",
+      "trustLine": "Marcas que envían más de 50,000 pedidos al mes en todo México confían en nosotros"
+    },
+    "trustBar": {
+      "headline": "Marcas líderes que confían en nosotros",
+      "brands": [
+        { "name": "Marca Asociada 1" },
+        { "name": "Marca Asociada 2" },
+        { "name": "Marca Asociada 3" },
+        { "name": "Marca Asociada 4" },
+        { "name": "Marca Asociada 5" },
+        { "name": "Marca Asociada 6" }
+      ]
+    },
+    "painPoints": {
+      "headline": "Escalar en México no debería ser tan complicado",
+      "transition": "Eliminamos cada obstáculo entre tus productos y los consumidores mexicanos.",
+      "items": [
+        {
+          "title": "Las aduanas y regulaciones son un laberinto",
+          "description": "Permisos, clasificaciones arancelarias, normas oficiales mexicanas... cada importación es un dolor de cabeza diferente. Un error puede frenar todo tu embarque."
+        },
+        {
+          "title": "La última milla está fragmentada",
+          "description": "Docenas de paqueterías, cada una con sus tarifas, tiempos y cobertura. Coordinar todo para una entrega confiable es un trabajo de tiempo completo."
+        },
+        {
+          "title": "Las reglas de los marketplaces cambian constantemente",
+          "description": "Mercado Libre, Amazon México y otras plataformas actualizan sus requisitos para vendedores sin previo aviso. Cumplir mientras escalas requiere experiencia local."
+        },
+        {
+          "title": "No tienes equipo en el terreno",
+          "description": "Operar a distancia en un mercado que no conoces a fondo genera errores costosos, tiempos de respuesta lentos y oportunidades perdidas."
+        }
+      ]
+    },
+    "services": {
+      "headline": "Un solo socio, cada paso del camino",
+      "steps": [
+        {
+          "title": "Importación",
+          "description": "Nos encargamos del despacho aduanal, aranceles, clasificación arancelaria y cumplimiento normativo para que tus productos entren a México sin demoras."
+        },
+        {
+          "title": "Almacenamiento",
+          "description": "Tu inventario se resguarda en nuestro CEDIS estratégicamente ubicado en Guadalajara, con visibilidad en tiempo real y zonas climatizadas."
+        },
+        {
+          "title": "Fulfillment",
+          "description": "Los pedidos se preparan, empaquetan y etiquetan conforme a las especificaciones de cada marketplace y canal — con precisión y puntualidad, siempre."
+        },
+        {
+          "title": "Envío",
+          "description": "Gestionamos la selección de paqueterías, optimización de tarifas y logística de última milla en todo México a través de nuestra red multi-carrier."
+        },
+        {
+          "title": "Devoluciones",
+          "description": "Nuestro sistema de logística inversa recibe, inspecciona y reintegra productos devueltos al inventario — manteniendo satisfechos a tus clientes."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "99.8%", "label": "Precisión en pedidos" },
+        { "value": "24h", "label": "Tiempo promedio de procesamiento" },
+        { "value": "50K+", "label": "Pedidos enviados al mes" },
+        { "value": "15+", "label": "Integraciones con plataformas" }
+      ]
+    },
+    "differentiators": {
+      "headline": "¿Por qué las marcas eligen Ecommex?",
+      "items": [
+        {
+          "title": "Nos adaptamos a tu caos",
+          "description": "Picos de temporada, ventas flash, lanzamiento de nuevos SKUs — nuestra operación se ajusta a tu realidad. Sin contratos rígidos, sin procesos de talla única."
+        },
+        {
+          "title": "Experiencia en México, estándares globales",
+          "description": "Nuestro equipo combina conocimiento profundo de la logística, aduanas y marketplaces mexicanos con el rigor operativo que esperan las marcas internacionales."
+        },
+        {
+          "title": "Tecnología que conecta todo",
+          "description": "Nuestra plataforma se integra con tus herramientas existentes — Shopify, Amazon, WooCommerce, ERPs — dándote una sola vista de toda tu cadena de suministro."
+        }
+      ]
+    },
+    "testimonials": {
+      "headline": "Lo que dicen nuestras marcas",
+      "items": [
+        {
+          "quote": "Ecommex nos permitió lanzar en México en cinco semanas. Su experiencia aduanal nos ahorró meses de prueba y error.",
+          "name": "Sarah Chen",
+          "company": "Vitacore Supplements",
+          "role": "VP de Expansión Internacional"
+        },
+        {
+          "quote": "Evaluamos tres socios de fulfillment en México. Ecommex fue el único que pudo manejar la complejidad de nuestros SKUs e integrarse directamente con nuestra tienda Shopify Plus.",
+          "name": "Marcus Webb",
+          "company": "Luminary Skincare",
+          "role": "Director de Operaciones"
+        },
+        {
+          "quote": "Nuestra precisión en pedidos pasó de 94% con nuestro proveedor anterior a 99.8% con Ecommex. La diferencia se refleja directamente en nuestras reseñas y tasa de recompra.",
+          "name": "Diana Robles",
+          "company": "Moda Urbana",
+          "role": "Directora de E-Commerce"
+        }
+      ]
+    },
+    "cta": {
+      "headline": "¿Listo para vender en México?",
+      "subtext": "Recibe un plan de fulfillment personalizado para tu marca, tus productos y tus metas de crecimiento. Sin compromiso.",
+      "cta": "Obtén Tu Cotización",
+      "ctaSecondary": "Agenda una Llamada de Consulta"
+    }
+  },
+  "whyMexico": {
+    "hero": {
+      "headline": "Por Qué México Es Tu Próximo Gran Mercado",
+      "subtext": "La segunda economía más grande de América Latina vive un boom de e-commerce. Las marcas que se mueven ahora capturarán retornos extraordinarios."
+    },
+    "marketOpportunity": {
+      "headline": "La oportunidad en números",
+      "stats": [
+        {
+          "value": "4to",
+          "label": "Mercado de e-commerce más grande en las Américas",
+          "description": "México se ubica solo detrás de EE.UU., Canadá y Brasil en ingresos totales de e-commerce, y el impulso está cerrando la brecha rápidamente."
+        },
+        {
+          "value": "65%+",
+          "label": "Penetración de internet",
+          "description": "Más de 95 millones de mexicanos están conectados, y la adopción digital se acelera en todos los grupos de edad y niveles de ingreso."
+        },
+        {
+          "value": "80M+",
+          "label": "Compradores en línea",
+          "description": "La base de consumidores digitales de México se ha más que duplicado en cinco años, generando una demanda masiva de productos internacionales."
+        },
+        {
+          "value": "25%+",
+          "label": "Crecimiento anual en e-commerce",
+          "description": "El e-commerce mexicano crece a más del 25% anual — muy por encima de mercados maduros en Norteamérica y Europa."
+        },
+        {
+          "value": "3x",
+          "label": "Crecimiento de gasto online vs. retail físico",
+          "description": "El gasto del consumidor se está moviendo decisivamente a canales digitales, y las marcas que lleguen primero construirán participación de mercado duradera."
+        }
+      ]
+    },
+    "challenges": {
+      "headline": "Lo que hace diferente a México",
+      "items": [
+        {
+          "title": "Regulaciones aduanales complejas",
+          "description": "Las reglas de importación de México exigen certificaciones específicas, estándares de etiquetado y clasificaciones arancelarias que varían por categoría de producto."
+        },
+        {
+          "title": "Infraestructura logística fragmentada",
+          "description": "Ninguna paquetería cubre todo México de forma confiable. Una entrega efectiva a nivel nacional requiere una estrategia multi-carrier y alianzas locales."
+        },
+        {
+          "title": "Requisitos de cumplimiento fiscal",
+          "description": "La autoridad fiscal de México (SAT) exige requisitos estrictos de facturación, incluyendo CFDI electrónico para cada transacción."
+        },
+        {
+          "title": "Requisitos específicos de marketplaces",
+          "description": "Mercado Libre, Amazon México y plataformas locales tienen requisitos únicos para vendedores, estándares de fulfillment y métricas de desempeño."
+        },
+        {
+          "title": "Las expectativas del consumidor están evolucionando",
+          "description": "Los consumidores mexicanos cada vez esperan entregas rápidas, devoluciones sencillas y empaque de calidad — la exigencia sube rápidamente."
+        },
+        {
+          "title": "Matices de idioma y cultura",
+          "description": "Las descripciones de producto, servicio al cliente y marketing deben resonar a nivel local. Traducir directo del inglés no es suficiente."
+        }
+      ]
+    },
+    "solutions": {
+      "headline": "Cómo Ecommex cierra la brecha",
+      "items": [
+        {
+          "challenge": "Regulaciones aduanales complejas",
+          "solution": "Nuestro equipo interno de agentes aduanales gestiona clasificación arancelaria, permisos, certificaciones y despacho — de principio a fin."
+        },
+        {
+          "challenge": "Infraestructura logística fragmentada",
+          "solution": "Mantenemos relaciones con más de 10 paqueterías y enrutamos los envíos dinámicamente según destino, tamaño y costo para garantizar cobertura nacional confiable."
+        },
+        {
+          "challenge": "Requisitos de cumplimiento fiscal",
+          "solution": "Nuestros sistemas generan CFDI conformes automáticamente para cada pedido, manteniéndote al día con los requisitos del SAT."
+        },
+        {
+          "challenge": "Requisitos específicos de marketplaces",
+          "solution": "Nos encargamos del etiquetado, empaque y fulfillment según las especificaciones exactas de cada marketplace para que tu cuenta se mantenga en buen estatus."
+        },
+        {
+          "challenge": "Expectativas crecientes del consumidor",
+          "solution": "Procesamiento el mismo día, opciones de empaque con tu marca y un proceso de devoluciones ágil te ayudan a entregar la experiencia que los consumidores mexicanos exigen."
+        },
+        {
+          "challenge": "Matices de idioma y cultura",
+          "solution": "Nuestro equipo bilingüe apoya tus comunicaciones con clientes y asegura que tus listados de productos estén localizados, no solo traducidos."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Recibe una evaluación gratuita del mercado mexicano",
+      "placeholder": "Ingresa tu correo electrónico",
+      "button": "Solicitar Evaluación"
+    }
+  },
+  "services": {
+    "hero": {
+      "headline": "Fulfillment Integral para México",
+      "subtext": "Todos los servicios que necesitas para importar, almacenar, preparar y enviar en México — bajo un solo techo, con un solo socio, a través de una sola integración."
+    },
+    "items": [
+      {
+        "title": "Importación y Aduanas",
+        "description": "Gestionamos todo el proceso de importación para que tus productos pasen la aduana mexicana sin demoras, multas ni sorpresas.",
+        "bullets": [
+          "Clasificación arancelaria y cálculo de aranceles",
+          "Gestión de permisos y licencias de importación",
+          "Certificación de producto y cumplimiento de etiquetado",
+          "Registro COFEPRIS para productos regulados",
+          "Agencia aduanal y despacho",
+          "Optimización de programas de devolución de aranceles"
+        ]
+      },
+      {
+        "title": "Almacenamiento",
+        "description": "Ubicación estratégica en Guadalajara con soluciones de almacenamiento flexibles diseñadas para la gestión de inventario e-commerce.",
+        "bullets": [
+          "Zonas de almacenamiento climatizadas y ambientales",
+          "Visibilidad de inventario en tiempo real y reportes",
+          "Rastreo de lotes, gestión de caducidad y rotación FEFO",
+          "Escaneo de código de barras y precisión a nivel de SKU",
+          "Términos de almacenamiento flexibles sin compromisos a largo plazo",
+          "Instalación segura con vigilancia 24/7"
+        ]
+      },
+      {
+        "title": "Fulfillment y Pick-Pack",
+        "description": "Procesamiento de pedidos rápido y preciso, diseñado para e-commerce de alto volumen — desde unidades individuales hasta kitting y armado de bundles.",
+        "bullets": [
+          "Procesamiento el mismo día para pedidos recibidos antes del horario de corte",
+          "99.8% de precisión en pick-and-pack",
+          "Empaque personalizado y experiencias de unboxing con tu marca",
+          "Kitting, bundling y armado de cajas de suscripción",
+          "Etiquetado y preparación específica por marketplace",
+          "Inspección de control de calidad en cada pedido"
+        ]
+      },
+      {
+        "title": "Envíos y Última Milla",
+        "description": "Red de envío multi-carrier con cobertura nacional, optimización de tarifas y rastreo en tiempo real en todo México.",
+        "bullets": [
+          "Más de 10 alianzas con paqueterías para cobertura nacional",
+          "Selección automática de paquetería y comparación de tarifas",
+          "Rastreo en tiempo real y notificaciones de entrega",
+          "Opciones de entrega el mismo día y al día siguiente en las principales zonas metro",
+          "Soporte para contra entrega (COD)",
+          "Comprobante de entrega con confirmación fotográfica"
+        ]
+      },
+      {
+        "title": "Gestión de Devoluciones",
+        "description": "Una solución completa de logística inversa que convierte las devoluciones en una ventaja competitiva en lugar de un centro de costos.",
+        "bullets": [
+          "Portal de devoluciones con tu marca para tus clientes",
+          "Autorización automática de devolución y generación de guías",
+          "Inspección de producto y clasificación por calidad",
+          "Flujos de restock, reacondicionamiento o disposición",
+          "Analítica y reportes de devoluciones en tiempo real",
+          "Políticas de devolución configurables por canal"
+        ]
+      },
+      {
+        "title": "Tecnología e Integraciones",
+        "description": "Una sola plataforma que conecta tus canales de venta, inventario, pedidos y envíos en una vista unificada.",
+        "bullets": [
+          "Integraciones con Shopify, Shopify Plus y WooCommerce",
+          "Conectores para Amazon México y Mercado Libre",
+          "API REST para integraciones personalizadas y con ERPs",
+          "Sincronización de inventario en tiempo real en todos los canales",
+          "Enrutamiento automático de pedidos y reglas de fulfillment",
+          "Dashboard de analítica con KPIs y reportes"
+        ]
+      }
+    ],
+    "cta": {
+      "headline": "¿Necesitas una solución a la medida? Platiquemos.",
+      "button": "Contactar a Nuestro Equipo"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "headline": "De la Primera Llamada al Primer Envío en Semanas",
+      "subtext": "Un proceso de onboarding claro y estructurado, diseñado para que tus productos lleguen a manos de los consumidores mexicanos lo más rápido posible."
+    },
+    "steps": [
+      {
+        "step": "01",
+        "title": "Llamada de Consulta",
+        "description": "Conocemos tus productos, canales de venta, proyecciones de volumen y objetivos para el mercado mexicano. Tú nos preguntas lo que quieras sobre logística, aduanas o cumplimiento."
+      },
+      {
+        "step": "02",
+        "title": "Propuesta Personalizada",
+        "description": "En 48 horas recibes una propuesta detallada con estrategia de importación, flujo de fulfillment, recomendaciones de paqueterías, configuración tecnológica y precios transparentes."
+      },
+      {
+        "step": "03",
+        "title": "Onboarding",
+        "description": "Nuestro equipo configura tus integraciones, prepara tu espacio en almacén, establece tus procesos aduanales y capacita a tu equipo en nuestra plataforma."
+      },
+      {
+        "step": "04",
+        "title": "Recepción de Inventario",
+        "description": "Tu primer embarque llega a nuestras instalaciones. Recibimos, inspeccionamos, catalogamos y ubicamos cada unidad — y confirmamos conteos de inventario en tu dashboard."
+      },
+      {
+        "step": "05",
+        "title": "Go Live",
+        "description": "Los pedidos comienzan a fluir de tus canales de venta a nuestro almacén. Nosotros preparamos, empacamos y enviamos — tú monitoreas todo en tiempo real desde tu dashboard."
+      },
+      {
+        "step": "06",
+        "title": "Optimización Continua",
+        "description": "Revisiones mensuales de desempeño, ajustes en la mezcla de paqueterías, recomendaciones de optimización de costos y soporte estratégico conforme escalas en el mercado mexicano."
+      }
+    ],
+    "timeline": {
+      "headline": "Timeline típico de onboarding",
+      "weeks": [
+        { "week": "Semana 1", "milestone": "Consulta y propuesta" },
+        { "week": "Semana 2", "milestone": "Configuración de integraciones y onboarding" },
+        { "week": "Semana 3", "milestone": "Recepción de inventario y pruebas" },
+        { "week": "Semana 4", "milestone": "Go live y primeros pedidos enviados" }
+      ]
+    },
+    "faq": {
+      "headline": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Hay un volumen mínimo de pedidos para trabajar con Ecommex?",
+          "answer": "Nuestro plan Crecimiento empieza desde 1,000 pedidos al mes. Si estás por debajo de ese volumen pero esperas escalar rápido, con gusto platicamos un plan que crezca contigo."
+        },
+        {
+          "question": "¿Con qué plataformas de e-commerce y marketplaces se integran?",
+          "answer": "Nos integramos nativamente con Shopify, Shopify Plus, WooCommerce, Amazon México y Mercado Libre. También ofrecemos una API REST para integraciones personalizadas con cualquier ERP o sistema de gestión de pedidos."
+        },
+        {
+          "question": "¿Cómo manejan las importaciones y el despacho aduanal?",
+          "answer": "Nuestro equipo interno de agentes aduanales gestiona clasificación arancelaria, permisos, certificaciones, cumplimiento de etiquetado y despacho. Nos encargamos de todo, desde tu puerto de origen hasta la puerta de nuestro almacén."
+        },
+        {
+          "question": "¿Qué paqueterías utilizan para entregas en México?",
+          "answer": "Trabajamos con más de 10 paqueterías, incluyendo Estafeta, FedEx México, DHL, Redpack y especialistas regionales de última milla. Nuestro sistema selecciona automáticamente la mejor opción para cada envío según destino, velocidad y costo."
+        },
+        {
+          "question": "¿Cómo funciona la gestión de devoluciones?",
+          "answer": "Ofrecemos un portal de devoluciones personalizado con tu marca, gestionamos la autorización y generación de guías de devolución, recibimos e inspeccionamos los artículos devueltos, y los reintegramos al inventario o los separamos según tus políticas. Tienes visibilidad total desde tu dashboard."
+        },
+        {
+          "question": "¿Cómo está estructurado el precio? ¿Hay costos ocultos?",
+          "answer": "Nuestros precios están basados en volumen y son transparentes. Pagas por almacenamiento, pick-and-pack y envío — sin costos ocultos, cargos de setup ni compromisos a largo plazo. Te entregamos un desglose detallado de costos antes de que firmes cualquier cosa."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "¿Listo para empezar?",
+      "button": "Agenda Tu Llamada de Consulta"
+    }
+  },
+  "industries": {
+    "hero": {
+      "headline": "Fulfillment Diseñado para Tu Industria",
+      "subtext": "Cada categoría de producto tiene retos logísticos únicos. Tenemos la experiencia, infraestructura y procesos para manejar los tuyos."
+    },
+    "items": [
+      {
+        "title": "Salud y Suplementos",
+        "description": "Vitaminas, suplementos y productos de salud requieren registro COFEPRIS, rastreo estricto de lotes y almacenamiento con temperatura controlada. Gestionamos el cumplimiento de principio a fin.",
+        "pain": "Registro COFEPRIS, rastreo de lotes, gestión de caducidad y almacenamiento con temperatura controlada hacen que los productos de salud sean una de las categorías más complejas para importar y distribuir en México.",
+        "cta": "Conoce el fulfillment para salud"
+      },
+      {
+        "title": "Belleza y Cosméticos",
+        "description": "Las marcas de belleza necesitan cumplimiento de ingredientes, manejo cuidadoso y empaque premium. Entregamos la experiencia de unboxing que tus clientes esperan.",
+        "pain": "Las regulaciones mexicanas exigen declaraciones específicas de ingredientes, etiquetado en español y registro de producto. Los artículos frágiles demandan manejo cuidadoso en toda la cadena de suministro.",
+        "cta": "Conoce el fulfillment para belleza"
+      },
+      {
+        "title": "Moda y Ropa",
+        "description": "Alto número de SKUs, variantes de talla y picos estacionales de demanda requieren almacenamiento flexible y fulfillment rápido y preciso.",
+        "pain": "Gestionar miles de combinaciones SKU-talla-color, manejar picos estacionales y procesar altas tasas de devolución requiere operaciones diseñadas específicamente para logística de moda.",
+        "cta": "Conoce el fulfillment para moda"
+      },
+      {
+        "title": "Electrónica de Consumo",
+        "description": "La electrónica requiere certificaciones NOM, almacenamiento seguro, rastreo de números de serie y procedimientos de manejo antiestático.",
+        "pain": "Cumplimiento NOM, rastreo de números de serie, gestión de garantías y el alto valor de los productos electrónicos exigen manejo especializado y protocolos de seguridad.",
+        "cta": "Conoce el fulfillment para electrónica"
+      },
+      {
+        "title": "Alimentos y Bebidas",
+        "description": "Los productos consumibles exigen cadena de frío, rotación FIFO estricta, rastreo de caducidad y cumplimiento con las regulaciones de seguridad alimentaria de México.",
+        "pain": "Los productos alimenticios enfrentan las regulaciones de importación más estrictas en México, incluyendo permisos sanitarios, requisitos de etiquetado nutricional e integridad de cadena de frío del puerto a la puerta.",
+        "cta": "Conoce el fulfillment para alimentos"
+      },
+      {
+        "title": "Hogar y Estilo de Vida",
+        "description": "Desde velas hasta artículos de cocina, los productos para el hogar vienen en todas las formas y tamaños. Manejamos artículos sobredimensionados, productos frágiles y kitting complejo.",
+        "pain": "Diversas dimensiones de producto, artículos frágiles, bienes pesados y la necesidad de kitting y bundling hacen de los productos para el hogar un reto logístico que requiere operaciones adaptables.",
+        "cta": "Conoce el fulfillment para hogar"
+      }
+    ]
+  },
+  "caseStudies": {
+    "hero": {
+      "headline": "Marcas Que Apostaron por México — y Ganaron",
+      "subtext": "Resultados reales de marcas internacionales que se aliaron con Ecommex para entrar y escalar en el mercado mexicano de e-commerce."
+    },
+    "cases": [
+      {
+        "title": "Marca de Suplementos de EE.UU. Entra a México en 4 Semanas",
+        "industry": "Salud y Suplementos",
+        "challenge": "Una marca de suplementos de rápido crecimiento en EE.UU. quería entrar a México, pero enfrentaba requisitos complejos de registro COFEPRIS, tiempos inciertos en aduanas y cero infraestructura logística local.",
+        "solution": "Ecommex gestionó el proceso completo de registro COFEPRIS, configuró flujos de despacho aduanal para embarques recurrentes e integró directamente la tienda Shopify Plus de la marca y su cuenta de Amazon México.",
+        "results": [
+          "Operando y enviando en México en 4 semanas",
+          "Más de 10,000 pedidos cumplidos en los primeros 90 días",
+          "99.9% de precisión en pedidos",
+          "32% menos en costo de fulfillment por unidad vs. envío cross-border"
+        ],
+        "resultsNote": "Resultados basados en el primer trimestre de operaciones."
+      },
+      {
+        "title": "Marca Europea de Belleza Escala a 20K Pedidos/Mes",
+        "industry": "Belleza y Cosméticos",
+        "challenge": "Una marca europea de belleza enviaba cross-border a México, con tiempos de entrega de 12 a 18 días, altos aranceles pagados por los clientes y 40% de abandono de carrito en el checkout.",
+        "solution": "Ecommex estableció un esquema de almacén bajo depósito fiscal, gestionó el registro de productos y etiquetado en español, e implementó una estrategia de entrega multi-carrier con cobertura nacional de 2 a 4 días.",
+        "results": [
+          "Tiempo de entrega reducido de 14 días a 3 días en promedio",
+          "Abandono de carrito disminuyó 28%",
+          "Escalaron de 2,000 a 20,000 pedidos al mes en 6 meses",
+          "Calificación de satisfacción del cliente subió de 3.8 a 4.7 de 5"
+        ],
+        "resultsNote": "Resultados medidos en un período de 6 meses después del go-live."
+      },
+      {
+        "title": "Marca de Moda Domina las Altas Tasas de Devolución",
+        "industry": "Moda y Ropa",
+        "challenge": "Una marca internacional de moda expandiéndose en México luchaba con un 30% de tasa de devolución, procesamiento lento de devoluciones e inventario estancado por semanas — afectando flujo de caja y experiencia del cliente.",
+        "solution": "Ecommex implementó un portal de devoluciones con la marca, procesamiento de devoluciones el mismo día con inspección, flujos automatizados de restock y analítica de devoluciones en tiempo real integrada con el OMS de la marca.",
+        "results": [
+          "Tiempo de procesamiento de devoluciones reducido de 14 días a 24 horas",
+          "85% de artículos devueltos restockeados y disponibles para reventa en 48 horas",
+          "Tasa de devolución disminuyó a 22% con mejor integración de guía de tallas",
+          "Net Promoter Score aumentó 18 puntos"
+        ],
+        "resultsNote": "Resultados medidos en un período de 4 meses después de la implementación."
+      }
+    ],
+    "cta": {
+      "headline": "¿Quieres resultados como estos?",
+      "button": "Habla con Nuestro Equipo"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "headline": "Precios Transparentes Que Escalan Contigo",
+      "subtext": "Sin cuotas de setup, sin cargos ocultos, sin contratos a largo plazo. Paga por lo que usas y obtén mejores tarifas conforme creces."
+    },
+    "philosophy": {
+      "headline": "Cómo funcionan nuestros precios",
+      "description": "Creemos en precios simples y transparentes. Todos los planes incluyen acceso a nuestra plataforma tecnológica completa, todas las integraciones y un ejecutivo de cuenta dedicado. Solo pagas por almacenamiento, fulfillment y envío — según tu volumen real.",
+      "includedHeadline": "Incluido en todos los planes",
+      "included": [
+        "Acceso completo a la plataforma tecnológica",
+        "Todas las integraciones con marketplaces y e-commerce",
+        "Ejecutivo de cuenta dedicado",
+        "Dashboard en tiempo real y analítica",
+        "Onboarding y capacitación",
+        "Revisiones mensuales de desempeño",
+        "Coordinación de agencia aduanal",
+        "Portal de gestión de devoluciones"
+      ]
+    },
+    "tiers": [
+      {
+        "name": "Crecimiento",
+        "volume": "1,000 - 5,000 pedidos/mes",
+        "description": "Para marcas que están entrando a México o escalando su presencia inicial. Fulfillment integral con todas las herramientas que necesitas para establecer tu operación.",
+        "cta": "Cotizar plan Crecimiento"
+      },
+      {
+        "name": "Escala",
+        "volume": "5,000 - 15,000 pedidos/mes",
+        "description": "Para marcas con demanda comprobada en México que necesitan optimizar costos, mejorar velocidad de entrega y expandirse a nuevos canales y marketplaces.",
+        "cta": "Cotizar plan Escala"
+      },
+      {
+        "name": "Enterprise",
+        "volume": "15,000+ pedidos/mes",
+        "description": "Para marcas de alto volumen que requieren SLAs personalizados, espacio de almacén dedicado, procesamiento prioritario y consultoría estratégica de cadena de suministro.",
+        "cta": "Cotizar plan Enterprise"
+      }
+    ],
+    "calculator": {
+      "headline": "Estima tu costo mensual",
+      "fields": {
+        "orders": {
+          "label": "Volumen mensual de pedidos",
+          "placeholder": "Ej. 5,000"
+        },
+        "skus": {
+          "label": "Número de SKUs activos",
+          "placeholder": "Ej. 150"
+        },
+        "avgItems": {
+          "label": "Productos promedio por pedido",
+          "placeholder": "Ej. 2"
+        },
+        "avgWeight": {
+          "label": "Peso promedio por paquete (kg)",
+          "placeholder": "Ej. 0.5"
+        }
+      },
+      "button": "Calcular Estimado",
+      "response": "Según tus datos, tu costo mensual estimado de fulfillment es",
+      "disclaimer": "Este es un estimado aproximado. Tu cotización real dependerá de las dimensiones del producto, duración de almacenamiento, mezcla de paqueterías y otros factores. Contáctanos para una propuesta precisa."
+    },
+    "cta": {
+      "headline": "¿Necesitas una cotización personalizada?",
+      "button": "Solicita Tu Propuesta Personalizada"
+    }
+  },
+  "resources": {
+    "hero": {
+      "headline": "Insights para Vender en México",
+      "subtext": "Guías, análisis y consejos prácticos para ayudar a las marcas a navegar el panorama del e-commerce mexicano."
+    },
+    "featured": [
+      {
+        "title": "Guía Completa de Fulfillment para E-Commerce en México",
+        "type": "Guía",
+        "excerpt": "Todo lo que necesitas saber sobre importar, almacenar y enviar productos en México — desde despacho aduanal hasta última milla."
+      },
+      {
+        "title": "Reporte del Mercado E-Commerce en México 2026",
+        "type": "Reporte",
+        "excerpt": "Tendencias clave, dimensionamiento de mercado, datos de comportamiento del consumidor y proyecciones de crecimiento para el e-commerce mexicano."
+      },
+      {
+        "title": "Vender en Mercado Libre: El Playbook para Marcas",
+        "type": "Guía",
+        "excerpt": "Guía paso a paso para lanzar y escalar en el marketplace más grande de América Latina, desde configuración de cuenta hasta optimización de fulfillment."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Registro COFEPRIS: Lo Que Las Marcas Necesitan Saber",
+        "excerpt": "Un desglose práctico del proceso de registro de productos de salud en México, tiempos, documentación requerida y errores comunes a evitar.",
+        "date": "Marzo 2026",
+        "readTime": "8 min de lectura",
+        "category": "Cumplimiento"
+      },
+      {
+        "title": "Aranceles e Impuestos para Importaciones E-Commerce en México",
+        "excerpt": "Cómo funciona la estructura arancelaria de México, las implicaciones del IVA y cómo calcular el costo real de internación de tus productos.",
+        "date": "Febrero 2026",
+        "readTime": "6 min de lectura",
+        "category": "Importación"
+      },
+      {
+        "title": "Última Milla en México: Panorama de Paqueterías y Estrategias",
+        "excerpt": "Un panorama de las principales paqueterías de México, brechas de cobertura, modelos de precios y cómo construir una red de entrega multi-carrier confiable.",
+        "date": "Febrero 2026",
+        "readTime": "10 min de lectura",
+        "category": "Envíos"
+      },
+      {
+        "title": "Amazon México vs. Mercado Libre: ¿Dónde Vender Primero?",
+        "excerpt": "Comparación basada en datos de los dos marketplaces dominantes de México — audiencia, comisiones, opciones de fulfillment y potencial de crecimiento para vendedores.",
+        "date": "Enero 2026",
+        "readTime": "7 min de lectura",
+        "category": "Marketplaces"
+      },
+      {
+        "title": "Reducir Devoluciones en E-Commerce Mexicano: Mejores Prácticas",
+        "excerpt": "Por qué las tasas de devolución en México difieren de otros mercados y estrategias comprobadas para reducirlas sin sacrificar la satisfacción del cliente.",
+        "date": "Enero 2026",
+        "readTime": "5 min de lectura",
+        "category": "Operaciones"
+      },
+      {
+        "title": "Certificaciones NOM para Productos de Consumo: Guía Práctica",
+        "excerpt": "Qué productos requieren certificación NOM, cómo funciona el proceso, tiempos típicos y cómo evitar demoras en la frontera mexicana.",
+        "date": "Diciembre 2025",
+        "readTime": "9 min de lectura",
+        "category": "Cumplimiento"
+      }
+    ],
+    "newsletter": {
+      "headline": "Recibe insights de e-commerce en México en tu bandeja",
+      "placeholder": "Ingresa tu correo electrónico",
+      "button": "Suscribirme",
+      "consent": "Sin spam. Cancela cuando quieras.",
+      "success": "Te has suscrito. Revisa tu bandeja de entrada para un correo de confirmación."
+    },
+    "categories": {
+      "all": "Todos",
+      "compliance": "Cumplimiento",
+      "import": "Importación",
+      "shipping": "Envíos",
+      "marketplaces": "Marketplaces",
+      "operations": "Operaciones"
+    }
+  },
+  "contact": {
+    "hero": {
+      "headline": "Hablemos de Tu Estrategia en México",
+      "subtext": "Ya sea que estés explorando el mercado o listo para enviar, te ayudamos a construir un plan que funcione. Sin presión, sin compromisos."
+    },
+    "form": {
+      "companyName": {
+        "label": "Nombre de la empresa",
+        "placeholder": "Tu empresa"
+      },
+      "yourName": {
+        "label": "Tu nombre",
+        "placeholder": "Nombre y apellido"
+      },
+      "email": {
+        "label": "Correo corporativo",
+        "placeholder": "tu@empresa.com"
+      },
+      "website": {
+        "label": "Sitio web",
+        "placeholder": "https://tutienda.com"
+      },
+      "monthlyVolume": {
+        "label": "Volumen mensual estimado de pedidos",
+        "placeholder": "Selecciona un rango",
+        "options": [
+          "Menos de 1,000 pedidos",
+          "1,000 - 5,000 pedidos",
+          "5,000 - 15,000 pedidos",
+          "15,000 - 50,000 pedidos",
+          "Más de 50,000 pedidos",
+          "Aún no estoy seguro"
+        ]
+      },
+      "products": {
+        "label": "Categoría de producto",
+        "placeholder": "Selecciona una categoría",
+        "options": [
+          "Salud y Suplementos",
+          "Belleza y Cosméticos",
+          "Moda y Ropa",
+          "Electrónica de Consumo",
+          "Alimentos y Bebidas",
+          "Hogar y Estilo de Vida",
+          "Otro"
+        ]
+      },
+      "channels": {
+        "label": "Canales de venta actuales o planeados",
+        "options": [
+          "Tu propio sitio web (Shopify, WooCommerce, etc.)",
+          "Amazon México",
+          "Mercado Libre",
+          "Liverpool / Palacio de Hierro",
+          "Walmart México",
+          "Social commerce (Instagram, TikTok Shop)",
+          "B2B / Mayoreo",
+          "Otro"
+        ]
+      },
+      "message": {
+        "label": "Cuéntanos sobre tu proyecto",
+        "placeholder": "¿Cuáles son tus objetivos para el mercado mexicano? ¿Algún reto o pregunta en particular?"
+      },
+      "consent": {
+        "label": "Acepto el Aviso de Privacidad y consiento que Ecommex procese mis datos para responder a esta solicitud."
+      },
+      "button": "Enviar Solicitud",
+      "submitting": "Enviando...",
+      "success": {
+        "headline": "Gracias por contactarnos",
+        "message": "Recibimos tu solicitud y te responderemos en un día hábil. Revisa tu bandeja de entrada para un correo de confirmación."
+      },
+      "error": {
+        "headline": "Algo salió mal",
+        "message": "No pudimos procesar tu solicitud. Por favor intenta de nuevo o escríbenos directamente.",
+        "retry": "Intentar de Nuevo"
+      },
+      "validation": {
+        "required": "Este campo es obligatorio",
+        "email": "Por favor ingresa un correo electrónico válido",
+        "url": "Por favor ingresa una URL válida"
+      }
+    },
+    "info": {
+      "email": "hello@ecommex.mx",
+      "location": "Guadalajara, Jalisco, México",
+      "responseTime": "Respondemos en 1 día hábil",
+      "mapPlaceholder": "Nuestro almacén y oficinas en Guadalajara, Jalisco"
+    }
+  },
+  "common": {
+    "learnMore": "Conocer más",
+    "getStarted": "Comenzar",
+    "contactUs": "Contáctanos",
+    "readMore": "Leer más",
+    "viewAll": "Ver todo",
+    "backToTop": "Volver arriba",
+    "loading": "Cargando...",
+    "close": "Cerrar",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "step": "Paso",
+    "of": "de",
+    "perMonth": "/mes",
+    "cookieConsent": {
+      "message": "Usamos cookies para mejorar tu experiencia. Al continuar navegando en este sitio, aceptas nuestro uso de cookies.",
+      "accept": "Aceptar",
+      "decline": "Rechazar",
+      "learnMore": "Conocer más"
+    },
+    "notFound": {
+      "headline": "Página no encontrada",
+      "message": "La página que buscas no existe o ha sido movida.",
+      "cta": "Ir al inicio"
+    }
+  }
+}

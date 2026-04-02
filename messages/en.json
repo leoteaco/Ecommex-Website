@@ -1,0 +1,859 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Ecommex | Your Gateway to Mexico's E-Commerce Market",
+      "description": "End-to-end fulfillment for international brands entering Mexico. Import, store, fulfill, deliver — Ecommex handles everything so you can focus on selling."
+    },
+    "whyMexico": {
+      "title": "Why Mexico | Ecommex",
+      "description": "Mexico is the 4th largest e-commerce market in the Americas with 80M+ online buyers and 25%+ annual growth. Learn why now is the time to expand."
+    },
+    "services": {
+      "title": "Services | Ecommex",
+      "description": "From customs clearance to last-mile delivery, Ecommex provides full-stack fulfillment services for international brands selling in Mexico."
+    },
+    "howItWorks": {
+      "title": "How It Works | Ecommex",
+      "description": "Go live in Mexico in as few as 4 weeks. Discovery, onboarding, inventory receiving, and ongoing optimization — see our step-by-step process."
+    },
+    "industries": {
+      "title": "Industries | Ecommex",
+      "description": "Ecommex serves health, beauty, fashion, electronics, food, and home brands with specialized fulfillment tailored to each vertical."
+    },
+    "caseStudies": {
+      "title": "Case Studies | Ecommex",
+      "description": "See how international brands have successfully entered the Mexican market with Ecommex as their fulfillment partner."
+    },
+    "resources": {
+      "title": "Resources | Ecommex",
+      "description": "Guides, reports, and insights on selling in Mexico — from customs regulations to marketplace strategies and fulfillment best practices."
+    },
+    "pricing": {
+      "title": "Pricing | Ecommex",
+      "description": "Transparent, volume-based pricing with no hidden fees. Get a custom quote for your fulfillment needs in Mexico."
+    },
+    "contact": {
+      "title": "Contact | Ecommex",
+      "description": "Get in touch with the Ecommex team. Request a custom quote, schedule a discovery call, or ask us anything about selling in Mexico."
+    }
+  },
+  "nav": {
+    "logo": "Ecommex",
+    "links": {
+      "whyMexico": "Why Mexico",
+      "services": "Services",
+      "howItWorks": "How It Works",
+      "industries": "Industries",
+      "caseStudies": "Case Studies",
+      "resources": "Resources",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "cta": "Get a Quote",
+    "mobileMenuOpen": "Open menu",
+    "mobileMenuClose": "Close menu",
+    "languageToggle": "ES"
+  },
+  "footer": {
+    "description": "End-to-end fulfillment for international brands entering the Mexican market. Based in Guadalajara, serving the world.",
+    "columns": {
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About Us",
+          "careers": "Careers",
+          "contact": "Contact",
+          "blog": "Blog"
+        }
+      },
+      "services": {
+        "title": "Services",
+        "links": {
+          "import": "Import & Customs",
+          "warehousing": "Warehousing",
+          "fulfillment": "Fulfillment",
+          "shipping": "Shipping",
+          "returns": "Returns",
+          "technology": "Technology"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "links": {
+          "guides": "Guides",
+          "caseStudies": "Case Studies",
+          "blog": "Blog",
+          "faq": "FAQ"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Service",
+          "cookies": "Cookie Policy"
+        }
+      }
+    },
+    "newsletter": {
+      "headline": "Stay updated on Mexico e-commerce",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "consent": "By subscribing, you agree to our Privacy Policy."
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)",
+      "instagram": "Instagram"
+    },
+    "copyright": "Ecommex. All rights reserved.",
+    "location": "Guadalajara, Jalisco, Mexico"
+  },
+  "home": {
+    "hero": {
+      "headline": "Your Gateway to Mexico's $100B E-Commerce Market",
+      "subheadline": "End-to-end fulfillment for international brands entering Mexico. Import, store, fulfill, deliver — we handle everything so you can focus on selling.",
+      "cta": "Get Your Custom Quote",
+      "ctaSecondary": "See How It Works",
+      "trustLine": "Trusted by brands shipping 50,000+ orders/month across Mexico"
+    },
+    "trustBar": {
+      "headline": "Trusted by leading international brands",
+      "brands": [
+        { "name": "Brand Partner 1" },
+        { "name": "Brand Partner 2" },
+        { "name": "Brand Partner 3" },
+        { "name": "Brand Partner 4" },
+        { "name": "Brand Partner 5" },
+        { "name": "Brand Partner 6" }
+      ]
+    },
+    "painPoints": {
+      "headline": "Entering Mexico is full of friction",
+      "transition": "We remove every obstacle between your products and Mexican consumers.",
+      "items": [
+        {
+          "title": "Customs & regulations are a maze",
+          "description": "Mexican import regulations, tax codes, and product certifications are complex and constantly changing. One misstep delays your entire shipment."
+        },
+        {
+          "title": "Last-mile delivery is fragmented",
+          "description": "Mexico's delivery infrastructure is split across dozens of regional carriers. Coordinating coverage, tracking, and reliability is a full-time job."
+        },
+        {
+          "title": "Marketplace rules change constantly",
+          "description": "Mercado Libre, Amazon Mexico, and other platforms update seller requirements regularly. Staying compliant while scaling takes local expertise."
+        },
+        {
+          "title": "You don't have boots on the ground",
+          "description": "Managing operations remotely in a market you don't fully understand leads to costly mistakes, slow response times, and missed opportunities."
+        }
+      ]
+    },
+    "services": {
+      "headline": "One partner, every step",
+      "steps": [
+        {
+          "title": "Import",
+          "description": "We handle customs clearance, duties, tariff classification, and regulatory compliance so your products enter Mexico without delays."
+        },
+        {
+          "title": "Warehouse",
+          "description": "Your inventory is stored in our strategically located Guadalajara facility with real-time visibility and climate-controlled zones."
+        },
+        {
+          "title": "Fulfill",
+          "description": "Orders are picked, packed, and labeled according to marketplace and channel specifications — accurately and on time, every time."
+        },
+        {
+          "title": "Deliver",
+          "description": "We manage carrier selection, rate optimization, and last-mile logistics across Mexico through our multi-carrier network."
+        },
+        {
+          "title": "Returns",
+          "description": "Our returns management system processes, inspects, and restocks returned items — keeping your customers satisfied and your inventory moving."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "99.8%", "label": "Order accuracy rate" },
+        { "value": "24h", "label": "Average processing time" },
+        { "value": "50K+", "label": "Orders fulfilled per month" },
+        { "value": "15+", "label": "Platform integrations" }
+      ]
+    },
+    "differentiators": {
+      "headline": "Why brands choose Ecommex",
+      "items": [
+        {
+          "title": "We adapt to your chaos",
+          "description": "Seasonal spikes, flash sales, new SKU launches — our operations flex to match your reality. No rigid contracts, no one-size-fits-all processes."
+        },
+        {
+          "title": "Mexico expertise, global standards",
+          "description": "Our team combines deep local knowledge of Mexican logistics, customs, and marketplaces with the operational rigor international brands expect."
+        },
+        {
+          "title": "Technology that connects everything",
+          "description": "Our platform integrates with your existing tools — Shopify, Amazon, WooCommerce, ERPs — giving you a single pane of glass across your entire supply chain."
+        }
+      ]
+    },
+    "testimonials": {
+      "headline": "What our partners say",
+      "items": [
+        {
+          "quote": "Ecommex took us from zero to fully operational in Mexico within five weeks. Their customs expertise alone saved us months of trial and error.",
+          "name": "Sarah Chen",
+          "company": "Vitacore Supplements",
+          "role": "VP of International Expansion"
+        },
+        {
+          "quote": "We evaluated three fulfillment partners in Mexico. Ecommex was the only one that could handle our SKU complexity and integrate directly with our Shopify Plus store.",
+          "name": "Marcus Webb",
+          "company": "Luminary Skincare",
+          "role": "Head of Operations"
+        },
+        {
+          "quote": "Our order accuracy went from 94% with our previous provider to 99.8% with Ecommex. The difference shows up directly in our customer reviews and repeat purchase rate.",
+          "name": "Diana Robles",
+          "company": "Moda Urbana",
+          "role": "Director of E-Commerce"
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Ready to sell in Mexico?",
+      "subtext": "Get a custom fulfillment plan built for your brand, your products, and your growth targets. No commitment required.",
+      "cta": "Get Your Custom Quote",
+      "ctaSecondary": "Schedule a Discovery Call"
+    }
+  },
+  "whyMexico": {
+    "hero": {
+      "headline": "Why Mexico Is Your Next Growth Market",
+      "subtext": "Latin America's second-largest economy is experiencing an e-commerce boom. International brands that move now will capture outsized returns."
+    },
+    "marketOpportunity": {
+      "headline": "The opportunity by the numbers",
+      "stats": [
+        {
+          "value": "4th",
+          "label": "Largest e-commerce market in the Americas",
+          "description": "Mexico ranks behind only the U.S., Canada, and Brazil in total e-commerce revenue, with rapid momentum closing the gap."
+        },
+        {
+          "value": "65%+",
+          "label": "Internet penetration",
+          "description": "Over 95 million Mexicans are online, and digital adoption is accelerating across all age groups and income levels."
+        },
+        {
+          "value": "80M+",
+          "label": "Online buyers",
+          "description": "Mexico's digital consumer base has more than doubled in five years, creating massive demand for international products."
+        },
+        {
+          "value": "25%+",
+          "label": "Year-over-year e-commerce growth",
+          "description": "Mexican e-commerce is growing at more than 25% annually — far outpacing mature markets in North America and Europe."
+        },
+        {
+          "value": "3x",
+          "label": "Faster online spend growth vs. offline retail",
+          "description": "Consumer spending is shifting decisively to digital channels, and the brands that show up first will build lasting market share."
+        }
+      ]
+    },
+    "challenges": {
+      "headline": "What makes Mexico different",
+      "items": [
+        {
+          "title": "Complex customs regulations",
+          "description": "Mexico's import rules require specific certifications, labeling standards, and tariff classifications that vary by product category."
+        },
+        {
+          "title": "Fragmented logistics infrastructure",
+          "description": "No single carrier covers all of Mexico reliably. Effective nationwide delivery requires a multi-carrier strategy and local partnerships."
+        },
+        {
+          "title": "Tax compliance requirements",
+          "description": "Mexico's tax authority (SAT) enforces strict invoicing requirements, including CFDI electronic invoices for every transaction."
+        },
+        {
+          "title": "Marketplace-specific requirements",
+          "description": "Mercado Libre, Amazon Mexico, and local platforms each have unique seller requirements, fulfillment standards, and performance metrics."
+        },
+        {
+          "title": "Consumer expectations are evolving",
+          "description": "Mexican consumers increasingly expect fast delivery, easy returns, and high-quality packaging — the bar is rising quickly."
+        },
+        {
+          "title": "Language and cultural nuances",
+          "description": "Product descriptions, customer service, and marketing must resonate locally. Direct translation from English is not enough."
+        }
+      ]
+    },
+    "solutions": {
+      "headline": "How Ecommex bridges the gap",
+      "items": [
+        {
+          "challenge": "Complex customs regulations",
+          "solution": "Our in-house customs brokerage team manages tariff classification, permits, certifications, and clearance — end to end."
+        },
+        {
+          "challenge": "Fragmented logistics infrastructure",
+          "solution": "We maintain relationships with 10+ carriers and dynamically route shipments based on destination, size, and cost to ensure reliable nationwide coverage."
+        },
+        {
+          "challenge": "Tax compliance requirements",
+          "solution": "Our systems generate compliant CFDI invoices automatically for every order, keeping you on the right side of SAT requirements."
+        },
+        {
+          "challenge": "Marketplace-specific requirements",
+          "solution": "We handle labeling, packaging, and fulfillment to each marketplace's exact specifications so your account stays in good standing."
+        },
+        {
+          "challenge": "Rising consumer expectations",
+          "solution": "Same-day processing, branded packaging options, and a streamlined returns process help you deliver the experience Mexican consumers demand."
+        },
+        {
+          "challenge": "Language and cultural nuances",
+          "solution": "Our bilingual team supports your customer communications and ensures your product listings are localized, not just translated."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Get a free Mexico market assessment",
+      "placeholder": "Enter your email address",
+      "button": "Request Assessment"
+    }
+  },
+  "services": {
+    "hero": {
+      "headline": "Full-Stack Fulfillment for Mexico",
+      "subtext": "Every service you need to import, store, fulfill, and deliver in Mexico — under one roof, with one partner, through one integration."
+    },
+    "items": [
+      {
+        "title": "Import & Customs",
+        "description": "We manage the entire import process so your products clear Mexican customs without delays, penalties, or surprises.",
+        "bullets": [
+          "Tariff classification and duty calculation",
+          "Import permit and license management",
+          "Product certification and labeling compliance",
+          "COFEPRIS registration for regulated products",
+          "Customs brokerage and clearance",
+          "Duty drawback and trade program optimization"
+        ]
+      },
+      {
+        "title": "Warehousing & Storage",
+        "description": "Strategically located in Guadalajara with flexible storage solutions designed for e-commerce inventory management.",
+        "bullets": [
+          "Climate-controlled and ambient storage zones",
+          "Real-time inventory visibility and reporting",
+          "Lot tracking, expiry management, and FEFO rotation",
+          "Barcode scanning and SKU-level accuracy",
+          "Flexible storage terms with no long-term commitments",
+          "Secure facility with 24/7 surveillance"
+        ]
+      },
+      {
+        "title": "Fulfillment & Pick-Pack",
+        "description": "Fast, accurate order processing built for high-volume e-commerce — from single units to complex kitting and bundling.",
+        "bullets": [
+          "Same-day processing for orders received before cutoff",
+          "99.8% pick-and-pack accuracy rate",
+          "Custom packaging and branded unboxing experiences",
+          "Kitting, bundling, and subscription box assembly",
+          "Marketplace-specific labeling and prep",
+          "Quality control inspection on every order"
+        ]
+      },
+      {
+        "title": "Shipping & Last-Mile",
+        "description": "Multi-carrier shipping network with nationwide coverage, rate optimization, and real-time tracking across Mexico.",
+        "bullets": [
+          "10+ carrier partnerships for nationwide coverage",
+          "Automated carrier selection and rate shopping",
+          "Real-time tracking and delivery notifications",
+          "Same-day and next-day delivery options in major metros",
+          "Cash-on-delivery (COD) support",
+          "Proof of delivery with photo confirmation"
+        ]
+      },
+      {
+        "title": "Returns Management",
+        "description": "A complete reverse logistics solution that turns returns into a competitive advantage instead of a cost center.",
+        "bullets": [
+          "Branded returns portal for your customers",
+          "Automated return authorization and label generation",
+          "Product inspection and quality grading",
+          "Restocking, refurbishment, or disposal workflows",
+          "Real-time returns analytics and reporting",
+          "Configurable return policies per channel"
+        ]
+      },
+      {
+        "title": "Technology & Integrations",
+        "description": "A single platform that connects your sales channels, inventory, orders, and shipping into one unified view.",
+        "bullets": [
+          "Shopify, Shopify Plus, and WooCommerce integrations",
+          "Amazon Mexico and Mercado Libre connectors",
+          "REST API for custom and ERP integrations",
+          "Real-time inventory sync across all channels",
+          "Automated order routing and fulfillment rules",
+          "Analytics dashboard with KPIs and reporting"
+        ]
+      }
+    ],
+    "cta": {
+      "headline": "Need a custom solution? Let's talk.",
+      "button": "Contact Our Team"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "headline": "From First Call to First Delivery in Weeks",
+      "subtext": "A clear, structured onboarding process designed to get your products into the hands of Mexican consumers as quickly as possible."
+    },
+    "steps": [
+      {
+        "step": "01",
+        "title": "Discovery Call",
+        "description": "We learn about your products, sales channels, volume projections, and goals for the Mexican market. You ask us anything about logistics, customs, or compliance."
+      },
+      {
+        "step": "02",
+        "title": "Custom Proposal",
+        "description": "Within 48 hours, you receive a detailed proposal covering import strategy, fulfillment workflow, carrier recommendations, technology setup, and transparent pricing."
+      },
+      {
+        "step": "03",
+        "title": "Onboarding",
+        "description": "Our team configures your integrations, sets up your warehouse space, establishes your customs processes, and trains your team on our platform."
+      },
+      {
+        "step": "04",
+        "title": "Inventory Receiving",
+        "description": "Your first shipment arrives at our facility. We receive, inspect, catalog, and shelve every unit — then confirm inventory counts in your dashboard."
+      },
+      {
+        "step": "05",
+        "title": "Go Live",
+        "description": "Orders begin flowing from your sales channels to our warehouse. We pick, pack, and ship — you monitor everything in real time from your dashboard."
+      },
+      {
+        "step": "06",
+        "title": "Ongoing Optimization",
+        "description": "Monthly performance reviews, carrier mix adjustments, cost optimization recommendations, and strategic support as you scale in the Mexican market."
+      }
+    ],
+    "timeline": {
+      "headline": "Typical onboarding timeline",
+      "weeks": [
+        { "week": "Week 1", "milestone": "Discovery and proposal" },
+        { "week": "Week 2", "milestone": "Integration setup and onboarding" },
+        { "week": "Week 3", "milestone": "Inventory receiving and testing" },
+        { "week": "Week 4", "milestone": "Go live and first orders shipped" }
+      ]
+    },
+    "faq": {
+      "headline": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Is there a minimum order volume to work with Ecommex?",
+          "answer": "Our Growth tier starts at 1,000 orders per month. If you are below that volume but expect to scale quickly, we are happy to discuss a plan that grows with you."
+        },
+        {
+          "question": "Which e-commerce platforms and marketplaces do you integrate with?",
+          "answer": "We integrate natively with Shopify, Shopify Plus, WooCommerce, Amazon Mexico, and Mercado Libre. We also offer a REST API for custom integrations with any ERP or order management system."
+        },
+        {
+          "question": "How do you handle imports and customs clearance?",
+          "answer": "Our in-house customs brokerage team manages tariff classification, permits, certifications, labeling compliance, and clearance. We handle everything from your origin port to our warehouse door."
+        },
+        {
+          "question": "Which carriers do you use for delivery in Mexico?",
+          "answer": "We work with 10+ carriers including Estafeta, FedEx Mexico, DHL, Redpack, and regional last-mile specialists. Our system automatically selects the best carrier for each shipment based on destination, speed, and cost."
+        },
+        {
+          "question": "How does returns management work?",
+          "answer": "We provide a branded returns portal for your customers, manage return authorization and label generation, receive and inspect returned items, and restock or dispose of them based on your policies. You get full visibility through your dashboard."
+        },
+        {
+          "question": "How is pricing structured? Are there hidden fees?",
+          "answer": "Pricing is volume-based and transparent. You pay for storage, pick-and-pack, and shipping — with no hidden fees, setup charges, or long-term commitments. We provide a detailed cost breakdown before you sign anything."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Ready to get started?",
+      "button": "Schedule Your Discovery Call"
+    }
+  },
+  "industries": {
+    "hero": {
+      "headline": "Fulfillment Built for Your Industry",
+      "subtext": "Every product category has unique logistics challenges. We have the expertise, infrastructure, and processes to handle yours."
+    },
+    "items": [
+      {
+        "title": "Health & Supplements",
+        "description": "Vitamins, supplements, and health products require COFEPRIS registration, strict lot tracking, and temperature-sensitive storage. We manage compliance end to end.",
+        "pain": "COFEPRIS registration, lot tracking, expiry management, and temperature-controlled storage make health products one of the most complex categories to import and fulfill in Mexico.",
+        "cta": "Learn about health fulfillment"
+      },
+      {
+        "title": "Beauty & Cosmetics",
+        "description": "Beauty brands need ingredient compliance, careful handling, and premium packaging. We deliver the unboxing experience your customers expect.",
+        "pain": "Mexican regulations require specific ingredient disclosures, Spanish-language labeling, and product registration. Fragile items demand careful handling throughout the supply chain.",
+        "cta": "Learn about beauty fulfillment"
+      },
+      {
+        "title": "Fashion & Apparel",
+        "description": "High SKU counts, size variants, and seasonal demand swings require flexible warehousing and fast, accurate fulfillment.",
+        "pain": "Managing thousands of SKU-size-color combinations, handling seasonal peaks, and processing high return rates require operations purpose-built for fashion logistics.",
+        "cta": "Learn about fashion fulfillment"
+      },
+      {
+        "title": "Consumer Electronics",
+        "description": "Electronics require NOM certifications, secure storage, serial number tracking, and anti-static handling procedures.",
+        "pain": "NOM compliance, serial number tracking, warranty management, and the high value of electronic goods demand specialized handling and security protocols.",
+        "cta": "Learn about electronics fulfillment"
+      },
+      {
+        "title": "Food & Beverage",
+        "description": "Consumable products demand cold chain capabilities, strict FIFO rotation, expiry tracking, and compliance with Mexico's food safety regulations.",
+        "pain": "Food products face the strictest import regulations in Mexico, including sanitary permits, nutritional labeling requirements, and cold chain integrity from port to doorstep.",
+        "cta": "Learn about food fulfillment"
+      },
+      {
+        "title": "Home & Lifestyle",
+        "description": "From candles to kitchenware, home goods come in every shape and size. We handle oversized items, fragile products, and complex kitting.",
+        "pain": "Diverse product dimensions, fragile items, heavy goods, and the need for kitting and bundling make home products a logistics challenge that requires adaptable operations.",
+        "cta": "Learn about home fulfillment"
+      }
+    ]
+  },
+  "caseStudies": {
+    "hero": {
+      "headline": "Brands That Chose Mexico — and Won",
+      "subtext": "Real results from international brands that partnered with Ecommex to enter and scale in the Mexican e-commerce market."
+    },
+    "cases": [
+      {
+        "title": "U.S. Supplement Brand Enters Mexico in 4 Weeks",
+        "industry": "Health & Supplements",
+        "challenge": "A fast-growing U.S. supplement brand wanted to enter Mexico but faced complex COFEPRIS registration requirements, uncertain customs timelines, and no local logistics infrastructure.",
+        "solution": "Ecommex managed the full COFEPRIS registration process, set up customs clearance workflows for recurring shipments, and configured direct integrations with the brand's Shopify Plus store and Amazon Mexico seller account.",
+        "results": [
+          "Live and shipping in Mexico within 4 weeks",
+          "10,000+ orders fulfilled in the first 90 days",
+          "99.9% order accuracy rate",
+          "32% lower per-unit fulfillment cost vs. cross-border shipping"
+        ],
+        "resultsNote": "Results based on the first quarter of operations."
+      },
+      {
+        "title": "European Beauty Brand Scales to 20K Orders/Month",
+        "industry": "Beauty & Cosmetics",
+        "challenge": "A European beauty brand was shipping cross-border to Mexico, resulting in 12-18 day delivery times, high customs duties paid by customers, and a 40% cart abandonment rate at checkout.",
+        "solution": "Ecommex established a bonded warehouse setup, managed product registration and Spanish-language labeling, and implemented a multi-carrier delivery strategy with 2-4 day nationwide coverage.",
+        "results": [
+          "Delivery time reduced from 14 days to 3 days average",
+          "Cart abandonment decreased by 28%",
+          "Scaled from 2,000 to 20,000 orders per month in 6 months",
+          "Customer satisfaction score increased from 3.8 to 4.7 out of 5"
+        ],
+        "resultsNote": "Results measured over a 6-month period after go-live."
+      },
+      {
+        "title": "Fashion Brand Conquers High Return Rates",
+        "industry": "Fashion & Apparel",
+        "challenge": "An international fashion brand expanding into Mexico struggled with a 30% return rate, slow return processing, and inventory that sat in limbo for weeks — hurting cash flow and customer experience.",
+        "solution": "Ecommex implemented a branded returns portal, same-day return processing and inspection, automated restocking workflows, and real-time return analytics integrated with the brand's OMS.",
+        "results": [
+          "Return processing time reduced from 14 days to 24 hours",
+          "85% of returned items restocked and available for resale within 48 hours",
+          "Return rate decreased to 22% through better size guide integration",
+          "Net Promoter Score increased by 18 points"
+        ],
+        "resultsNote": "Results measured over a 4-month period after implementation."
+      }
+    ],
+    "cta": {
+      "headline": "Want results like these?",
+      "button": "Talk to Our Team"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "headline": "Transparent Pricing That Scales With You",
+      "subtext": "No setup fees, no hidden charges, no long-term contracts. Pay for what you use, and get more efficient as you grow."
+    },
+    "philosophy": {
+      "headline": "How our pricing works",
+      "description": "We believe in simple, transparent pricing. Every plan includes access to our full technology platform, all integrations, and dedicated account management. You only pay for storage, fulfillment, and shipping — based on your actual volume.",
+      "includedHeadline": "Included in every plan",
+      "included": [
+        "Full technology platform access",
+        "All marketplace and e-commerce integrations",
+        "Dedicated account manager",
+        "Real-time dashboard and analytics",
+        "Onboarding and training",
+        "Monthly performance reviews",
+        "Customs brokerage coordination",
+        "Returns management portal"
+      ]
+    },
+    "tiers": [
+      {
+        "name": "Growth",
+        "volume": "1,000 - 5,000 orders/month",
+        "description": "For brands entering Mexico or scaling their initial presence. Full-service fulfillment with all the tools you need to establish your footprint.",
+        "cta": "Get Growth Pricing"
+      },
+      {
+        "name": "Scale",
+        "volume": "5,000 - 15,000 orders/month",
+        "description": "For brands with proven demand in Mexico that need to optimize costs, improve delivery speed, and expand to new channels and marketplaces.",
+        "cta": "Get Scale Pricing"
+      },
+      {
+        "name": "Enterprise",
+        "volume": "15,000+ orders/month",
+        "description": "For high-volume brands that require custom SLAs, dedicated warehouse space, priority processing, and strategic supply chain consulting.",
+        "cta": "Get Enterprise Pricing"
+      }
+    ],
+    "calculator": {
+      "headline": "Estimate your monthly cost",
+      "fields": {
+        "orders": {
+          "label": "Monthly order volume",
+          "placeholder": "e.g. 5,000"
+        },
+        "skus": {
+          "label": "Number of active SKUs",
+          "placeholder": "e.g. 150"
+        },
+        "avgItems": {
+          "label": "Average items per order",
+          "placeholder": "e.g. 2"
+        },
+        "avgWeight": {
+          "label": "Average package weight (kg)",
+          "placeholder": "e.g. 0.5"
+        }
+      },
+      "button": "Calculate Estimate",
+      "response": "Based on your inputs, your estimated monthly fulfillment cost is",
+      "disclaimer": "This is a rough estimate. Your actual quote will depend on product dimensions, storage duration, carrier mix, and other factors. Contact us for a precise proposal."
+    },
+    "cta": {
+      "headline": "Need a custom quote?",
+      "button": "Request Your Custom Proposal"
+    }
+  },
+  "resources": {
+    "hero": {
+      "headline": "Insights for Selling in Mexico",
+      "subtext": "Guides, analysis, and practical advice to help international brands navigate the Mexican e-commerce landscape."
+    },
+    "featured": [
+      {
+        "title": "The Complete Guide to E-Commerce Fulfillment in Mexico",
+        "type": "Guide",
+        "excerpt": "Everything you need to know about importing, storing, and shipping products in Mexico — from customs clearance to last-mile delivery."
+      },
+      {
+        "title": "Mexico E-Commerce Market Report 2026",
+        "type": "Report",
+        "excerpt": "Key trends, market sizing, consumer behavior data, and growth projections for Mexico's e-commerce market."
+      },
+      {
+        "title": "Selling on Mercado Libre: The International Brand Playbook",
+        "type": "Guide",
+        "excerpt": "A step-by-step guide to launching and scaling on Latin America's largest marketplace, from account setup to fulfillment optimization."
+      }
+    ],
+    "articles": [
+      {
+        "title": "COFEPRIS Registration: What International Brands Need to Know",
+        "excerpt": "A practical breakdown of Mexico's health product registration process, timelines, required documentation, and common pitfalls to avoid.",
+        "date": "March 2026",
+        "readTime": "8 min read",
+        "category": "Compliance"
+      },
+      {
+        "title": "Customs Duties and Taxes for E-Commerce Imports into Mexico",
+        "excerpt": "Understanding Mexico's tariff structure, IVA implications, and how to calculate the true landed cost of your products.",
+        "date": "February 2026",
+        "readTime": "6 min read",
+        "category": "Import"
+      },
+      {
+        "title": "Last-Mile Delivery in Mexico: Carrier Landscape and Strategies",
+        "excerpt": "An overview of Mexico's major carriers, coverage gaps, pricing models, and how to build a reliable multi-carrier delivery network.",
+        "date": "February 2026",
+        "readTime": "10 min read",
+        "category": "Shipping"
+      },
+      {
+        "title": "Amazon Mexico vs. Mercado Libre: Where Should You Sell First?",
+        "excerpt": "A data-driven comparison of Mexico's two dominant marketplaces — audience, fees, fulfillment options, and growth potential for international sellers.",
+        "date": "January 2026",
+        "readTime": "7 min read",
+        "category": "Marketplaces"
+      },
+      {
+        "title": "Reducing Returns in Mexican E-Commerce: Best Practices",
+        "excerpt": "Why return rates in Mexico differ from other markets and proven strategies to reduce returns while maintaining customer satisfaction.",
+        "date": "January 2026",
+        "readTime": "5 min read",
+        "category": "Operations"
+      },
+      {
+        "title": "NOM Certifications for Consumer Products: A Practical Guide",
+        "excerpt": "Which products require NOM certification, how the process works, typical timelines, and how to avoid delays at the Mexican border.",
+        "date": "December 2025",
+        "readTime": "9 min read",
+        "category": "Compliance"
+      }
+    ],
+    "newsletter": {
+      "headline": "Get Mexico e-commerce insights in your inbox",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe",
+      "consent": "No spam. Unsubscribe anytime.",
+      "success": "You're subscribed. Check your inbox for a confirmation email."
+    },
+    "categories": {
+      "all": "All",
+      "compliance": "Compliance",
+      "import": "Import",
+      "shipping": "Shipping",
+      "marketplaces": "Marketplaces",
+      "operations": "Operations"
+    }
+  },
+  "contact": {
+    "hero": {
+      "headline": "Let's Talk About Your Mexico Strategy",
+      "subtext": "Whether you're exploring the market or ready to ship, we'll help you build a plan that works. No pressure, no obligations."
+    },
+    "form": {
+      "companyName": {
+        "label": "Company name",
+        "placeholder": "Your company name"
+      },
+      "yourName": {
+        "label": "Your name",
+        "placeholder": "First and last name"
+      },
+      "email": {
+        "label": "Work email",
+        "placeholder": "you@company.com"
+      },
+      "website": {
+        "label": "Website",
+        "placeholder": "https://yourstore.com"
+      },
+      "monthlyVolume": {
+        "label": "Estimated monthly order volume",
+        "placeholder": "Select a range",
+        "options": [
+          "Under 1,000 orders",
+          "1,000 - 5,000 orders",
+          "5,000 - 15,000 orders",
+          "15,000 - 50,000 orders",
+          "50,000+ orders",
+          "Not sure yet"
+        ]
+      },
+      "products": {
+        "label": "Product category",
+        "placeholder": "Select a category",
+        "options": [
+          "Health & Supplements",
+          "Beauty & Cosmetics",
+          "Fashion & Apparel",
+          "Consumer Electronics",
+          "Food & Beverage",
+          "Home & Lifestyle",
+          "Other"
+        ]
+      },
+      "channels": {
+        "label": "Current or planned sales channels",
+        "options": [
+          "Your own website (Shopify, WooCommerce, etc.)",
+          "Amazon Mexico",
+          "Mercado Libre",
+          "Liverpool / Palacio de Hierro",
+          "Walmart Mexico",
+          "Social commerce (Instagram, TikTok Shop)",
+          "B2B / Wholesale",
+          "Other"
+        ]
+      },
+      "message": {
+        "label": "Tell us about your project",
+        "placeholder": "What are your goals for the Mexican market? Any specific challenges or questions?"
+      },
+      "consent": {
+        "label": "I agree to the Privacy Policy and consent to Ecommex processing my data to respond to this inquiry."
+      },
+      "button": "Submit Inquiry",
+      "submitting": "Submitting...",
+      "success": {
+        "headline": "Thank you for reaching out",
+        "message": "We've received your inquiry and will get back to you within one business day. Check your inbox for a confirmation email."
+      },
+      "error": {
+        "headline": "Something went wrong",
+        "message": "Your submission could not be processed. Please try again or email us directly.",
+        "retry": "Try Again"
+      },
+      "validation": {
+        "required": "This field is required",
+        "email": "Please enter a valid email address",
+        "url": "Please enter a valid URL"
+      }
+    },
+    "info": {
+      "email": "hello@ecommex.mx",
+      "location": "Guadalajara, Jalisco, Mexico",
+      "responseTime": "We respond within 1 business day",
+      "mapPlaceholder": "Our warehouse and offices in Guadalajara, Jalisco"
+    }
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "contactUs": "Contact us",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "backToTop": "Back to top",
+    "loading": "Loading...",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "step": "Step",
+    "of": "of",
+    "perMonth": "/month",
+    "cookieConsent": {
+      "message": "We use cookies to improve your experience. By continuing to visit this site, you agree to our use of cookies.",
+      "accept": "Accept",
+      "decline": "Decline",
+      "learnMore": "Learn more"
+    },
+    "notFound": {
+      "headline": "Page not found",
+      "message": "The page you're looking for doesn't exist or has been moved.",
+      "cta": "Go to homepage"
+    }
+  }
+}
