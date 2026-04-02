@@ -21,7 +21,7 @@ export function CaseStudiesClient() {
           <div className="space-y-8">
             {[0, 1, 2].map((i) => {
               const results: string[] = [];
-              for (let r = 0; r < 6; r++) {
+              for (let r = 0; r < 4; r++) {
                 try {
                   results.push(t(`cases.${i}.results.${r}`));
                 } catch {
