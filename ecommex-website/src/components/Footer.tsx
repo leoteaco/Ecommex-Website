@@ -40,14 +40,9 @@ export function Footer() {
             </h4>
             <ul className="mt-4 space-y-3">
               <li>
-                <Link href="/why-mexico" className="text-sm text-white/70 hover:text-teal transition-colors">
+                <Link href="/services" className="text-sm text-white/70 hover:text-teal transition-colors">
                   {t('columns.company.links.about')}
                 </Link>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-white/70 hover:text-teal transition-colors">
-                  {t('columns.company.links.careers')}
-                </a>
               </li>
               <li>
                 <Link href="/contact" className="text-sm text-white/70 hover:text-teal transition-colors">
@@ -73,30 +68,20 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* Contact */}
           <div>
             <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-gray-text">
               {t('columns.resources.title')}
             </h4>
             <ul className="mt-4 space-y-3">
               <li>
-                <Link href="/resources" className="text-sm text-white/70 hover:text-teal transition-colors">
-                  {t('columns.resources.links.guides')}
+                <Link href="/contact" className="text-sm text-white/70 hover:text-teal transition-colors">
+                  {t('columns.company.links.contact')}
                 </Link>
               </li>
               <li>
-                <Link href="/case-studies" className="text-sm text-white/70 hover:text-teal transition-colors">
-                  {t('columns.resources.links.caseStudies')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/resources" className="text-sm text-white/70 hover:text-teal transition-colors">
-                  {t('columns.resources.links.blog')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/how-it-works" className="text-sm text-white/70 hover:text-teal transition-colors">
-                  {t('columns.resources.links.faq')}
+                <Link href="/pricing" className="text-sm text-white/70 hover:text-teal transition-colors">
+                  {t('columns.services.links.pricing')}
                 </Link>
               </li>
             </ul>

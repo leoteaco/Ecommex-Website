@@ -6,10 +6,6 @@ export const routing = defineRouting({
   localePrefix: 'always',
   pathnames: {
     '/': '/',
-    '/why-mexico': {
-      en: '/why-mexico',
-      es: '/por-que-mexico',
-    },
     '/services': {
       en: '/services',
       es: '/servicios',
@@ -38,21 +34,9 @@ export const routing = defineRouting({
       en: '/services/technology',
       es: '/servicios/tecnologia',
     },
-    '/how-it-works': {
-      en: '/how-it-works',
-      es: '/como-funciona',
-    },
     '/industries': {
       en: '/industries',
       es: '/industrias',
-    },
-    '/case-studies': {
-      en: '/case-studies',
-      es: '/casos-de-exito',
-    },
-    '/resources': {
-      en: '/resources',
-      es: '/recursos',
     },
     '/pricing': {
       en: '/pricing',

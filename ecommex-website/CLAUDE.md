@@ -61,13 +61,9 @@ ecommex-website/
 │   │   │   ├── fulfillment/
 │   │   │   ├── importacion/
 │   │   │   └── tecnologia/
-│   │   ├── case-studies/
 │   │   ├── contact/
-│   │   ├── how-it-works/
 │   │   ├── industries/
-│   │   ├── pricing/
-│   │   ├── resources/
-│   │   └── why-mexico/
+│   │   └── pricing/
 │   │
 │   ├── components/              # Componentes reutilizables
 │   │   ├── Navbar.tsx

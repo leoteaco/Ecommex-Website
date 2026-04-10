@@ -19,12 +19,8 @@ import {
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 const navLinks = [
-  { href: '/why-mexico' as const, key: 'whyMexico' },
   { href: '/services' as const, key: 'services' },
-  { href: '/how-it-works' as const, key: 'howItWorks' },
   { href: '/industries' as const, key: 'industries' },
-  { href: '/case-studies' as const, key: 'caseStudies' },
-  { href: '/resources' as const, key: 'resources' },
 ];
 
 const serviceItems = [

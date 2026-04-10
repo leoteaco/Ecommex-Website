@@ -114,7 +114,7 @@ export function HomeClient() {
                 {t('hero.cta')}
               </a>
               <Link
-                href="/how-it-works"
+                href="/services"
                 className="inline-flex items-center rounded-lg border-2 border-white/20 px-8 py-3.5 text-base font-semibold text-white transition-all duration-200 hover:border-white/40 hover:bg-white/5"
               >
                 {t('hero.ctaSecondary')}

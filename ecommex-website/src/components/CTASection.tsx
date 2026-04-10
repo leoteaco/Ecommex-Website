@@ -19,7 +19,7 @@ export function CTASection({
   cta,
   ctaHref = '/contact',
   ctaSecondary,
-  ctaSecondaryHref = '/resources',
+  ctaSecondaryHref = '/services',
   variant = 'teal',
 }: CTASectionProps) {
   const isTeal = variant === 'teal';
@@ -52,7 +52,7 @@ export function CTASection({
           </Link>
           {ctaSecondary && (
             <Link
-              href={ctaSecondaryHref as '/resources'}
+              href={ctaSecondaryHref as '/services'}
               className="inline-flex items-center rounded-lg border-2 border-white/30 px-8 py-3.5 text-base font-semibold text-white transition-all duration-200 hover:border-white/60 hover:bg-white/10"
             >
               {ctaSecondary}
