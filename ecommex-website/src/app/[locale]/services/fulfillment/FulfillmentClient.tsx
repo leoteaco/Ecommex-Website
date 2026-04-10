@@ -53,35 +53,29 @@ export function FulfillmentClient() {
           to dominate over content (and force both heroes to render at the same height), the
           floor must exceed home's content. 820 = 815 + 5px safety margin. Without this floor,
           home renders content-driven (815) and service min-h-driven, leaving a ~42px mismatch. */}
-      <section className="relative overflow-hidden bg-navy-dark flex flex-col min-h-[clamp(500px,70svh,800px)] lg:min-h-[840px]">
-        <div className="absolute inset-0">
+      <section
+        className="relative overflow-hidden flex flex-col min-h-[clamp(500px,70svh,800px)] lg:min-h-[840px]"
+        style={{
+          backgroundImage: 'url(/services/fulfillment.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center right',
+        }}
+      >
+        {/* Navbar mask — covers image behind the fixed navbar area */}
+        <div className="absolute inset-x-0 top-0 h-20 bg-navy-dark z-[2] pointer-events-none" />
+
+        {/* Gradient overlay — single div, covers entire section */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{ background: 'linear-gradient(to right, rgba(30,42,69,0.97) 40%, rgba(30,42,69,0.15) 100%)' }}
+        />
+
+        {/* Blobs decorativos — above gradient */}
+        <div className="absolute inset-0 z-[1]">
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-teal/5 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-navy/40 rounded-full blur-3xl" />
           <div className="absolute top-0 right-0 w-72 h-72 bg-teal/3 rounded-full blur-3xl" />
         </div>
-
-        {/* Service image — absolute positioned, fills right half of hero (mirrors home's MexicoMap)
-            Top offset clears the fixed navbar; bleeds to bottom of hero section.
-            Fade-in with subtle scale-down to feel like the image settles into focus. */}
-        <motion.div
-          initial={{ opacity: 0, scale: 1.06 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.4, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="hidden lg:block absolute top-20 bottom-0 right-0 w-[58%] xl:w-[60%]"
-        >
-          <img
-            src="/services/fulfillment.jpg"
-            alt=""
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-          {/* Left-edge gradient — heavy navy under the copy area, then quickly clears so the
-              right ~55% of the image shows the racks at full opacity */}
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-dark from-5% via-navy-dark/30 via-35% to-transparent to-55% pointer-events-none" />
-          {/* Top soft fade so the image melts into the navbar area instead of a hard line */}
-          <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-navy-dark/80 to-transparent pointer-events-none" />
-          {/* Bottom soft fade so the image melts into the KPI bar */}
-          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-navy-dark to-transparent pointer-events-none" />
-        </motion.div>
 
         <div className="relative flex-1 w-full mx-auto max-w-7xl px-6 pt-24 pb-8 md:pt-32 md:pb-12 lg:pt-36 lg:pb-16 xl:pt-40 xl:pb-20 2xl:pt-44 2xl:pb-24 lg:px-8">
           {/* Copy — left side only, image is behind on the right */}

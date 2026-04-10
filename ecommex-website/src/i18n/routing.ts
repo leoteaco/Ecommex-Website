@@ -42,6 +42,26 @@ export const routing = defineRouting({
       en: '/industries/supplements',
       es: '/industrias/suplementos',
     },
+    '/industries/fashion': {
+      en: '/industries/fashion',
+      es: '/industrias/moda',
+    },
+    '/industries/automotive': {
+      en: '/industries/automotive',
+      es: '/industrias/automotriz',
+    },
+    '/industries/medical': {
+      en: '/industries/medical',
+      es: '/industrias/equipo-medico',
+    },
+    '/industries/appliances': {
+      en: '/industries/appliances',
+      es: '/industrias/electrodomesticos',
+    },
+    '/industries/beauty': {
+      en: '/industries/beauty',
+      es: '/industrias/belleza',
+    },
     '/pricing': {
       en: '/pricing',
       es: '/precios',

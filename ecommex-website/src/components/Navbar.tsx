@@ -18,8 +18,9 @@ import {
   Heart,
   Sparkles,
   Shirt,
-  UtensilsCrossed,
-  Home,
+  Wrench,
+  Stethoscope,
+  Refrigerator,
 } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
@@ -39,11 +40,11 @@ const serviceItems = [
 
 const industryItems = [
   { href: '/industries/supplements' as const, key: 'supplements', icon: Heart },
-  { key: 'beauty', icon: Sparkles },
-  { key: 'fashion', icon: Shirt },
-  { key: 'electronics', icon: Cpu },
-  { key: 'food', icon: UtensilsCrossed },
-  { key: 'home', icon: Home },
+  { href: '/industries/beauty' as const, key: 'beauty', icon: Sparkles },
+  { href: '/industries/fashion' as const, key: 'fashion', icon: Shirt },
+  { href: '/industries/automotive' as const, key: 'automotive', icon: Wrench },
+  { href: '/industries/medical' as const, key: 'medical', icon: Stethoscope },
+  { href: '/industries/appliances' as const, key: 'appliances', icon: Refrigerator },
 ] as const;
 
 export function Navbar() {
@@ -99,11 +100,16 @@ export function Navbar() {
               <div className="grid grid-cols-2 gap-1">
                 {items.map((item) => {
                   const Icon = item.icon;
-                  const hasHref = 'href' in item;
-                  const itemActive = hasHref && pathname === item.href;
+                  const itemActive = pathname === item.href;
 
-                  const content = (
-                    <>
+                  return (
+                    <Link
+                      key={item.key}
+                      href={item.href}
+                      className={`group flex items-start gap-3 rounded-xl p-3 transition-colors ${
+                        itemActive ? 'bg-teal/10' : 'hover:bg-white/5'
+                      }`}
+                    >
                       <div
                         className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border transition-colors ${
                           itemActive
@@ -125,30 +131,7 @@ export function Navbar() {
                           {t(`${dropdownKey}.items.${item.key}.description`)}
                         </div>
                       </div>
-                    </>
-                  );
-
-                  if (hasHref) {
-                    return (
-                      <Link
-                        key={item.key}
-                        href={(item as { href: '/industries/supplements' }).href}
-                        className={`group flex items-start gap-3 rounded-xl p-3 transition-colors ${
-                          itemActive ? 'bg-teal/10' : 'hover:bg-white/5'
-                        }`}
-                      >
-                        {content}
-                      </Link>
-                    );
-                  }
-
-                  return (
-                    <div
-                      key={item.key}
-                      className="group flex items-start gap-3 rounded-xl p-3 opacity-60 cursor-default"
-                    >
-                      {content}
-                    </div>
+                    </Link>
                   );
                 })}
               </div>
@@ -183,29 +166,16 @@ export function Navbar() {
         </Link>
         {items.map((item) => {
           const Icon = item.icon;
-          const hasHref = 'href' in item;
-
-          if (hasHref) {
-            return (
-              <Link
-                key={item.key}
-                href={(item as { href: '/industries/supplements' }).href}
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-navy/70 hover:bg-gray-50 hover:text-navy-dark"
-              >
-                <Icon className="h-4 w-4 text-teal" />
-                <span>{t(`${dropdownKey}.items.${item.key}.title`)}</span>
-              </Link>
-            );
-          }
 
           return (
-            <div
+            <Link
               key={item.key}
-              className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-navy/30 cursor-default"
+              href={item.href}
+              className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-navy/70 hover:bg-gray-50 hover:text-navy-dark"
             >
-              <Icon className="h-4 w-4 text-teal/40" />
+              <Icon className="h-4 w-4 text-teal" />
               <span>{t(`${dropdownKey}.items.${item.key}.title`)}</span>
-            </div>
+            </Link>
           );
         })}
       </div>

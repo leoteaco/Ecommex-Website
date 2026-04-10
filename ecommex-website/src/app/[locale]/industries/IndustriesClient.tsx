@@ -7,18 +7,19 @@ import {
   Heart,
   Sparkles,
   Shirt,
-  Cpu,
-  UtensilsCrossed,
-  Home,
+  Wrench,
+  Stethoscope,
+  Refrigerator,
 } from 'lucide-react';
 
-const icons = [Heart, Sparkles, Shirt, Cpu, UtensilsCrossed, Home];
-
-// Only the first card (Health & Supplements) has a detail page for now.
-// As more industry pages are built, add their hrefs here.
-const hrefs: Record<number, '/industries/supplements'> = {
-  0: '/industries/supplements',
-};
+const industries = [
+  { icon: Heart, href: '/industries/supplements' as const },
+  { icon: Sparkles, href: '/industries/beauty' as const },
+  { icon: Shirt, href: '/industries/fashion' as const },
+  { icon: Wrench, href: '/industries/automotive' as const },
+  { icon: Stethoscope, href: '/industries/medical' as const },
+  { icon: Refrigerator, href: '/industries/appliances' as const },
+];
 
 export function IndustriesClient() {
   const t = useTranslations('industries');
@@ -42,7 +43,6 @@ export function IndustriesClient() {
             transition={{ duration: 0.7 }}
             className="relative z-10 max-w-3xl"
           >
-            {/* Eyebrow chip with pulsing dot */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -88,7 +88,7 @@ export function IndustriesClient() {
       <section id="industrias" className="bg-white scroll-mt-24">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {icons.map((Icon, i) => (
+            {industries.map(({ icon: Icon, href }, i) => (
               <IndustryCard
                 key={i}
                 icon={<Icon className="h-6 w-6" />}
@@ -96,7 +96,7 @@ export function IndustriesClient() {
                 description={t(`items.${i}.description`)}
                 pain={t(`items.${i}.pain`)}
                 cta={t(`items.${i}.cta`)}
-                href={hrefs[i]}
+                href={href}
                 index={i}
               />
             ))}

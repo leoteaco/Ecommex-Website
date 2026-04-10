@@ -6,59 +6,41 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import { HeroKpi } from '@/components/HeroKpi';
 import {
-  Cpu,
-  Monitor,
-  Plug,
-  Code,
-  BarChart3,
-  Bell,
-  MessagesSquare,
-  Settings,
-  Database,
-  FlaskConical,
-  Rocket,
-  Warehouse,
-  Package,
-  Truck,
-  RotateCcw,
   ArrowRight,
-  Plus,
   Phone,
   Mail,
   MapPin,
   Clock,
+  Plus,
+  Warehouse,
+  Package,
+  Truck,
+  Cpu,
 } from 'lucide-react';
 
-const includedIcons = [Cpu, Monitor, Plug, Code, BarChart3, Bell];
-const processIcons = [MessagesSquare, Settings, Database, FlaskConical, Rocket];
-// Icons for the "Servicios complementarios" related cards. Order must match
-// services.tecnologia.related.items in the i18n JSON.
-const relatedIcons = [Warehouse, Package, Truck, RotateCcw];
+const relatedIcons = [Warehouse, Package, Truck, Cpu];
 
-// Temporary placeholder images for the "Why Ecommex" section. Swap with real photos
-// (e.g. /services/tecnologia/why-0.jpg) once the photo shoot is delivered.
-const whyEcommexImages = [
-  '/services/import.jpg',
+const solutionImages = [
   '/services/fulfillment.jpg',
   '/services/warehouse.jpg',
+  '/services/shipping.jpg',
+  '/why/tech.jpg',
 ];
 
-export function TecnologiaClient() {
-  const t = useTranslations('services.tecnologia');
+export function BeautyClient() {
+  const t = useTranslations('industries.beauty');
   const tHome = useTranslations('home.cta');
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   return (
     <>
-      {/* Hero — IDENTICAL section classes to the home hero. The lg:min-h-[820px] is critical:
-          home's natural content height at 2xl is ~815px (3-line headline pushes it). For min-h
-          to dominate over content (and force both heroes to render at the same height), the
-          floor must exceed home's content. 820 = 815 + 5px safety margin. Without this floor,
-          home renders content-driven (815) and service min-h-driven, leaving a ~42px mismatch. */}
+      {/* Hero — variante B (imagen). Replica exacta del patrón canónico.
+          lg:min-h-[840px] = piso para igualar home. flex flex-col + flex-1
+          distribuye espacio sobrante en el copy wrapper, KPI bar pinneado al fondo. */}
       <section
         className="relative overflow-hidden flex flex-col min-h-[clamp(500px,70svh,800px)] lg:min-h-[840px]"
         style={{
-          backgroundImage: 'url(/services/import.jpg)',
+          backgroundImage: 'url(/services/fulfillment.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center right',
         }}
@@ -80,14 +62,13 @@ export function TecnologiaClient() {
         </div>
 
         <div className="relative flex-1 w-full mx-auto max-w-7xl px-6 pt-24 pb-8 md:pt-32 md:pb-12 lg:pt-36 lg:pb-16 xl:pt-40 xl:pb-20 2xl:pt-44 2xl:pb-24 lg:px-8">
-          {/* Copy — left side only, image is behind on the right */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="relative z-10 lg:max-w-[45%] xl:max-w-[42%]"
+            className="relative z-10 lg:max-w-[55%] xl:max-w-[50%]"
           >
-            {/* Eyebrow */}
+            {/* Eyebrow chip with pulsing dot */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -100,7 +81,7 @@ export function TecnologiaClient() {
               </span>
             </motion.div>
 
-            <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-5xl lg:leading-tight xl:text-5xl xl:leading-snug 2xl:text-6xl 2xl:leading-tight">
+            <h1 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-4xl lg:leading-tight xl:text-[2.75rem] xl:leading-snug 2xl:text-5xl 2xl:leading-tight">
               {t('hero.headline')}
             </h1>
 
@@ -126,7 +107,7 @@ export function TecnologiaClient() {
                 {t('hero.cta')}
               </a>
               <Link
-                href="/contact"
+                href="/services"
                 className="inline-flex items-center rounded-lg border-2 border-white/20 px-8 py-3.5 text-base font-semibold text-white transition-all duration-200 hover:border-white/40 hover:bg-white/5"
               >
                 {t('hero.ctaSecondary')}
@@ -135,8 +116,7 @@ export function TecnologiaClient() {
           </motion.div>
         </div>
 
-        {/* KPI bar — inside hero, pinned to bottom (same pattern as home).
-            border-y so the bar reads as a self-contained strip even without a TrustBar below it. */}
+        {/* KPI bar — pinned to bottom, 5 KPIs with animated counter */}
         <div className="relative z-10 border-y border-white/5 bg-navy-dark/80 backdrop-blur-sm">
           <div className="mx-auto max-w-7xl px-6 py-5 lg:py-6 lg:px-8">
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
@@ -153,10 +133,10 @@ export function TecnologiaClient() {
         </div>
       </section>
 
-      {/* What's included */}
+      {/* Pain Points — editorial 3-col with large numbers + stat line */}
       <section className="bg-navy-dark">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="max-w-3xl mb-16">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -164,7 +144,7 @@ export function TecnologiaClient() {
               transition={{ duration: 0.5 }}
               className="font-display text-3xl font-bold text-white sm:text-4xl"
             >
-              {t('whatsIncluded.headline')}
+              {t('painPoints.headline')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -173,124 +153,38 @@ export function TecnologiaClient() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-4 text-lg text-[#9BA5B5] leading-relaxed"
             >
-              {t('whatsIncluded.subhead')}
+              {t('painPoints.subhead')}
             </motion.p>
           </div>
 
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {[0, 1, 2, 3, 4, 5].map((i) => {
-              const Icon = includedIcons[i];
-              return (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.06 }}
-                  className="group relative rounded-2xl border border-white/10 bg-navy p-6 lg:p-7 transition-all hover:border-teal/30 hover:bg-navy/80"
-                >
-                  <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-teal/15 border border-teal/30 transition-colors group-hover:bg-teal group-hover:border-teal">
-                    <Icon className="h-5 w-5 text-teal transition-colors group-hover:text-white" />
-                  </div>
-                  <h3 className="font-display text-lg font-bold text-white leading-tight">
-                    {t(`whatsIncluded.items.${i}.title`)}
-                  </h3>
-                  <p className="mt-2 text-sm text-[#9BA5B5] leading-relaxed">
-                    {t(`whatsIncluded.items.${i}.description`)}
-                  </p>
-                </motion.div>
-              );
-            })}
+          <div className="grid gap-x-12 gap-y-14 md:grid-cols-3">
+            {[0, 1, 2].map((i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-60px' }}
+                transition={{ duration: 0.6, delay: i * 0.15 }}
+              >
+                <span className="font-display text-5xl font-bold text-teal/30 leading-none">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <h3 className="mt-4 font-display text-xl font-bold text-white leading-tight">
+                  {t(`painPoints.items.${i}.title`)}
+                </h3>
+                <p className="mt-2 text-sm font-semibold text-teal">
+                  {t(`painPoints.items.${i}.stat`)}
+                </p>
+                <p className="mt-3 text-base text-[#9BA5B5] leading-relaxed">
+                  {t(`painPoints.items.${i}.description`)}
+                </p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Process — animated horizontal timeline */}
-      <section className="bg-navy-dark">
-        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="font-display text-3xl font-bold text-white sm:text-4xl"
-            >
-              {t('process.headline')}
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="mt-4 text-lg text-[#9BA5B5] leading-relaxed"
-            >
-              {t('process.subhead')}
-            </motion.p>
-          </div>
-
-          <div className="relative">
-            {/* Background line — desktop horizontal */}
-            <div className="hidden md:block absolute top-8 left-[10%] right-[10%] h-0.5 bg-white/10" />
-            <motion.div
-              initial={{ scaleX: 0 }}
-              whileInView={{ scaleX: 1 }}
-              viewport={{ once: true, margin: '-100px' }}
-              transition={{ duration: 1.6, delay: 0.3, ease: 'easeInOut' }}
-              className="hidden md:block absolute top-8 left-[10%] right-[10%] h-0.5 bg-teal origin-left shadow-[0_0_12px_rgba(27,188,176,0.6)]"
-            />
-
-            {/* Mobile vertical line */}
-            <div className="md:hidden absolute top-0 bottom-0 left-6 w-0.5 bg-white/10" />
-            <motion.div
-              initial={{ scaleY: 0 }}
-              whileInView={{ scaleY: 1 }}
-              viewport={{ once: true, margin: '-50px' }}
-              transition={{ duration: 1.6, delay: 0.3, ease: 'easeInOut' }}
-              className="md:hidden absolute top-0 bottom-0 left-6 w-0.5 bg-teal origin-top shadow-[0_0_12px_rgba(27,188,176,0.6)]"
-            />
-
-            <div className="grid gap-10 md:grid-cols-5 md:gap-4">
-              {[0, 1, 2, 3, 4].map((i) => {
-                const Icon = processIcons[i];
-                const stepDelay = 0.3 + (i / 4) * 1.4;
-                return (
-                  <motion.div
-                    key={i}
-                    initial={{ opacity: 0, scale: 0.85 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true, margin: '-100px' }}
-                    transition={{ duration: 0.4, delay: stepDelay }}
-                    className="relative flex md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0 pl-16 md:pl-0"
-                  >
-                    {/* Mobile node dot */}
-                    <div className="md:hidden absolute left-[18px] top-6 w-3 h-3 rounded-full bg-teal border-2 border-navy-dark" />
-
-                    {/* Icon circle */}
-                    <div className="relative z-10 flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-navy border border-teal/30 shadow-lg shadow-teal/10">
-                      <Icon className="h-6 w-6 text-teal" />
-                    </div>
-
-                    <div className="md:mt-5">
-                      <p className="text-[10px] font-semibold text-teal/50 uppercase tracking-wider">
-                        {String(i + 1).padStart(2, '0')}
-                      </p>
-                      <h3 className="font-display text-base font-bold text-white mt-1">
-                        {t(`process.steps.${i}.title`)}
-                      </h3>
-                      <p className="text-xs text-[#9BA5B5] mt-1.5 max-w-[180px] md:mx-auto leading-relaxed">
-                        {t(`process.steps.${i}.description`)}
-                      </p>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Ecommex — alternating image/text rows */}
+      {/* Solutions — alternating image/text rows (pattern from Almacenamiento whyEcommex) */}
       <section className="bg-navy-dark">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
@@ -301,7 +195,7 @@ export function TecnologiaClient() {
               transition={{ duration: 0.5 }}
               className="font-display text-3xl font-bold text-white sm:text-4xl"
             >
-              {t('whyEcommex.headline')}
+              {t('solutions.headline')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -310,12 +204,12 @@ export function TecnologiaClient() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-4 text-lg text-[#9BA5B5] leading-relaxed"
             >
-              {t('whyEcommex.subhead')}
+              {t('solutions.subhead')}
             </motion.p>
           </div>
 
           <div className="space-y-16 lg:space-y-0">
-            {[0, 1, 2].map((i) => {
+            {[0, 1, 2, 3].map((i) => {
               const imageRight = i % 2 === 1;
               return (
                 <div
@@ -324,8 +218,6 @@ export function TecnologiaClient() {
                     i > 0 ? 'lg:pt-20 lg:mt-20 lg:border-t lg:border-white/5' : ''
                   }`}
                 >
-                  {/* Image — temporary stock photo, swap for real shoot later.
-                      Mobile: always first (top). Desktop: alternates left/right per row. */}
                   <motion.div
                     initial={{ opacity: 0, x: imageRight ? 32 : -32 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -336,15 +228,13 @@ export function TecnologiaClient() {
                     }`}
                   >
                     <img
-                      src={whyEcommexImages[i]}
+                      src={solutionImages[i]}
                       alt=""
                       className="absolute inset-0 h-full w-full object-cover"
                     />
-                    {/* Subtle dark vignette so the image blends with the dark theme */}
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/40 via-transparent to-transparent pointer-events-none" />
                   </motion.div>
 
-                  {/* Text */}
                   <motion.div
                     initial={{ opacity: 0, x: imageRight ? -32 : 32 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -354,14 +244,14 @@ export function TecnologiaClient() {
                   >
                     <div className="inline-flex items-center rounded-full border border-teal/20 bg-teal/5 px-3 py-1 mb-4">
                       <span className="text-[10px] font-semibold tracking-wider text-teal uppercase">
-                        {t(`whyEcommex.items.${i}.tag`)}
+                        {t(`solutions.items.${i}.tag`)}
                       </span>
                     </div>
                     <h3 className="font-display text-2xl lg:text-3xl xl:text-4xl font-bold text-white leading-tight">
-                      {t(`whyEcommex.items.${i}.title`)}
+                      {t(`solutions.items.${i}.title`)}
                     </h3>
                     <p className="mt-4 text-base lg:text-lg text-[#9BA5B5] leading-relaxed">
-                      {t(`whyEcommex.items.${i}.description`)}
+                      {t(`solutions.items.${i}.description`)}
                     </p>
                   </motion.div>
                 </div>
@@ -371,47 +261,7 @@ export function TecnologiaClient() {
         </div>
       </section>
 
-      {/* Pull quote with full-bleed image */}
-      <section className="relative bg-navy-dark">
-        <div className="relative h-[480px] md:h-[520px] overflow-hidden">
-          {/* TODO: replace with /services/tecnologia/secondary.jpg when photo is ready */}
-          <img
-            src="/services/import.jpg"
-            alt=""
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-          {/* Dark overlay for legibility */}
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-dark via-navy-dark/85 to-navy-dark/50" />
-
-          <div className="relative h-full mx-auto max-w-7xl px-6 lg:px-8 flex items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -24 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="max-w-2xl"
-            >
-              <div className="text-6xl lg:text-7xl text-teal/30 font-display leading-none mb-4">
-                &ldquo;
-              </div>
-              <p className="font-display text-2xl lg:text-3xl xl:text-4xl font-bold text-white leading-tight">
-                {t('pullquote.text')}
-              </p>
-              <div className="mt-8 flex items-center gap-4">
-                <div className="h-12 w-1 bg-teal" />
-                <div>
-                  <div className="font-bold text-white">{t('pullquote.name')}</div>
-                  <div className="text-sm text-[#9BA5B5]">
-                    {t('pullquote.role')} · {t('pullquote.company')}
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ — single-open accordion. Plus icon rotates 45deg to become an X when open. */}
+      {/* FAQ — single-open accordion with Plus→X rotation */}
       <section className="bg-navy-dark">
         <div className="mx-auto max-w-[760px] px-6 py-20 md:py-28 lg:px-8">
           <div className="text-center mb-12 lg:mb-16">
@@ -487,7 +337,7 @@ export function TecnologiaClient() {
         </div>
       </section>
 
-      {/* Related services */}
+      {/* Related services — 2x2 grid with links */}
       <section className="bg-navy-dark">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
           <div className="max-w-3xl mb-12">
@@ -531,8 +381,6 @@ export function TecnologiaClient() {
                   >
                     <div className="pointer-events-none absolute -top-20 -right-20 h-48 w-48 rounded-full bg-teal/10 blur-3xl opacity-0 transition-opacity group-hover:opacity-100" />
 
-                    {/* Top row: icon (left) + arrow (right) — both anchored to the top so cards
-                        feel balanced even when descriptions are 1 vs 2 lines */}
                     <div className="relative mb-5 flex items-center justify-between">
                       <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-teal/30 bg-teal/15 transition-colors group-hover:border-teal group-hover:bg-teal">
                         <Icon className="h-5 w-5 text-teal transition-colors group-hover:text-white" />
@@ -540,7 +388,6 @@ export function TecnologiaClient() {
                       <ArrowRight className="h-5 w-5 text-teal transition-transform group-hover:translate-x-1" />
                     </div>
 
-                    {/* Title + description */}
                     <h3 className="relative font-display text-xl font-bold leading-tight text-white lg:text-2xl">
                       {t(`related.items.${i}.title`)}
                     </h3>
@@ -555,7 +402,7 @@ export function TecnologiaClient() {
         </div>
       </section>
 
-      {/* CTA — form + contact (same pattern as home) */}
+      {/* CTA — form + contact card. Anchor #cotizar. Uses home.cta.* namespace (shared). */}
       <section id="cotizar" className="bg-navy-dark scroll-mt-24">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-14">
@@ -580,7 +427,7 @@ export function TecnologiaClient() {
           </div>
 
           <div className="grid lg:grid-cols-12 gap-6 lg:gap-8">
-            {/* Form card */}
+            {/* Form card — col-7 */}
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -661,7 +508,7 @@ export function TecnologiaClient() {
               </div>
             </motion.div>
 
-            {/* Contact card */}
+            {/* Contact card — col-5 */}
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}

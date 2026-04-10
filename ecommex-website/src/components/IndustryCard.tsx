@@ -11,7 +11,7 @@ interface IndustryCardProps {
   description: string;
   pain: string;
   cta: string;
-  href?: '/industries/supplements';
+  href?: '/industries/supplements' | '/industries/fashion' | '/industries/automotive' | '/industries/medical' | '/industries/appliances' | '/industries/beauty';
   index?: number;
 }
 

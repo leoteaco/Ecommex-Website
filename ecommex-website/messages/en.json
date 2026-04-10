@@ -85,27 +85,27 @@
       "items": {
         "supplements": {
           "title": "Health & Supplements",
-          "description": "COFEPRIS, lot tracking, and temperature control"
+          "description": "Fulfillment with lot tracking and expiry control"
         },
         "beauty": {
-          "title": "Beauty & Cosmetics",
-          "description": "Ingredient compliance and premium packaging"
+          "title": "Beauty & Skincare",
+          "description": "Fragile products, lot control, and premium unboxing"
         },
         "fashion": {
           "title": "Fashion & Apparel",
-          "description": "High SKU counts and seasonal demand"
+          "description": "High SKU counts, size variants, and fast returns"
         },
-        "electronics": {
-          "title": "Consumer Electronics",
-          "description": "NOM certifications and serial tracking"
+        "automotive": {
+          "title": "Automotive Parts",
+          "description": "Heavy items, OEM part numbers, and warranty tracking"
         },
-        "food": {
-          "title": "Food & Beverage",
-          "description": "Cold chain and food safety compliance"
+        "medical": {
+          "title": "Medical Equipment",
+          "description": "Lot traceability, temperature control, and priority shipping"
         },
-        "home": {
-          "title": "Home & Lifestyle",
-          "description": "Oversized items, fragile products, and kitting"
+        "appliances": {
+          "title": "Appliances",
+          "description": "Oversized items, specialized packaging, and last-mile"
         }
       }
     },
@@ -1792,131 +1792,875 @@
     "items": [
       {
         "title": "Health & Supplements",
-        "description": "Vitamins, supplements, and health products require COFEPRIS registration, strict lot tracking, and temperature-sensitive storage. We manage compliance end to end.",
-        "pain": "COFEPRIS registration, lot tracking, expiry management, and temperature-controlled storage make health products one of the most complex categories to import and fulfill in Mexico.",
-        "cta": "Learn about health fulfillment"
+        "description": "Lot control, expiry management, and specialized storage for vitamins and health products. Full fulfillment operation end to end.",
+        "pain": "Lot control, expiry tracking, temperature-controlled storage, and multiple sales channels make supplements one of the most complex categories to operate.",
+        "cta": "Learn about supplement fulfillment"
       },
       {
-        "title": "Beauty & Cosmetics",
-        "description": "Beauty brands need ingredient compliance, careful handling, and premium packaging. We deliver the unboxing experience your customers expect.",
-        "pain": "Mexican regulations require specific ingredient disclosures, Spanish-language labeling, and product registration. Fragile items demand careful handling throughout the supply chain.",
+        "title": "Beauty & Skincare",
+        "description": "Careful handling, lot tracking by ingredient batch, and premium unboxing experiences. We protect your brand from warehouse to doorstep.",
+        "pain": "Fragile products, ingredient-based lot tracking, and the expectation of a premium unboxing experience require specialized handling at every step.",
         "cta": "Learn about beauty fulfillment"
       },
       {
         "title": "Fashion & Apparel",
-        "description": "High SKU counts, size variants, and seasonal demand swings require flexible warehousing and fast, accurate fulfillment.",
-        "pain": "Managing thousands of SKU-size-color combinations, handling seasonal peaks, and processing high return rates require operations purpose-built for fashion logistics.",
+        "description": "Thousands of SKU-size-color combinations, seasonal peaks, and fast returns processing. Built for fashion speed.",
+        "pain": "SKU explosion, seasonal demand spikes, and return rates above 20% require operations purpose-built for fashion logistics.",
         "cta": "Learn about fashion fulfillment"
       },
       {
-        "title": "Consumer Electronics",
-        "description": "Electronics require NOM certifications, secure storage, serial number tracking, and anti-static handling procedures.",
-        "pain": "NOM compliance, serial number tracking, warranty management, and the high value of electronic goods demand specialized handling and security protocols.",
-        "cta": "Learn about electronics fulfillment"
+        "title": "Automotive Parts",
+        "description": "Heavy and oversized parts, OEM part number tracking, and warranty management. Precision fulfillment for the automotive aftermarket.",
+        "pain": "Heavy items, thousands of OEM part numbers, compatibility verification, and warranty claims make auto parts a unique fulfillment challenge.",
+        "cta": "Learn about automotive fulfillment"
       },
       {
-        "title": "Food & Beverage",
-        "description": "Consumable products demand cold chain capabilities, strict FIFO rotation, expiry tracking, and compliance with Mexico's food safety regulations.",
-        "pain": "Food products face the strictest import regulations in Mexico, including sanitary permits, nutritional labeling requirements, and cold chain integrity from port to doorstep.",
-        "cta": "Learn about food fulfillment"
+        "title": "Medical Equipment",
+        "description": "Lot and serial traceability, temperature-controlled zones, and priority shipping for medical devices and supplies.",
+        "pain": "Mandatory traceability, temperature sensitivity, urgent delivery requirements, and zero tolerance for errors make medical fulfillment mission-critical.",
+        "cta": "Learn about medical fulfillment"
       },
       {
-        "title": "Home & Lifestyle",
-        "description": "From candles to kitchenware, home goods come in every shape and size. We handle oversized items, fragile products, and complex kitting.",
-        "pain": "Diverse product dimensions, fragile items, heavy goods, and the need for kitting and bundling make home products a logistics challenge that requires adaptable operations.",
-        "cta": "Learn about home fulfillment"
+        "title": "Appliances",
+        "description": "Oversized and heavy items, specialized packaging, multi-carrier shipping, and white-glove last-mile delivery.",
+        "pain": "Bulky dimensions, high damage rates in transit, complex returns logistics, and the need for specialized carriers make appliance fulfillment demanding.",
+        "cta": "Learn about appliance fulfillment"
       }
     ],
     "supplements": {
       "meta": {
         "title": "Supplement Fulfillment in Mexico | Ecommex",
-        "description": "Specialized fulfillment for vitamins, supplements, and health products in Mexico. COFEPRIS, lot tracking, temperature control, and NOM compliance."
+        "description": "Specialized fulfillment for vitamins, supplements, and health products in Mexico. Lot tracking, expiry control, warehousing, and multi-channel shipping."
       },
       "hero": {
         "eyebrow": "Health & Supplements",
         "headline": "Dietary Supplement Fulfillment in Mexico",
-        "subheadline": "COFEPRIS, lot tracking, expiry, and temperature control. We handle it.",
+        "subheadline": "Lot tracking, expiry, pick & pack, and multi-channel. We run it.",
         "cta": "Get Your Quote",
         "ctaSecondary": "Our Services",
         "stats": [
-          { "value": "500+", "display": "500+", "label": "Health SKUs managed" },
-          { "value": "99.8", "display": "99.8%", "label": "Compliance rate" },
-          { "value": "72", "display": "72h", "label": "Avg. import clearance" },
-          { "value": "15", "display": "15+", "label": "Active health brands" },
-          { "value": "100", "display": "100%", "label": "Lot traceability" }
+          {
+            "value": "500+",
+            "display": "500+",
+            "label": "Health SKUs managed"
+          },
+          {
+            "value": "99.8",
+            "display": "99.8%",
+            "label": "Compliance rate"
+          },
+          {
+            "value": "72",
+            "display": "72h",
+            "label": "Avg. order processing"
+          },
+          {
+            "value": "15",
+            "display": "15+",
+            "label": "Active health brands"
+          },
+          {
+            "value": "100",
+            "display": "100%",
+            "label": "Lot traceability"
+          }
         ]
       },
       "painPoints": {
-        "headline": "Why Supplements Are Hard to Sell in Mexico",
-        "subhead": "Health products face some of the strictest import and fulfillment requirements in the country.",
+        "headline": "The real operational challenges",
+        "subhead": "These are the operational pains that slow supplement brands down in Mexico.",
         "items": [
           {
-            "title": "COFEPRIS Registration",
-            "description": "Every supplement entering Mexico requires a sanitary registration with COFEPRIS — a process that can take months without expert guidance and blocks your product from entering the market."
+            "title": "Orders stuck before they ship",
+            "stat": "Up to 3 weeks of delay [DRAFT]",
+            "description": "Wrong SKU setup, missing lot data, or labels that don't match. Product sits in the warehouse while the customer loses patience."
           },
           {
-            "title": "Lot & Expiry Tracking",
-            "description": "Mexican regulations require lot-level traceability and strict expiry management. Selling expired products means fines, recalls, and destroyed brand trust."
+            "title": "Inventory expiring unnoticed",
+            "stat": "5-15% avoidable shrinkage [DRAFT]",
+            "description": "Without lot control or date tracking, oldest products sit in the back. Result: shrinkage, recalls, and lost margin."
           },
           {
-            "title": "NOM Labeling Compliance",
-            "description": "Products must meet NOM-051 nutritional labeling, including front-of-pack warnings, Spanish-language ingredients, and specific health claims restrictions."
+            "title": "Disconnected channels, inventory chaos",
+            "stat": "3+ channels out of sync [DRAFT]",
+            "description": "Amazon, ML, and TikTok Shop all pulling from the same stock with no sync. Overselling, cancellations, and angry customers."
           }
         ]
       },
       "solutions": {
-        "headline": "How Ecommex Solves It",
-        "subhead": "Purpose-built operations for health product logistics in Mexico.",
+        "headline": "How Ecommex solves it",
+        "subhead": "End-to-end operations built for supplements — from warehouse to the customer's door.",
         "items": [
           {
-            "title": "COFEPRIS Registration Support",
-            "description": "We guide you through the full sanitary registration process, from documentation to approval, cutting months off your timeline."
+            "tag": "WAREHOUSING",
+            "title": "Specialized storage for health products",
+            "description": "Temperature-controlled zones, lot-level organization, and dedicated areas for supplements — ready to receive and store from day 1."
           },
           {
-            "title": "Lot-Level WMS Tracking",
-            "description": "Our warehouse management system tracks every unit by lot number, manufacture date, and expiry — with automatic FEFO rotation."
+            "tag": "TRACEABILITY",
+            "title": "WMS with lot tracking & FEFO",
+            "description": "Every unit tracked by lot and expiry, automatic First Expired First Out rotation, zero invisible shrinkage."
           },
           {
-            "title": "Temperature-Controlled Storage",
-            "description": "Dedicated zones for products that require ambient temperature control, with continuous monitoring and alerts."
+            "tag": "MULTI-CHANNEL",
+            "title": "Multi-channel fulfillment from one inventory",
+            "description": "Amazon MX, Mercado Libre, TikTok Shop, and Shopify synced in real time from a single inventory pool."
           },
           {
-            "title": "NOM-Compliant Labeling",
-            "description": "We handle label review, front-of-pack warning placement, and Spanish-language adaptation to meet NOM-051 requirements."
-          },
-          {
-            "title": "Customs & Import Management",
-            "description": "Specialized customs brokerage for health products, including sanitary permits, tariff classification, and recurring shipment workflows."
-          },
-          {
-            "title": "Multi-Channel Fulfillment",
-            "description": "Ship to Amazon Mexico, Mercado Libre, Shopify, or your own DTC store — all from a single inventory pool with real-time sync."
+            "tag": "SCALE",
+            "title": "Operations that scale with you",
+            "description": "From 500 orders/month to 50,000 without switching 3PLs. Flexible infrastructure that grows with your brand."
           }
         ]
       },
-      "regulatory": {
-        "headline": "Regulatory Requirements We Handle",
-        "subhead": "Navigating Mexico's health product regulations doesn't have to slow you down.",
+      "faq": {
+        "headline": "Frequently asked questions",
+        "subhead": "What supplement brands ask us before getting started.",
         "items": [
           {
-            "title": "COFEPRIS Sanitary Registration",
-            "description": "Mandatory registration for all dietary supplements and health products sold in Mexico. We manage the full application process."
+            "question": "How fast can I start shipping orders?",
+            "answer": "From initial setup to first orders, the typical onboarding takes under 2 weeks. We configure your SKUs, lots, and channel integrations so you're operational fast."
           },
           {
-            "title": "NOM-051-SCFI/SSA1",
-            "description": "Nutritional labeling standard requiring front-of-pack warnings for excess sugar, sodium, calories, and saturated fat."
+            "question": "How long does onboarding take?",
+            "answer": "From initial setup to first orders, the typical process takes under 2 weeks. We configure SKUs, lots, channels, and you're operational."
           },
           {
-            "title": "Lot & Expiry Management",
-            "description": "Legal requirement for full lot traceability and FEFO (First Expired, First Out) inventory rotation on all health products."
+            "question": "Do you handle temperature control?",
+            "answer": "Yes. We have dedicated zones with controlled ambient temperature, continuous monitoring, and automatic alerts for products that require it."
           },
           {
-            "title": "Spanish-Language Labeling",
-            "description": "All product labels must include ingredients, directions, warnings, and manufacturer information in Spanish."
+            "question": "Can I sell on Amazon MX and Mercado Libre at the same time?",
+            "answer": "Yes. Our WMS syncs inventory in real time across Amazon MX, Mercado Libre, TikTok Shop, Shopify, and your DTC store — all from a single inventory pool."
           },
           {
-            "title": "Import Health Permits",
-            "description": "Sanitary import permits required for each shipment of health products entering Mexico through customs."
+            "question": "What happens with products nearing expiry?",
+            "answer": "Our system uses automatic FEFO rotation (First Expired, First Out). You receive alerts before a lot approaches its expiry date so you can take action."
+          },
+          {
+            "question": "What's the minimum volume to get started?",
+            "answer": "There's no fixed minimum. We work with brands from 500 orders/month to 50,000+. The model adapts to your current volume and scales with you."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Complementary services",
+        "subhead": "Everything you need to operate supplements in Mexico, under one roof.",
+        "items": [
+          {
+            "title": "Shipping",
+            "description": "Nationwide multi-carrier shipping with real-time tracking and 2-4 day delivery across Mexico.",
+            "href": "envios"
+          },
+          {
+            "title": "Warehousing",
+            "description": "12,000+ positions with temperature control, lot tracking, and dedicated zones for supplements.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Fast and accurate pick & pack with lot-level traceability for all your sales channels.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Technology",
+            "description": "WMS with automatic FEFO, multi-channel integrations, and real-time inventory visibility.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "fashion": {
+      "meta": {
+        "title": "Fashion & Apparel Fulfillment in Mexico | Ecommex",
+        "description": "Specialized fulfillment for fashion and apparel brands in Mexico. Size and color management, fast pick & pack, returns processing, and dedicated warehousing."
+      },
+      "hero": {
+        "eyebrow": "Fashion & Apparel",
+        "headline": "Fashion & Apparel Fulfillment in Mexico",
+        "subheadline": "Thousands of SKUs, sizes, colors, pick & pack, and returns. We run it.",
+        "cta": "Get Your Quote",
+        "ctaSecondary": "Our Services",
+        "stats": [
+          { "value": "10000", "display": "10K+", "label": "Fashion SKUs managed" },
+          { "value": "99.5", "display": "99.5%", "label": "Order accuracy" },
+          { "value": "24", "display": "24h", "label": "Same-day processing" },
+          { "value": "25", "display": "25+", "label": "Active fashion brands" },
+          { "value": "48", "display": "48h", "label": "Return processing time" }
+        ]
+      },
+      "painPoints": {
+        "headline": "The operational challenges of fashion",
+        "subhead": "These are the logistics pains that slow fashion brands down in Mexico.",
+        "items": [
+          {
+            "title": "Uncontrollable SKU explosion",
+            "stat": "Up to 50x variants per product [DRAFT]",
+            "description": "Each style has 5 sizes and 10 colors. Without a variant-ready WMS, picking errors skyrocket and inventory becomes unmanageable."
+          },
+          {
+            "title": "Seasonal peaks that overwhelm operations",
+            "stat": "3-5x volume during peak season [DRAFT]",
+            "description": "Hot Sale, Buen Fin, holidays. Your operation needs to scale overnight and return to normal without permanent fixed costs."
+          },
+          {
+            "title": "Return rates that destroy margin",
+            "stat": "20-30% return rate in fashion [DRAFT]",
+            "description": "Wrong sizes, change of mind, product that doesn't match the photo. Without a fast returns process, inventory stalls and you lose sales."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "How Ecommex solves it",
+        "subhead": "End-to-end operations built for fashion — from warehouse to the customer's door and back.",
+        "items": [
+          {
+            "tag": "MULTI-VARIANT WMS",
+            "title": "WMS built for sizes, colors, and variants",
+            "description": "Every SKU organized by style, size, and color with optimized pick locations. Real-time visibility across your entire catalog."
+          },
+          {
+            "tag": "PICK & PACK",
+            "title": "Fast and accurate pick & pack",
+            "description": "Wave and batch picking optimized for high-SKU volume. Packaging with the presentation your brand needs — from poly bag to premium box."
+          },
+          {
+            "tag": "RETURNS",
+            "title": "Fast returns processing",
+            "description": "Inspection, grading, and restock in under 48 hours. Every return processed with clear criteria so product gets back to available inventory fast."
+          },
+          {
+            "tag": "KITTING & BUNDLES",
+            "title": "Kitting, bundling, and special packaging",
+            "description": "Build sets, seasonal combos, and limited editions without the hassle. We configure bundles in the WMS and operate them as a single SKU."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Frequently asked questions",
+        "subhead": "What fashion brands ask us before getting started.",
+        "items": [
+          {
+            "question": "How do you handle so many size and color variants?",
+            "answer": "Our WMS is configured for multi-level variants (style > color > size). Each combination has its own SKU and pick location, eliminating errors and speeding up order preparation."
+          },
+          {
+            "question": "How long does catalog onboarding take?",
+            "answer": "Typical onboarding takes 1 to 2 weeks depending on SKU count. We configure your full catalog, integrate your sales channels, and run picking tests before go-live."
+          },
+          {
+            "question": "Can you handle seasonal peaks like Hot Sale or Buen Fin?",
+            "answer": "Yes. Our operation scales on demand. We ramp up staff and picking capacity before each peak season so your orders ship same-day regardless of volume."
+          },
+          {
+            "question": "How does the returns process work?",
+            "answer": "We receive the return, inspect based on your quality criteria, grade it (restock, second quality, or dispose), and process it in under 48 hours with real-time reports."
+          },
+          {
+            "question": "Do you offer branded packaging?",
+            "answer": "Yes. From branded poly bags to premium boxes with tissue paper and thank-you cards. We configure your unboxing experience as a standard process."
+          },
+          {
+            "question": "What's the minimum volume to get started?",
+            "answer": "No fixed minimum. We work with brands from 300 orders/month to 100,000+. The model adapts to your current volume and scales with you."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Complementary services",
+        "subhead": "Everything you need to operate fashion in Mexico, under one roof.",
+        "items": [
+          {
+            "title": "Warehousing",
+            "description": "Dedicated space with racks optimized for apparel, organized by style-size-color with real-time inventory control.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Fast and accurate pick & pack with branded packaging for all your sales channels.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Shipping",
+            "description": "Nationwide multi-carrier shipping with real-time tracking and 2-4 day delivery across Mexico.",
+            "href": "envios"
+          },
+          {
+            "title": "Returns",
+            "description": "Return processing in under 48 hours with inspection, grading, and automated restock.",
+            "href": "devoluciones"
+          }
+        ]
+      }
+    },
+    "automotive": {
+      "meta": {
+        "title": "Automotive Parts Fulfillment in Mexico | Ecommex",
+        "description": "Specialized fulfillment for automotive parts in Mexico. Heavy-part warehousing, OEM part number tracking, reinforced packaging, and shop-to-shop shipping."
+      },
+      "hero": {
+        "eyebrow": "Automotive Parts",
+        "headline": "Automotive Parts Fulfillment in Mexico",
+        "subheadline": "Heavy parts, OEM tracking, and precision on every pick. We run it.",
+        "cta": "Get Your Quote",
+        "ctaSecondary": "Our Services",
+        "stats": [
+          {
+            "value": "8000",
+            "display": "8,000+",
+            "label": "Part numbers managed"
+          },
+          {
+            "value": "99.5",
+            "display": "99.5%",
+            "label": "Order accuracy"
+          },
+          {
+            "value": "4",
+            "display": "4 min",
+            "label": "Avg. pick time"
+          },
+          {
+            "value": "25",
+            "display": "25+",
+            "label": "Active automotive brands"
+          },
+          {
+            "value": "500",
+            "display": "500 kg",
+            "label": "Weight capacity per slot"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "The real operational challenges",
+        "subhead": "These are the operational pains that slow automotive parts distributors down in Mexico.",
+        "items": [
+          {
+            "title": "Heavy and oversized parts",
+            "stat": "Up to 40% damage with standard packaging",
+            "description": "Engines, transmissions, and body panels that don't fit standard racks. Without proper storage, products get damaged before they ever reach the shop."
+          },
+          {
+            "title": "OEM catalog chaos",
+            "stat": "3,000+ SKUs with cross-references",
+            "description": "OEM part numbers, aftermarket references, and cross-equivalences that don't match. Wrong picks, returns, and shops that lose trust in your brand."
+          },
+          {
+            "title": "Warranty claims without traceability",
+            "stat": "12-18% of claims unresolved",
+            "description": "Without lot tracking or shipment history, warranty claims become a black hole of time and money."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "How Ecommex solves it",
+        "subhead": "End-to-end operations built for automotive parts — from warehouse to the shop floor.",
+        "items": [
+          {
+            "tag": "WAREHOUSING",
+            "title": "Weight-rated heavy-duty storage",
+            "description": "Industrial racking rated up to 500 kg per slot, dedicated zones for oversized parts, and organization by product family — ready to receive from day 1."
+          },
+          {
+            "tag": "WMS",
+            "title": "WMS with OEM part number search",
+            "description": "Every part indexed by OEM number, aftermarket reference, and cross-equivalence. Instant lookup, zero wrong picks, zero reference confusion."
+          },
+          {
+            "tag": "PACKAGING",
+            "title": "Reinforced packaging for heavy parts",
+            "description": "Protection designed for auto parts: high-density foam, reinforced boxes, and specialized palletization that eliminate transit damage."
+          },
+          {
+            "tag": "TRACEABILITY",
+            "title": "Per-part warranty tracking",
+            "description": "Every unit tracked from receiving to delivery. Complete lot history, ship date, and recipient record to resolve warranty claims in minutes."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Frequently asked questions",
+        "subhead": "What automotive parts distributors ask us before getting started.",
+        "items": [
+          {
+            "question": "Can you store heavy parts like engines or transmissions?",
+            "answer": "Yes. Our industrial racking supports up to 500 kg per slot. We have dedicated zones for oversized parts with specialized loading equipment."
+          },
+          {
+            "question": "How do you handle OEM and aftermarket part numbers?",
+            "answer": "Our WMS indexes every part by OEM number, aftermarket reference, and cross-equivalences. The picker sees exactly which part to grab with zero ambiguity."
+          },
+          {
+            "question": "What happens if a part arrives damaged at the shop?",
+            "answer": "Every shipment has full traceability: packaging photos, recorded weight, and tracking number. If there's a claim, the complete history is available in minutes."
+          },
+          {
+            "question": "How long does catalog onboarding take?",
+            "answer": "It depends on SKU volume. Catalogs up to 5,000 part numbers are configured in 2 weeks. For larger catalogs, we do a phased migration."
+          },
+          {
+            "question": "Do you ship to mechanic shops across all of Mexico?",
+            "answer": "Yes. We work with multiple national carriers optimized for heavy parcels. Coverage across all of Mexico with 2-5 day delivery times."
+          },
+          {
+            "question": "What's the minimum volume to get started?",
+            "answer": "There's no fixed minimum. We work with distributors from 300 orders/month to 30,000+. The model adapts to your current volume and scales with you."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Complementary services",
+        "subhead": "Everything you need to operate automotive parts in Mexico, under one roof.",
+        "items": [
+          {
+            "title": "Warehousing",
+            "description": "High-capacity industrial racking, oversized-part zones, and real-time inventory control.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Accurate pick & pack with OEM part number validation for all your sales channels.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Shipping",
+            "description": "Nationwide multi-carrier optimized for heavy parcels with real-time tracking.",
+            "href": "envios"
+          },
+          {
+            "title": "Technology",
+            "description": "WMS with OEM search, multi-channel integrations, and real-time inventory visibility.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "appliances": {
+      "meta": {
+        "title": "Appliance Fulfillment in Mexico | Ecommex",
+        "description": "Specialized fulfillment for appliances in Mexico. Oversized storage, reinforced packaging, heavy-freight shipping, and white-glove last-mile delivery."
+      },
+      "hero": {
+        "eyebrow": "Appliances",
+        "headline": "Appliance Fulfillment in Mexico",
+        "subheadline": "Oversized products, reinforced packaging, and specialized last-mile delivery. We run it.",
+        "cta": "Get Your Quote",
+        "ctaSecondary": "Our Services",
+        "stats": [
+          {
+            "value": "10000",
+            "display": "10,000+",
+            "label": "Units shipped monthly"
+          },
+          {
+            "value": "0.3",
+            "display": "<0.3%",
+            "label": "Transit damage rate"
+          },
+          {
+            "value": "97",
+            "display": "97%",
+            "label": "On-time delivery"
+          },
+          {
+            "value": "25",
+            "display": "25+",
+            "label": "Active brands"
+          },
+          {
+            "value": "150",
+            "display": "150kg",
+            "label": "Max weight handled"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "The real operational challenges",
+        "subhead": "These are the operational pains that slow appliance brands down in Mexico.",
+        "items": [
+          {
+            "title": "Oversized and heavy products hard to move",
+            "stat": "Up to 40% more expensive due to poor planning",
+            "description": "Without proper racking or loading equipment, large appliances are stored poorly, moved slowly, and create bottlenecks across the entire operation."
+          },
+          {
+            "title": "High damage rate during transit",
+            "stat": "8–12% damage claims at generic 3PLs",
+            "description": "Standard packaging does not protect washers, refrigerators, or displays. The result: costly returns, replacements, and unhappy customers."
+          },
+          {
+            "title": "Complex and costly returns",
+            "stat": "5+ days on average to process a return",
+            "description": "Picking up a damaged appliance, inspecting it, and restocking it requires specialized reverse logistics that most 3PLs do not offer."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "How Ecommex solves it",
+        "subhead": "End-to-end operations built for appliances — from warehouse to the customer’s door.",
+        "items": [
+          {
+            "tag": "WAREHOUSING",
+            "title": "Specialized storage for oversized freight",
+            "description": "High-capacity industrial racking, dedicated zones for large appliances, and mechanized loading equipment. Your inventory safe and accessible from day 1."
+          },
+          {
+            "tag": "PACKAGING",
+            "title": "Reinforced packaging for zero damage",
+            "description": "Molded foam protection, rigid corner guards, and double-box packaging for every unit. We reduce damage claims to under 0.3%."
+          },
+          {
+            "tag": "SHIPPING",
+            "title": "Multi-carrier for heavy and oversized freight",
+            "description": "A network of carriers specialized in heavy freight with nationwide coverage. Volume-negotiated rates and real-time tracking for every shipment."
+          },
+          {
+            "tag": "LAST-MILE",
+            "title": "White-glove last-mile delivery",
+            "description": "Home delivery service with basic installation, packaging removal, and functionality verification. The complete experience for your end customer."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Frequently asked questions",
+        "subhead": "What appliance brands ask us before getting started.",
+        "items": [
+          {
+            "question": "What types of appliances can you store and ship?",
+            "answer": "We handle everything from small appliances like blenders and coffee makers to full white goods: refrigerators, washers, dryers, and stoves up to 150 kg per unit."
+          },
+          {
+            "question": "How do you protect products during shipping?",
+            "answer": "We use reinforced packaging with molded foam, rigid corner guards, strapping, and double-box. Each product is packaged according to its category and weight to minimize any transit damage risk."
+          },
+          {
+            "question": "Do you offer installation at the destination?",
+            "answer": "Yes. Our white-glove service includes home delivery, basic installation, packaging removal, and functionality verification. Available in major metropolitan areas."
+          },
+          {
+            "question": "What is the average delivery time nationwide?",
+            "answer": "For metropolitan areas, 2 to 4 business days. For the rest of the country, 4 to 7 business days depending on the destination and product weight."
+          },
+          {
+            "question": "How do you handle appliance returns?",
+            "answer": "We coordinate home pickup, product inspection, classification (refurbished or write-off), and inventory restocking. All with real-time visibility from our WMS."
+          },
+          {
+            "question": "What is the minimum volume to get started?",
+            "answer": "There is no fixed minimum. We work with brands from 200 shipments per month to operations with thousands of units. The model adapts to your volume and scales with you."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Complementary services",
+        "subhead": "Everything you need to operate appliances in Mexico, under one roof.",
+        "items": [
+          {
+            "title": "Warehousing",
+            "description": "High-capacity industrial racking with dedicated zones for oversized and heavy freight.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Specialized pick & pack for appliances with reinforced packaging and quality control.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Shipping",
+            "description": "Multi-carrier for heavy freight with nationwide coverage and real-time tracking.",
+            "href": "envios"
+          },
+          {
+            "title": "Technology",
+            "description": "WMS with real-time inventory visibility, multi-channel integrations, and automated reporting.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "medical": {
+      "meta": {
+        "title": "Medical Equipment Fulfillment in Mexico | Ecommex",
+        "description": "Specialized fulfillment for medical equipment in Mexico. Serial number traceability, temperature-controlled zones, priority shipping, and real-time visibility."
+      },
+      "hero": {
+        "eyebrow": "Medical Equipment",
+        "headline": "Medical Equipment Fulfillment in Mexico",
+        "subheadline": "Serial traceability, temperature control, and priority shipping for your operation.",
+        "cta": "Get Your Quote",
+        "ctaSecondary": "Our Services",
+        "stats": [
+          {
+            "value": "10000",
+            "display": "10K+",
+            "label": "Serial numbers tracked"
+          },
+          {
+            "value": "99.9",
+            "display": "99.9%",
+            "label": "Compliance rate"
+          },
+          {
+            "value": "24",
+            "display": "24h",
+            "label": "Same-day dispatch"
+          },
+          {
+            "value": "20",
+            "display": "20+",
+            "label": "Active clients"
+          },
+          {
+            "value": "3",
+            "display": "3",
+            "label": "Temperature zones"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "The real operational challenges",
+        "subhead": "These are the operational pains that slow medical equipment companies down in Mexico.",
+        "items": [
+          {
+            "title": "Mandatory traceability without a system",
+            "stat": "100% of devices require serial tracking",
+            "description": "Every medical device needs full traceability by serial number and lot. Without a prepared WMS, manual tracking leads to errors, delays, and operational risk."
+          },
+          {
+            "title": "Temperature sensitivity without control",
+            "stat": "Up to 20% of product compromised without monitoring",
+            "description": "Reagents, supplies, and certain devices require specific temperature ranges. Without controlled zones and continuous monitoring, product degrades before reaching the customer."
+          },
+          {
+            "title": "Urgent deliveries without priority",
+            "stat": "48h+ delay on critical orders",
+            "description": "Hospitals and clinics need equipment urgently. Without priority dispatch workflows, critical orders sit in the general queue and arrive late."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "How Ecommex solves it",
+        "subhead": "End-to-end operations built for medical equipment — from warehouse to point of care.",
+        "items": [
+          {
+            "tag": "TRACEABILITY",
+            "title": "WMS with lot and serial number tracking",
+            "description": "Every unit registered by serial number and lot from intake. Complete movement history, real-time location, and traceability reports ready for audit."
+          },
+          {
+            "tag": "TEMPERATURE",
+            "title": "Temperature-controlled zones",
+            "description": "Three differentiated zones with continuous monitoring and automatic alerts. Your sensitive products stored at the correct range 24 hours a day."
+          },
+          {
+            "tag": "DISPATCH",
+            "title": "Priority fulfillment for critical orders",
+            "description": "Differentiated dispatch workflows with priority for urgent orders. Extended cutoff, accelerated pick & pack, and direct carrier coordination for same-day delivery."
+          },
+          {
+            "tag": "VISIBILITY",
+            "title": "End-to-end real-time visibility",
+            "description": "Dashboard with status for each serial number, inventory levels by zone, shipment tracking, and proactive alerts — all in one platform."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Frequently asked questions",
+        "subhead": "What medical equipment companies ask us before getting started.",
+        "items": [
+          {
+            "question": "Can you track each unit by serial number?",
+            "answer": "Yes. Our WMS registers every unit by serial number and lot from the moment of intake. You can check the complete movement history and current location at any time."
+          },
+          {
+            "question": "What temperature ranges do you handle?",
+            "answer": "We have three differentiated zones: controlled ambient (15-25°C), refrigerated (2-8°C), and an intermediate zone. All with continuous monitoring and automatic alerts for deviations."
+          },
+          {
+            "question": "Can you dispatch urgent orders same day?",
+            "answer": "Yes. We have priority dispatch workflows with extended cutoff. Orders flagged as urgent enter an accelerated pick & pack lane with direct carrier coordination."
+          },
+          {
+            "question": "How long does onboarding take?",
+            "answer": "Typical onboarding for medical equipment takes 2 to 3 weeks. We configure your SKUs, serial numbers, storage zones, and dispatch rules before receiving the first inventory."
+          },
+          {
+            "question": "Do you have real-time inventory visibility?",
+            "answer": "Yes. Our dashboard shows inventory levels by zone, status for each serial number, shipment tracking, and proactive alerts — accessible 24/7 from any device."
+          },
+          {
+            "question": "What's the minimum volume to get started?",
+            "answer": "There's no fixed minimum. We work with companies from 200 orders/month to high-volume operations. The model adapts to your current flow and scales with you."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Complementary services",
+        "subhead": "Everything you need to operate medical equipment in Mexico, under one roof.",
+        "items": [
+          {
+            "title": "Warehousing",
+            "description": "Temperature-controlled zones, serial number tracking, and dedicated areas for medical equipment.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Pick & pack with serial traceability, priority dispatch, and specialized packaging for devices.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Shipping",
+            "description": "Multi-carrier with same-day delivery options, real-time tracking, and cold chain handling.",
+            "href": "envios"
+          },
+          {
+            "title": "Technology",
+            "description": "WMS with serial and lot tracking, real-time dashboard, and traceability reports for audit.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "beauty": {
+      "meta": {
+        "title": "Beauty & Skincare Fulfillment in Mexico | Ecommex",
+        "description": "Specialized fulfillment for beauty and skincare products in Mexico. Fragile handling, lot traceability, premium kitting, and multi-channel shipping."
+      },
+      "hero": {
+        "eyebrow": "Beauty & Skincare",
+        "headline": "Beauty & Skincare Fulfillment in Mexico",
+        "subheadline": "Fragile products, lot control, custom kitting, and premium unboxing. We run it.",
+        "cta": "Get Your Quote",
+        "ctaSecondary": "Our Services",
+        "stats": [
+          {
+            "value": "800+",
+            "display": "800+",
+            "label": "Beauty SKUs managed"
+          },
+          {
+            "value": "0.3",
+            "display": "<0.3%",
+            "label": "In-transit damage rate"
+          },
+          {
+            "value": "24",
+            "display": "24h",
+            "label": "Same-day processing"
+          },
+          {
+            "value": "20",
+            "display": "20+",
+            "label": "Active beauty brands"
+          },
+          {
+            "value": "12",
+            "display": "12+",
+            "label": "Custom kitting options"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "The real operational challenges",
+        "subhead": "These are the operational pains that slow beauty and skincare brands down in Mexico.",
+        "items": [
+          {
+            "title": "Fragile products arriving broken",
+            "stat": "Up to 8% damage with generic operators",
+            "description": "Glass jars, serums, and makeup palettes need special protection. Without dedicated handling protocols, damage adds up and replacements eat into your margin."
+          },
+          {
+            "title": "Ingredient lots without traceability",
+            "stat": "Visibility lost on 40%+ of SKUs",
+            "description": "Every product has a lot number, manufacturing date, and shelf life. Without lot-level tracking, you can't rotate properly or respond to quality incidents."
+          },
+          {
+            "title": "Unboxing that doesn't reflect the brand",
+            "stat": "72% of customers value presentation",
+            "description": "Your customer expects a premium experience when opening the box. Generic packaging with no inserts or personalization kills perceived value and repeat purchases."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "How Ecommex solves it",
+        "subhead": "End-to-end operations built for beauty — from warehouse to the customer's door.",
+        "items": [
+          {
+            "tag": "CAREFUL HANDLING",
+            "title": "Handling protocols for fragile products",
+            "description": "Packaging with protection materials specific to glass and cosmetics, dedicated pick & pack stations, and visual quality control before every shipment."
+          },
+          {
+            "tag": "TRACEABILITY",
+            "title": "Lot and ingredient tracking",
+            "description": "Every unit tracked by lot and manufacturing date, automatic rotation for products with limited shelf life, and real-time lot-level inventory reports."
+          },
+          {
+            "tag": "KITTING & UNBOXING",
+            "title": "Custom kitting and premium unboxing",
+            "description": "Gift sets, free samples, branded inserts, and custom packaging. We create the unboxing experience your customers expect from a beauty brand."
+          },
+          {
+            "tag": "MULTI-CHANNEL",
+            "title": "Real-time multi-channel sync",
+            "description": "Amazon MX, Mercado Libre, Shopify, and your DTC store synced from a single inventory pool. Zero overselling, zero cancellations."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Frequently asked questions",
+        "subhead": "What beauty brands ask us before getting started.",
+        "items": [
+          {
+            "question": "How do you protect fragile products during shipping?",
+            "answer": "We use specialized packaging with bubble wrap, dividers, and reinforced boxes for glass and cosmetic products. Every order goes through a visual quality check before sealing."
+          },
+          {
+            "question": "Can you assemble custom kits and gift sets?",
+            "answer": "Yes. We run custom kitting: gift sets, combos, free samples, branded inserts, and personalized packaging. You can change configurations by season or campaign."
+          },
+          {
+            "question": "Do you handle lot control for ingredients?",
+            "answer": "Yes. Our WMS tracks every unit by lot and manufacturing date. We implement automatic rotation so products with the shortest shelf life ship first."
+          },
+          {
+            "question": "How long does onboarding take for a beauty brand?",
+            "answer": "Typical onboarding takes 1 to 2 weeks. We configure your SKUs, lots, kitting rules, and channel integrations so you're operational fast."
+          },
+          {
+            "question": "Can I sell on Amazon MX and my Shopify store at the same time?",
+            "answer": "Yes. We sync inventory in real time across Amazon MX, Mercado Libre, Shopify, and your DTC store. One inventory pool, zero risk of overselling."
+          },
+          {
+            "question": "What's the minimum volume to get started?",
+            "answer": "There's no fixed minimum. We work with brands from 300 orders/month to 40,000+. The model adapts to your current volume and scales with you."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Complementary services",
+        "subhead": "Everything you need to operate your beauty brand in Mexico, under one roof.",
+        "items": [
+          {
+            "title": "Warehousing",
+            "description": "Dedicated zones for cosmetics and skincare with temperature control and lot-level organization.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Careful pick & pack with custom kitting and visual quality control for every order.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Shipping",
+            "description": "Nationwide multi-carrier with protective packaging and 2-4 day delivery across Mexico.",
+            "href": "envios"
+          },
+          {
+            "title": "Returns",
+            "description": "Same-day return processing with quality inspection and automated restocking.",
+            "href": "devoluciones"
           }
         ]
       }

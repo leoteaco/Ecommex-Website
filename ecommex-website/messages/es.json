@@ -85,27 +85,27 @@
       "items": {
         "supplements": {
           "title": "Salud y Suplementos",
-          "description": "COFEPRIS, rastreo de lotes y control de temperatura"
+          "description": "Fulfillment con control de lotes y caducidad"
         },
         "beauty": {
-          "title": "Belleza y Cosméticos",
-          "description": "Cumplimiento de ingredientes y empaque premium"
+          "title": "Belleza y Skincare",
+          "description": "Productos frágiles, lotes y unboxing premium"
         },
         "fashion": {
           "title": "Moda y Ropa",
-          "description": "Alto número de SKUs y demanda estacional"
+          "description": "Alto SKU, variantes de talla y devoluciones rápidas"
         },
-        "electronics": {
-          "title": "Electrónica de Consumo",
-          "description": "Certificaciones NOM y rastreo de series"
+        "automotive": {
+          "title": "Refacciones Automotrices",
+          "description": "Piezas pesadas, números OEM y garantías"
         },
-        "food": {
-          "title": "Alimentos y Bebidas",
-          "description": "Cadena de frío y seguridad alimentaria"
+        "medical": {
+          "title": "Equipo Médico",
+          "description": "Trazabilidad por lote, temperatura y envío prioritario"
         },
-        "home": {
-          "title": "Hogar y Estilo de Vida",
-          "description": "Artículos grandes, frágiles y kitting"
+        "appliances": {
+          "title": "Electrodomésticos",
+          "description": "Artículos sobredimensionados, empaque especial y última milla"
         }
       }
     },
@@ -1792,131 +1792,813 @@
     "items": [
       {
         "title": "Salud y Suplementos",
-        "description": "Vitaminas, suplementos y productos de salud requieren registro COFEPRIS, rastreo estricto de lotes y almacenamiento con temperatura controlada. Gestionamos el cumplimiento de principio a fin.",
-        "pain": "Registro COFEPRIS, rastreo de lotes, gestión de caducidad y almacenamiento con temperatura controlada hacen que los productos de salud sean una de las categorías más complejas para importar y distribuir en México.",
-        "cta": "Conoce el fulfillment para salud"
+        "description": "Control de lotes, gestión de caducidad y almacenamiento especializado para vitaminas y productos de salud. Operación completa de principio a fin.",
+        "pain": "Control de lotes, caducidad, temperatura controlada y múltiples canales hacen que los suplementos sean una de las categorías más complejas de operar.",
+        "cta": "Conoce el fulfillment para suplementos"
       },
       {
-        "title": "Belleza y Cosméticos",
-        "description": "Las marcas de belleza necesitan cumplimiento de ingredientes, manejo cuidadoso y empaque premium. Entregamos la experiencia de unboxing que tus clientes esperan.",
-        "pain": "Las regulaciones mexicanas exigen declaraciones específicas de ingredientes, etiquetado en español y registro de producto. Los artículos frágiles demandan manejo cuidadoso en toda la cadena de suministro.",
+        "title": "Belleza y Skincare",
+        "description": "Manejo cuidadoso, trazabilidad por lote de ingredientes y experiencias de unboxing premium. Protegemos tu marca del almacén a la puerta.",
+        "pain": "Productos frágiles, trazabilidad por lote de ingredientes y la expectativa de un unboxing premium requieren manejo especializado en cada paso.",
         "cta": "Conoce el fulfillment para belleza"
       },
       {
         "title": "Moda y Ropa",
-        "description": "Alto número de SKUs, variantes de talla y picos estacionales de demanda requieren almacenamiento flexible y fulfillment rápido y preciso.",
-        "pain": "Gestionar miles de combinaciones SKU-talla-color, manejar picos estacionales y procesar altas tasas de devolución requiere operaciones diseñadas específicamente para logística de moda.",
+        "description": "Miles de combinaciones SKU-talla-color, picos estacionales y procesamiento rápido de devoluciones. Operación construida para la velocidad de la moda.",
+        "pain": "Explosión de SKUs, picos de demanda estacional y tasas de devolución arriba del 20% requieren operaciones diseñadas para logística de moda.",
         "cta": "Conoce el fulfillment para moda"
       },
       {
-        "title": "Electrónica de Consumo",
-        "description": "La electrónica requiere certificaciones NOM, almacenamiento seguro, rastreo de números de serie y procedimientos de manejo antiestático.",
-        "pain": "Cumplimiento NOM, rastreo de números de serie, gestión de garantías y el alto valor de los productos electrónicos exigen manejo especializado y protocolos de seguridad.",
-        "cta": "Conoce el fulfillment para electrónica"
+        "title": "Refacciones Automotrices",
+        "description": "Piezas pesadas y sobredimensionadas, tracking por número OEM y gestión de garantías. Fulfillment de precisión para el aftermarket automotriz.",
+        "pain": "Piezas pesadas, miles de números OEM, verificación de compatibilidad y reclamos de garantía hacen de las autopartes un reto único de fulfillment.",
+        "cta": "Conoce el fulfillment automotriz"
       },
       {
-        "title": "Alimentos y Bebidas",
-        "description": "Los productos consumibles exigen cadena de frío, rotación FIFO estricta, rastreo de caducidad y cumplimiento con las regulaciones de seguridad alimentaria de México.",
-        "pain": "Los productos alimenticios enfrentan las regulaciones de importación más estrictas en México, incluyendo permisos sanitarios, requisitos de etiquetado nutricional e integridad de cadena de frío del puerto a la puerta.",
-        "cta": "Conoce el fulfillment para alimentos"
+        "title": "Equipo Médico",
+        "description": "Trazabilidad por lote y serie, zonas de temperatura controlada y envío prioritario para dispositivos y suministros médicos.",
+        "pain": "Trazabilidad obligatoria, sensibilidad de temperatura, entregas urgentes y cero tolerancia a errores hacen del fulfillment médico una operación crítica.",
+        "cta": "Conoce el fulfillment médico"
       },
       {
-        "title": "Hogar y Estilo de Vida",
-        "description": "Desde velas hasta artículos de cocina, los productos para el hogar vienen en todas las formas y tamaños. Manejamos artículos sobredimensionados, productos frágiles y kitting complejo.",
-        "pain": "Diversas dimensiones de producto, artículos frágiles, bienes pesados y la necesidad de kitting y bundling hacen de los productos para el hogar un reto logístico que requiere operaciones adaptables.",
-        "cta": "Conoce el fulfillment para hogar"
+        "title": "Electrodomésticos",
+        "description": "Artículos sobredimensionados y pesados, empaque especializado, envío multi-carrier y última milla con servicio white-glove.",
+        "pain": "Dimensiones voluminosas, alta tasa de daño en tránsito, logística inversa compleja y necesidad de carriers especializados hacen del fulfillment de electrodomésticos un reto.",
+        "cta": "Conoce el fulfillment de electrodomésticos"
       }
     ],
     "supplements": {
       "meta": {
         "title": "Fulfillment de Suplementos en México | Ecommex",
-        "description": "Fulfillment especializado para vitaminas, suplementos y productos de salud en México. COFEPRIS, rastreo de lotes, control de temperatura y cumplimiento NOM."
+        "description": "Fulfillment especializado para vitaminas, suplementos y productos de salud en México. Rastreo de lotes, control de caducidad, almacenamiento y envíos multi-canal."
       },
       "hero": {
         "eyebrow": "Salud y Suplementos",
         "headline": "Fulfillment de Suplementos Alimenticios en México",
-        "subheadline": "COFEPRIS, lotes, caducidad y temperatura controlada. Nosotros lo resolvemos.",
+        "subheadline": "Lotes, caducidad, pick & pack y multi-canal. Nosotros lo operamos.",
         "cta": "Obtén Tu Cotización",
         "ctaSecondary": "Nuestros Servicios",
         "stats": [
-          { "value": "500+", "display": "500+", "label": "SKUs de salud gestionados" },
-          { "value": "99.8", "display": "99.8%", "label": "Tasa de cumplimiento" },
-          { "value": "72", "display": "72h", "label": "Despacho promedio" },
-          { "value": "15", "display": "15+", "label": "Marcas de salud activas" },
-          { "value": "100", "display": "100%", "label": "Trazabilidad por lote" }
+          {
+            "value": "500+",
+            "display": "500+",
+            "label": "SKUs de salud gestionados"
+          },
+          {
+            "value": "99.8",
+            "display": "99.8%",
+            "label": "Tasa de cumplimiento"
+          },
+          {
+            "value": "72",
+            "display": "72h",
+            "label": "Procesamiento promedio"
+          },
+          {
+            "value": "15",
+            "display": "15+",
+            "label": "Marcas de salud activas"
+          },
+          {
+            "value": "100",
+            "display": "100%",
+            "label": "Trazabilidad por lote"
+          }
         ]
       },
       "painPoints": {
-        "headline": "Por Qué Es Difícil Vender Suplementos en México",
-        "subhead": "Los productos de salud enfrentan algunos de los requisitos de importación y fulfillment más estrictos del país.",
+        "headline": "Los retos operativos reales",
+        "subhead": "Estos son los dolores operativos que frenan a las marcas de suplementos en México.",
         "items": [
           {
-            "title": "Registro COFEPRIS",
-            "description": "Cada suplemento que entra a México requiere un registro sanitario ante COFEPRIS — un proceso que puede tomar meses sin guía experta y bloquea tu producto de entrar al mercado."
+            "title": "Pedidos frenados antes de salir",
+            "stat": "Hasta 3 semanas de retraso [DRAFT]",
+            "description": "SKUs mal configurados, datos de lote faltantes o etiquetas que no coinciden. El producto se queda en el almacén mientras el cliente se desespera."
           },
           {
-            "title": "Rastreo de Lote y Caducidad",
-            "description": "Las regulaciones mexicanas exigen trazabilidad a nivel de lote y gestión estricta de caducidad. Vender productos caducados significa multas, recalls y confianza de marca destruida."
+            "title": "Inventario que caduca sin que nadie lo vea",
+            "stat": "5-15% de merma evitable [DRAFT]",
+            "description": "Sin control de lotes ni fechas, los productos más viejos se quedan al fondo. Resultado: merma, recalls y pérdida de margen."
           },
           {
-            "title": "Etiquetado NOM",
-            "description": "Los productos deben cumplir con el etiquetado nutricional NOM-051, incluyendo sellos frontales de advertencia, ingredientes en español y restricciones específicas de claims de salud."
+            "title": "Canales desconectados, caos de inventario",
+            "stat": "+3 canales sin sincronizar [DRAFT]",
+            "description": "Amazon, ML y TikTok Shop cada uno jalando del mismo stock sin sincronización. Overselling, cancelaciones y clientes enojados."
           }
         ]
       },
       "solutions": {
-        "headline": "Cómo Lo Resuelve Ecommex",
-        "subhead": "Operaciones diseñadas específicamente para la logística de productos de salud en México.",
+        "headline": "Cómo lo resuelve Ecommex",
+        "subhead": "Operación integral diseñada para suplementos — del almacén a la puerta del cliente.",
         "items": [
           {
-            "title": "Soporte en Registro COFEPRIS",
-            "description": "Te guiamos en todo el proceso de registro sanitario, desde la documentación hasta la aprobación, recortando meses de tu timeline."
+            "tag": "ALMACENAMIENTO",
+            "title": "Almacenamiento especializado para salud",
+            "description": "Zonas con temperatura controlada, organización por lote y áreas dedicadas para suplementos — listo para recibir y almacenar desde el día 1."
           },
           {
-            "title": "Tracking WMS por Lote",
-            "description": "Nuestro sistema de gestión de almacén rastrea cada unidad por número de lote, fecha de manufactura y caducidad — con rotación FEFO automática."
+            "tag": "TRAZABILIDAD",
+            "title": "WMS con trazabilidad de lote y FEFO",
+            "description": "Cada unidad trackeada por lote y caducidad, rotación automática First Expired First Out, cero merma invisible."
           },
           {
-            "title": "Almacenamiento con Temperatura Controlada",
-            "description": "Zonas dedicadas para productos que requieren control de temperatura ambiente, con monitoreo continuo y alertas."
+            "tag": "MULTI-CANAL",
+            "title": "Fulfillment multi-canal desde un solo inventario",
+            "description": "Amazon MX, Mercado Libre, TikTok Shop y Shopify sincronizados en tiempo real desde un solo pool de inventario."
           },
           {
-            "title": "Etiquetado NOM-Compliant",
-            "description": "Manejamos la revisión de etiquetas, colocación de sellos frontales de advertencia y adaptación al español para cumplir con NOM-051."
-          },
-          {
-            "title": "Gestión de Aduanas e Importación",
-            "description": "Agente aduanal especializado en productos de salud, incluyendo permisos sanitarios, clasificación arancelaria y flujos de importación recurrente."
-          },
-          {
-            "title": "Fulfillment Multi-Canal",
-            "description": "Envía a Amazon México, Mercado Libre, Shopify o tu propia tienda DTC — todo desde un solo inventario con sincronización en tiempo real."
+            "tag": "ESCALA",
+            "title": "Operación que escala contigo",
+            "description": "Desde 500 pedidos/mes hasta 50,000 sin cambiar de 3PL. Infraestructura flexible que crece con tu marca."
           }
         ]
       },
-      "regulatory": {
-        "headline": "Requisitos Regulatorios Que Manejamos",
-        "subhead": "Navegar las regulaciones de productos de salud de México no tiene que frenarte.",
+      "faq": {
+        "headline": "Preguntas frecuentes",
+        "subhead": "Lo que las marcas de suplementos nos preguntan antes de empezar.",
         "items": [
           {
-            "title": "Registro Sanitario COFEPRIS",
-            "description": "Registro obligatorio para todos los suplementos alimenticios y productos de salud vendidos en México. Gestionamos todo el proceso de solicitud."
+            "question": "¿Qué tan rápido puedo empezar a enviar pedidos?",
+            "answer": "Desde el setup inicial hasta los primeros pedidos, el onboarding típico toma menos de 2 semanas. Configuramos tus SKUs, lotes e integraciones de canales para que operes rápido."
           },
           {
-            "title": "NOM-051-SCFI/SSA1",
-            "description": "Norma de etiquetado nutricional que requiere sellos frontales de advertencia por exceso de azúcar, sodio, calorías y grasas saturadas."
+            "question": "¿Cuánto tarda el onboarding?",
+            "answer": "Desde el setup inicial hasta los primeros pedidos, el proceso típico toma menos de 2 semanas. Configuramos SKUs, lotes, canales y ya estás operando."
           },
           {
-            "title": "Gestión de Lote y Caducidad",
-            "description": "Requisito legal de trazabilidad completa por lote y rotación de inventario FEFO (First Expired, First Out) en todos los productos de salud."
+            "question": "¿Manejan control de temperatura?",
+            "answer": "Sí. Tenemos zonas dedicadas con temperatura ambiente controlada, monitoreo continuo y alertas automáticas para productos que lo requieren."
           },
           {
-            "title": "Etiquetado en Español",
-            "description": "Todas las etiquetas deben incluir ingredientes, instrucciones, advertencias e información del fabricante en español."
+            "question": "¿Puedo vender en Amazon MX y Mercado Libre al mismo tiempo?",
+            "answer": "Sí. Nuestro WMS sincroniza inventario en tiempo real entre Amazon MX, Mercado Libre, TikTok Shop, Shopify y tu tienda DTC — todo desde un solo pool de inventario."
           },
           {
-            "title": "Permisos Sanitarios de Importación",
-            "description": "Permisos sanitarios de importación requeridos para cada embarque de productos de salud que entra a México por aduana."
+            "question": "¿Qué pasa con los productos próximos a caducar?",
+            "answer": "Nuestro sistema usa rotación FEFO automática (First Expired, First Out). Recibes alertas antes de que un lote se acerque a su fecha de caducidad para tomar acción."
+          },
+          {
+            "question": "¿Cuál es el volumen mínimo para empezar?",
+            "answer": "No hay mínimo fijo. Trabajamos con marcas desde 500 pedidos/mes hasta 50,000+. El modelo se adapta a tu volumen actual y escala contigo."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Servicios complementarios",
+        "subhead": "Todo lo que necesitas para operar suplementos en México, bajo un solo techo.",
+        "items": [
+          {
+            "title": "Envíos",
+            "description": "Multi-carrier nacional con tracking en tiempo real y tiempos de entrega de 2 a 4 días en todo México.",
+            "href": "envios"
+          },
+          {
+            "title": "Almacenamiento",
+            "description": "12,000+ posiciones con temperatura controlada, rastreo de lotes y zonas dedicadas para suplementos.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Pick & pack rápido y preciso con trazabilidad por lote para todos tus canales de venta.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Tecnología",
+            "description": "WMS con FEFO automático, integraciones multi-canal y visibilidad de inventario en tiempo real.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "fashion": {
+      "meta": {
+        "title": "Fulfillment de Moda y Ropa en México | Ecommex",
+        "description": "Fulfillment especializado para marcas de moda y ropa en México. Gestión de tallas, colores, pick & pack rápido, devoluciones y almacenamiento dedicado."
+      },
+      "hero": {
+        "eyebrow": "Moda y Ropa",
+        "headline": "Fulfillment de Moda y Ropa en México",
+        "subheadline": "Miles de SKUs, tallas, colores, pick & pack y devoluciones. Nosotros lo operamos.",
+        "cta": "Obtén Tu Cotización",
+        "ctaSecondary": "Nuestros Servicios",
+        "stats": [
+          { "value": "10000", "display": "10K+", "label": "SKUs de moda gestionados" },
+          { "value": "99.5", "display": "99.5%", "label": "Precisión de pedidos" },
+          { "value": "24", "display": "24h", "label": "Procesamiento mismo día" },
+          { "value": "25", "display": "25+", "label": "Marcas de moda activas" },
+          { "value": "48", "display": "48h", "label": "Procesamiento de devoluciones" }
+        ]
+      },
+      "painPoints": {
+        "headline": "Los retos operativos de la moda",
+        "subhead": "Estos son los dolores logísticos que frenan a las marcas de moda en México.",
+        "items": [
+          { "title": "Explosión de SKUs incontrolable", "stat": "Hasta 50x variantes por producto [DRAFT]", "description": "Cada modelo tiene 5 tallas y 10 colores. Sin un WMS preparado para variantes, los errores de picking se disparan y el inventario se vuelve inmanejable." },
+          { "title": "Picos estacionales que desbordan la operación", "stat": "3-5x volumen en temporada alta [DRAFT]", "description": "Hot Sale, Buen Fin, Navidad. Tu operación necesita escalar de un día para otro y volver a la normalidad sin costos fijos permanentes." },
+          { "title": "Tasas de devolución que destruyen margen", "stat": "20-30% de devoluciones en moda [DRAFT]", "description": "Tallas incorrectas, cambios de opinión, producto que no se ve como en la foto. Sin un proceso ágil de devoluciones, el inventario se estanca." }
+        ]
+      },
+      "solutions": {
+        "headline": "Cómo lo resuelve Ecommex",
+        "subhead": "Operación integral diseñada para moda — del almacén a la puerta del cliente y de regreso.",
+        "items": [
+          { "tag": "WMS MULTI-VARIANTE", "title": "WMS diseñado para tallas, colores y variantes", "description": "Cada SKU organizado por modelo, talla y color con ubicaciones optimizadas para picking rápido. Visibilidad en tiempo real de todo tu catálogo." },
+          { "tag": "PICK & PACK", "title": "Pick & pack rápido y preciso", "description": "Procesos de picking por ola y batch optimizados para alto volumen de SKUs. Empaque con la presentación que tu marca necesita." },
+          { "tag": "DEVOLUCIONES", "title": "Procesamiento ágil de devoluciones", "description": "Inspección, clasificación y restock en menos de 48 horas. Cada devolución se procesa con criterios claros para regresar producto a inventario." },
+          { "tag": "KITTING Y BUNDLES", "title": "Kitting, bundling y empaques especiales", "description": "Arma sets, combos de temporada y ediciones limitadas sin complicaciones. Los bundles se configuran en el WMS como un solo SKU." }
+        ]
+      },
+      "faq": {
+        "headline": "Preguntas frecuentes",
+        "subhead": "Lo que las marcas de moda nos preguntan antes de empezar.",
+        "items": [
+          { "question": "¿Cómo manejan tantas variantes de talla y color?", "answer": "Nuestro WMS está configurado para manejar variantes multi-nivel (modelo > color > talla). Cada combinación tiene su propio SKU y ubicación de picking." },
+          { "question": "¿Cuánto tarda el onboarding de mi catálogo?", "answer": "El onboarding típico toma de 1 a 2 semanas dependiendo del número de SKUs. Configuramos tu catálogo completo e integramos tus canales de venta." },
+          { "question": "¿Pueden manejar picos de temporada?", "answer": "Sí. Nuestra operación escala bajo demanda. Incrementamos personal y capacidad de picking antes de cada temporada alta." },
+          { "question": "¿Cómo funciona el proceso de devoluciones?", "answer": "Recibimos la devolución, inspeccionamos según tus criterios, clasificamos (restock, segunda o descarte) y procesamos en menos de 48 horas." },
+          { "question": "¿Ofrecen empaque personalizado?", "answer": "Sí. Desde bolsas con logo hasta cajas premium con tissue paper. Configuramos tu experiencia de unboxing como proceso estándar." },
+          { "question": "¿Cuál es el volumen mínimo?", "answer": "No hay mínimo fijo. Trabajamos con marcas desde 300 pedidos/mes hasta 100,000+. El modelo se adapta a tu volumen." }
+        ]
+      },
+      "related": {
+        "headline": "Servicios complementarios",
+        "subhead": "Todo lo que necesitas para operar moda en México, bajo un solo techo.",
+        "items": [
+          { "title": "Almacenamiento", "description": "Espacio dedicado con racks optimizados para prendas y control de inventario en tiempo real.", "href": "almacenamiento" },
+          { "title": "Fulfillment", "description": "Pick & pack rápido y preciso con empaque personalizado para todos tus canales.", "href": "fulfillment" },
+          { "title": "Envíos", "description": "Multi-carrier nacional con tracking en tiempo real y entregas de 2 a 4 días.", "href": "envios" },
+          { "title": "Devoluciones", "description": "Procesamiento de devoluciones en menos de 48 horas con inspección y restock.", "href": "devoluciones" }
+        ]
+      }
+    },
+    "automotive": {
+      "meta": {
+        "title": "Fulfillment de Refacciones Automotrices en México | Ecommex",
+        "description": "Fulfillment especializado para refacciones automotrices en México. Almacenamiento de piezas pesadas, rastreo por número OEM, empaque reforzado y envíos a taller."
+      },
+      "hero": {
+        "eyebrow": "Refacciones Automotrices",
+        "headline": "Fulfillment de Refacciones Automotrices en México",
+        "subheadline": "Piezas pesadas, rastreo OEM y precisión en cada pick. Nosotros lo operamos.",
+        "cta": "Obtén Tu Cotización",
+        "ctaSecondary": "Nuestros Servicios",
+        "stats": [
+          {
+            "value": "8000",
+            "display": "8,000+",
+            "label": "Números de parte gestionados"
+          },
+          {
+            "value": "99.5",
+            "display": "99.5%",
+            "label": "Precisión en pedidos"
+          },
+          {
+            "value": "4",
+            "display": "4 min",
+            "label": "Tiempo promedio de pick"
+          },
+          {
+            "value": "25",
+            "display": "25+",
+            "label": "Marcas automotrices activas"
+          },
+          {
+            "value": "500",
+            "display": "500 kg",
+            "label": "Capacidad por posición"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "Los retos operativos reales",
+        "subhead": "Estos son los dolores operativos que frenan a los distribuidores de refacciones en México.",
+        "items": [
+          {
+            "title": "Piezas pesadas y sobredimensionadas",
+            "stat": "Hasta 40% de daños en empaque estándar",
+            "description": "Motores, transmisiones y piezas de carrocería que no caben en racks convencionales. Sin almacenamiento adecuado, el producto se daña antes de llegar al taller."
+          },
+          {
+            "title": "Caos en catálogos OEM",
+            "stat": "+3,000 SKUs con referencias cruzadas",
+            "description": "Números de parte OEM, aftermarket y equivalencias que no coinciden. Picks equivocados, devoluciones y talleres que pierden confianza en tu marca."
+          },
+          {
+            "title": "Reclamaciones de garantía sin trazabilidad",
+            "stat": "12-18% de reclamaciones sin resolver",
+            "description": "Sin rastreo de lote ni historial de envío, las reclamaciones de garantía se convierten en un agujero negro de tiempo y dinero."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "Cómo lo resuelve Ecommex",
+        "subhead": "Operación integral diseñada para refacciones automotrices — del almacén al taller.",
+        "items": [
+          {
+            "tag": "ALMACENAMIENTO",
+            "title": "Almacenamiento con capacidad de carga pesada",
+            "description": "Racks industriales con capacidad de hasta 500 kg por posición, zonas dedicadas para piezas sobredimensionadas y organización por familia de producto — listo para recibir desde el día 1."
+          },
+          {
+            "tag": "WMS",
+            "title": "WMS con búsqueda por número de parte OEM",
+            "description": "Cada pieza indexada por número OEM, aftermarket y equivalencia cruzada. Búsqueda instantánea, cero picks equivocados, cero confusiones de referencia."
+          },
+          {
+            "tag": "EMPAQUE",
+            "title": "Empaque reforzado para piezas pesadas",
+            "description": "Protección diseñada para autopartes: espuma de alta densidad, cajas reforzadas y paletización especializada que eliminan daños en tránsito."
+          },
+          {
+            "tag": "TRAZABILIDAD",
+            "title": "Rastreo de garantía por pieza",
+            "description": "Cada unidad rastreada desde recepción hasta entrega. Historial completo de lote, fecha de envío y destinatario para resolver reclamaciones de garantía en minutos."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Preguntas frecuentes",
+        "subhead": "Lo que los distribuidores de refacciones nos preguntan antes de empezar.",
+        "items": [
+          {
+            "question": "¿Pueden almacenar piezas pesadas como motores o transmisiones?",
+            "answer": "Sí. Nuestros racks industriales soportan hasta 500 kg por posición. Tenemos zonas dedicadas para piezas sobredimensionadas con equipo de carga especializado."
+          },
+          {
+            "question": "¿Cómo manejan los números de parte OEM y aftermarket?",
+            "answer": "Nuestro WMS indexa cada pieza por número OEM, referencia aftermarket y equivalencias cruzadas. El picker ve exactamente qué pieza tomar sin ambigüedad."
+          },
+          {
+            "question": "¿Qué pasa si una pieza llega dañada al taller?",
+            "answer": "Cada envío tiene trazabilidad completa: fotos de empaque, peso registrado y número de guía. Si hay reclamación, el historial completo está disponible en minutos."
+          },
+          {
+            "question": "¿Cuánto tarda el onboarding de mi catálogo?",
+            "answer": "Depende del volumen de SKUs. Catálogos de hasta 5,000 números de parte se configuran en 2 semanas. Para catálogos más grandes, hacemos migración por fases."
+          },
+          {
+            "question": "¿Manejan envíos a talleres mecánicos en todo México?",
+            "answer": "Sí. Trabajamos con múltiples carriers nacionales optimizados para paquetería pesada. Cobertura en todo México con tiempos de entrega de 2 a 5 días."
+          },
+          {
+            "question": "¿Cuál es el volumen mínimo para empezar?",
+            "answer": "No hay mínimo fijo. Trabajamos con distribuidores desde 300 pedidos/mes hasta 30,000+. El modelo se adapta a tu volumen actual y escala contigo."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Servicios complementarios",
+        "subhead": "Todo lo que necesitas para operar refacciones automotrices en México, bajo un solo techo.",
+        "items": [
+          {
+            "title": "Almacenamiento",
+            "description": "Racks industriales de alta capacidad, zonas para piezas sobredimensionadas y control de inventario en tiempo real.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Pick & pack preciso con validación por número OEM para todos tus canales de venta.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Envíos",
+            "description": "Multi-carrier nacional optimizado para paquetería pesada con tracking en tiempo real.",
+            "href": "envios"
+          },
+          {
+            "title": "Tecnología",
+            "description": "WMS con búsqueda OEM, integraciones multi-canal y visibilidad de inventario en tiempo real.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "medical": {
+      "meta": {
+        "title": "Fulfillment de Equipo Médico en México | Ecommex",
+        "description": "Fulfillment especializado para equipo médico en México. Trazabilidad por número de serie, zonas de temperatura controlada, envío prioritario y visibilidad en tiempo real."
+      },
+      "hero": {
+        "eyebrow": "Equipo Médico",
+        "headline": "Fulfillment de Equipo Médico en México",
+        "subheadline": "Trazabilidad por serie, temperatura controlada y envío prioritario para tu operación.",
+        "cta": "Obtén Tu Cotización",
+        "ctaSecondary": "Nuestros Servicios",
+        "stats": [
+          {
+            "value": "10000",
+            "display": "10K+",
+            "label": "Números de serie rastreados"
+          },
+          {
+            "value": "99.9",
+            "display": "99.9%",
+            "label": "Tasa de cumplimiento"
+          },
+          {
+            "value": "24",
+            "display": "24h",
+            "label": "Despacho mismo día"
+          },
+          {
+            "value": "20",
+            "display": "20+",
+            "label": "Clientes activos"
+          },
+          {
+            "value": "3",
+            "display": "3",
+            "label": "Zonas de temperatura"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "Los retos operativos reales",
+        "subhead": "Estos son los dolores operativos que frenan a las empresas de equipo médico en México.",
+        "items": [
+          {
+            "title": "Trazabilidad obligatoria sin sistema",
+            "stat": "100% de los dispositivos requieren rastreo por serie",
+            "description": "Cada equipo médico necesita trazabilidad completa por número de serie y lote. Sin un WMS preparado, el rastreo manual genera errores, retrasos y riesgo operativo."
+          },
+          {
+            "title": "Sensibilidad a temperatura sin control",
+            "stat": "Hasta 20% de producto comprometido sin monitoreo",
+            "description": "Reactivos, insumos y ciertos dispositivos requieren rangos de temperatura específicos. Sin zonas controladas y monitoreo continuo, el producto se degrada antes de llegar al cliente."
+          },
+          {
+            "title": "Entregas urgentes sin prioridad",
+            "stat": "48h+ de retraso en pedidos críticos",
+            "description": "Hospitales y clínicas necesitan equipo con urgencia. Sin flujos de despacho prioritario, los pedidos críticos se quedan en la cola general y llegan tarde."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "Cómo lo resuelve Ecommex",
+        "subhead": "Operación integral diseñada para equipo médico — del almacén al punto de atención.",
+        "items": [
+          {
+            "tag": "TRAZABILIDAD",
+            "title": "WMS con rastreo por lote y número de serie",
+            "description": "Cada unidad registrada por número de serie y lote desde el ingreso. Historial completo de movimientos, ubicación en tiempo real y reportes de trazabilidad listos para auditoría."
+          },
+          {
+            "tag": "TEMPERATURA",
+            "title": "Zonas de temperatura controlada",
+            "description": "Tres zonas diferenciadas con monitoreo continuo y alertas automáticas. Tus productos sensibles almacenados en el rango correcto las 24 horas."
+          },
+          {
+            "tag": "DESPACHO",
+            "title": "Fulfillment prioritario para pedidos críticos",
+            "description": "Flujos de despacho diferenciados con prioridad para pedidos urgentes. Corte extendido, pick & pack acelerado y coordinación directa con carriers para entrega mismo día."
+          },
+          {
+            "tag": "VISIBILIDAD",
+            "title": "Visibilidad en tiempo real de punta a punta",
+            "description": "Dashboard con estatus de cada número de serie, niveles de inventario por zona, tracking de envíos y alertas proactivas — todo en una sola plataforma."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Preguntas frecuentes",
+        "subhead": "Lo que las empresas de equipo médico nos preguntan antes de empezar.",
+        "items": [
+          {
+            "question": "¿Pueden rastrear cada unidad por número de serie?",
+            "answer": "Sí. Nuestro WMS registra cada unidad por número de serie y lote desde el momento del ingreso. Puedes consultar el historial completo de movimientos y ubicación actual en cualquier momento."
+          },
+          {
+            "question": "¿Qué rangos de temperatura manejan?",
+            "answer": "Contamos con tres zonas diferenciadas: ambiente controlado (15-25°C), refrigerado (2-8°C) y una zona intermedia. Todas con monitoreo continuo y alertas automáticas si hay desviaciones."
+          },
+          {
+            "question": "¿Pueden despachar pedidos urgentes el mismo día?",
+            "answer": "Sí. Tenemos flujos de despacho prioritario con corte extendido. Los pedidos marcados como urgentes entran a un carril acelerado de pick & pack con coordinación directa de carrier."
+          },
+          {
+            "question": "¿Cuánto tarda el onboarding?",
+            "answer": "El onboarding típico para equipo médico toma de 2 a 3 semanas. Configuramos tus SKUs, números de serie, zonas de almacenamiento y reglas de despacho antes de recibir el primer inventario."
+          },
+          {
+            "question": "¿Tienen visibilidad en tiempo real del inventario?",
+            "answer": "Sí. Nuestro dashboard muestra niveles de inventario por zona, estatus de cada número de serie, tracking de envíos y alertas proactivas — accesible 24/7 desde cualquier dispositivo."
+          },
+          {
+            "question": "¿Cuál es el volumen mínimo para empezar?",
+            "answer": "No hay mínimo fijo. Trabajamos con empresas desde 200 pedidos/mes hasta operaciones de alto volumen. El modelo se adapta a tu flujo actual y escala contigo."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Servicios complementarios",
+        "subhead": "Todo lo que necesitas para operar equipo médico en México, bajo un solo techo.",
+        "items": [
+          {
+            "title": "Almacenamiento",
+            "description": "Zonas de temperatura controlada, rastreo por número de serie y áreas dedicadas para equipo médico.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Pick & pack con trazabilidad por serie, despacho prioritario y empaque especializado para dispositivos.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Envíos",
+            "description": "Multi-carrier con opciones de entrega mismo día, tracking en tiempo real y manejo de cadena de frío.",
+            "href": "envios"
+          },
+          {
+            "title": "Tecnología",
+            "description": "WMS con rastreo por serie y lote, dashboard en tiempo real y reportes de trazabilidad para auditoría.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "appliances": {
+      "meta": {
+        "title": "Fulfillment de Electrodomesticos en Mexico | Ecommex",
+        "description": "Fulfillment especializado para electrodomesticos en Mexico. Almacenamiento de productos voluminosos, embalaje reforzado, envios de carga pesada y entrega last-mile con guante blanco."
+      },
+      "hero": {
+        "eyebrow": "Electrodomésticos",
+        "headline": "Fulfillment de Electrodomésticos en México",
+        "subheadline": "Productos voluminosos, embalaje reforzado y entrega last-mile especializada. Nosotros lo operamos.",
+        "cta": "Obtén Tu Cotización",
+        "ctaSecondary": "Nuestros Servicios",
+        "stats": [
+          {
+            "value": "10000",
+            "display": "10,000+",
+            "label": "Unidades enviadas al mes"
+          },
+          {
+            "value": "0.3",
+            "display": "<0.3%",
+            "label": "Tasa de daño en tránsito"
+          },
+          {
+            "value": "97",
+            "display": "97%",
+            "label": "Entregas a tiempo"
+          },
+          {
+            "value": "25",
+            "display": "25+",
+            "label": "Marcas activas"
+          },
+          {
+            "value": "150",
+            "display": "150kg",
+            "label": "Peso máximo manejado"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "Los retos operativos reales",
+        "subhead": "Estos son los dolores que frenan a las marcas de electrodomésticos en México.",
+        "items": [
+          {
+            "title": "Productos voluminosos y pesados difíciles de mover",
+            "stat": "Hasta 40% más caro por mala planificación",
+            "description": "Sin racks adecuados ni equipo de carga, los electrodomésticos grandes se almacenan mal, se mueven lento y generan cuellos de botella en toda la operación."
+          },
+          {
+            "title": "Alto índice de daño durante el tránsito",
+            "stat": "8–12% de reclamos por daño en 3PLs genéricos",
+            "description": "Embalaje estándar no protege lavadoras, refrigeradores ni pantallas. El resultado: devoluciones costosas, reposiciones y clientes insatisfechos."
+          },
+          {
+            "title": "Devoluciones complejas y costosas",
+            "stat": "+5 días promedio en procesar una devolución",
+            "description": "Recoger un electrodoméstico dañado, inspeccionarlo y reintegrarlo al inventario requiere logística inversa especializada que la mayoría de los 3PLs no ofrecen."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "Cómo lo resuelve Ecommex",
+        "subhead": "Operación integral diseñada para electrodomésticos — del almacén a la puerta del cliente.",
+        "items": [
+          {
+            "tag": "ALMACENAMIENTO",
+            "title": "Almacenamiento especializado para carga voluminosa",
+            "description": "Racks industriales de alta capacidad, zonas dedicadas para electrodomésticos grandes y equipo de carga mecanizado. Tu inventario seguro y accesible desde el día 1."
+          },
+          {
+            "tag": "EMBALAJE",
+            "title": "Embalaje reforzado para cero daños",
+            "description": "Protección con espuma moldeada, esquineros rígidos y doble caja para cada pieza. Reducimos los reclamos por daño a menos del 0.3%."
+          },
+          {
+            "tag": "ENVÍOS",
+            "title": "Multi-carrier para carga pesada y voluminosa",
+            "description": "Red de transportistas especializados en carga pesada con cobertura nacional. Tarifas negociadas por volumen y tracking en tiempo real de cada envío."
+          },
+          {
+            "tag": "LAST-MILE",
+            "title": "Entrega last-mile con guante blanco",
+            "description": "Servicio de entrega a domicilio con instalación básica, retiro de embalaje y verificación de funcionamiento. La experiencia completa para tu cliente final."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Preguntas frecuentes",
+        "subhead": "Lo que las marcas de electrodomésticos nos preguntan antes de empezar.",
+        "items": [
+          {
+            "question": "¿Qué tipos de electrodomésticos pueden almacenar y enviar?",
+            "answer": "Manejamos desde pequeños electrodomésticos como licuadoras y cafeteras, hasta línea blanca completa: refrigeradores, lavadoras, secadoras y estufas de hasta 150 kg por unidad."
+          },
+          {
+            "question": "¿Cómo protegen los productos durante el envío?",
+            "answer": "Usamos embalaje reforzado con espuma moldeada, esquineros rígidos, flejes y doble caja. Cada producto se embala según su categoría y peso para minimizar cualquier riesgo de daño en tránsito."
+          },
+          {
+            "question": "¿Ofrecen servicio de instalación en destino?",
+            "answer": "Sí. Nuestro servicio de guante blanco incluye entrega a domicilio, instalación básica, retiro del embalaje y verificación de funcionamiento. Disponible en las principales zonas metropolitanas."
+          },
+          {
+            "question": "¿Cuál es el tiempo promedio de entrega a nivel nacional?",
+            "answer": "Para zonas metropolitanas, de 2 a 4 días hábiles. Para el resto del país, de 4 a 7 días hábiles dependiendo del destino y peso del producto."
+          },
+          {
+            "question": "¿Cómo manejan las devoluciones de electrodomésticos?",
+            "answer": "Coordinamos la recolección a domicilio, inspección del producto, clasificación (reacondicionado o merma) y reintegro al inventario. Todo con visibilidad en tiempo real desde nuestro WMS."
+          },
+          {
+            "question": "¿Cuál es el volumen mínimo para empezar?",
+            "answer": "No hay mínimo fijo. Trabajamos con marcas desde 200 envíos al mes hasta operaciones de miles de unidades. El modelo se adapta a tu volumen y escala contigo."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Servicios complementarios",
+        "subhead": "Todo lo que necesitas para operar electrodomésticos en México, bajo un solo techo.",
+        "items": [
+          {
+            "title": "Almacenamiento",
+            "description": "Racks industriales de alta capacidad con zonas dedicadas para carga voluminosa y pesada.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Pick & pack especializado para electrodomésticos con embalaje reforzado y control de calidad.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Envíos",
+            "description": "Multi-carrier para carga pesada con cobertura nacional y tracking en tiempo real.",
+            "href": "envios"
+          },
+          {
+            "title": "Tecnología",
+            "description": "WMS con visibilidad de inventario en tiempo real, integraciones multi-canal y reportes automáticos.",
+            "href": "tecnologia"
+          }
+        ]
+      }
+    },
+    "beauty": {
+      "meta": {
+        "title": "Fulfillment de Belleza y Skincare en México | Ecommex",
+        "description": "Fulfillment especializado para productos de belleza y skincare en México. Manejo de frágiles, trazabilidad de lotes, kitting premium y envíos multi-canal."
+      },
+      "hero": {
+        "eyebrow": "Belleza y Skincare",
+        "headline": "Fulfillment de Belleza y Skincare en México",
+        "subheadline": "Productos frágiles, control de lotes, kitting a medida y unboxing premium. Nosotros lo operamos.",
+        "cta": "Obtén Tu Cotización",
+        "ctaSecondary": "Nuestros Servicios",
+        "stats": [
+          {
+            "value": "800+",
+            "display": "800+",
+            "label": "SKUs de belleza gestionados"
+          },
+          {
+            "value": "0.3",
+            "display": "<0.3%",
+            "label": "Tasa de daño en tránsito"
+          },
+          {
+            "value": "24",
+            "display": "24h",
+            "label": "Procesamiento mismo día"
+          },
+          {
+            "value": "20",
+            "display": "20+",
+            "label": "Marcas de belleza activas"
+          },
+          {
+            "value": "12",
+            "display": "12+",
+            "label": "Opciones de kitting personalizado"
+          }
+        ]
+      },
+      "painPoints": {
+        "headline": "Los retos operativos reales",
+        "subhead": "Estos son los dolores operativos que frenan a las marcas de belleza y skincare en México.",
+        "items": [
+          {
+            "title": "Productos frágiles que llegan rotos",
+            "stat": "Hasta 8% de daño con operadores genéricos",
+            "description": "Frascos de vidrio, serums y paletas de maquillaje necesitan protección especial. Sin protocolos de manejo dedicados, el daño se acumula y los reemplazos se comen el margen."
+          },
+          {
+            "title": "Lotes de ingredientes sin trazabilidad",
+            "stat": "Pérdida de visibilidad en +40% de los SKUs",
+            "description": "Cada producto tiene lote, fecha de fabricación y vida útil. Sin rastreo por lote, no puedes rotar correctamente ni responder ante incidencias de calidad."
+          },
+          {
+            "title": "Unboxing que no refleja la marca",
+            "stat": "72% de clientes valoran la presentación",
+            "description": "Tu cliente espera una experiencia premium al abrir la caja. Empaque genérico, sin insertos ni personalización, mata la percepción de valor y la recompra."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "Cómo lo resuelve Ecommex",
+        "subhead": "Operación integral diseñada para belleza — del almacén a la puerta del cliente.",
+        "items": [
+          {
+            "tag": "MANEJO CUIDADOSO",
+            "title": "Protocolos de manejo para productos frágiles",
+            "description": "Embalaje con materiales de protección específicos para vidrio y cosméticos, estaciones de pick & pack dedicadas y control de calidad visual antes de cada envío."
+          },
+          {
+            "tag": "TRAZABILIDAD",
+            "title": "Rastreo de lotes e ingredientes",
+            "description": "Cada unidad trackeada por lote y fecha de fabricación, rotación automática para productos con vida útil limitada y reportes de inventario por lote en tiempo real."
+          },
+          {
+            "tag": "KITTING & UNBOXING",
+            "title": "Kitting personalizado y unboxing premium",
+            "description": "Sets de regalo, muestras gratis, insertos de marca y empaque personalizado. Creamos la experiencia de unboxing que tus clientes esperan de una marca de belleza."
+          },
+          {
+            "tag": "MULTI-CANAL",
+            "title": "Sincronización multi-canal en tiempo real",
+            "description": "Amazon MX, Mercado Libre, Shopify y tu tienda DTC sincronizados desde un solo pool de inventario. Cero overselling, cero cancelaciones."
+          }
+        ]
+      },
+      "faq": {
+        "headline": "Preguntas frecuentes",
+        "subhead": "Lo que las marcas de belleza nos preguntan antes de empezar.",
+        "items": [
+          {
+            "question": "¿Cómo protegen los productos frágiles durante el envío?",
+            "answer": "Usamos embalaje especializado con bubble wrap, separadores y cajas reforzadas para productos de vidrio y cosméticos. Cada pedido pasa por un control de calidad visual antes de sellarse."
+          },
+          {
+            "question": "¿Pueden armar kits y sets de regalo personalizados?",
+            "answer": "Sí. Operamos kitting a medida: sets de regalo, combos, muestras gratis, insertos de marca y empaque personalizado. Puedes cambiar las configuraciones por temporada o campaña."
+          },
+          {
+            "question": "¿Manejan control de lotes para ingredientes?",
+            "answer": "Sí. Nuestro WMS rastrea cada unidad por lote y fecha de fabricación. Implementamos rotación automática para que los productos con menor vida útil salgan primero."
+          },
+          {
+            "question": "¿Cuánto tarda el onboarding para una marca de belleza?",
+            "answer": "El onboarding típico toma entre 1 y 2 semanas. Configuramos tus SKUs, lotes, reglas de kitting e integraciones de canales para que estés operando rápido."
+          },
+          {
+            "question": "¿Puedo vender en Amazon MX y mi tienda Shopify al mismo tiempo?",
+            "answer": "Sí. Sincronizamos inventario en tiempo real entre Amazon MX, Mercado Libre, Shopify y tu tienda DTC. Un solo pool de inventario, cero riesgo de overselling."
+          },
+          {
+            "question": "¿Cuál es el volumen mínimo para empezar?",
+            "answer": "No hay mínimo fijo. Trabajamos con marcas desde 300 pedidos/mes hasta 40,000+. El modelo se adapta a tu volumen actual y escala contigo."
+          }
+        ]
+      },
+      "related": {
+        "headline": "Servicios complementarios",
+        "subhead": "Todo lo que necesitas para operar tu marca de belleza en México, bajo un solo techo.",
+        "items": [
+          {
+            "title": "Almacenamiento",
+            "description": "Zonas dedicadas para cosméticos y skincare con control de temperatura y organización por lote.",
+            "href": "almacenamiento"
+          },
+          {
+            "title": "Fulfillment",
+            "description": "Pick & pack cuidadoso con kitting personalizado y control de calidad visual para cada pedido.",
+            "href": "fulfillment"
+          },
+          {
+            "title": "Envíos",
+            "description": "Multi-carrier nacional con empaque protector y entrega en 2 a 4 días en todo México.",
+            "href": "envios"
+          },
+          {
+            "title": "Devoluciones",
+            "description": "Procesamiento de devoluciones el mismo día con inspección de calidad y restock automatizado.",
+            "href": "devoluciones"
           }
         ]
       }

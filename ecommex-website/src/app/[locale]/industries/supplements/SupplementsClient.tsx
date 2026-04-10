@@ -1,74 +1,72 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import { HeroKpi } from '@/components/HeroKpi';
 import {
-  AlertTriangle,
-  CalendarClock,
-  FileWarning,
-  ClipboardCheck,
-  ScanLine,
-  Thermometer,
-  Tags,
-  Ship,
-  Package,
-  ShieldCheck,
-  FileCheck,
-  BookOpen,
-  Languages,
-  Stamp,
   ArrowRight,
   Phone,
   Mail,
   MapPin,
   Clock,
+  Plus,
+  Truck,
+  Warehouse,
+  Package,
+  Cpu,
 } from 'lucide-react';
 
-const painPointIcons = [AlertTriangle, CalendarClock, FileWarning];
-const solutionIcons = [ClipboardCheck, ScanLine, Thermometer, Tags, Ship, Package];
-const regulatoryIcons = [ShieldCheck, FileCheck, BookOpen, Languages, Stamp];
+const relatedIcons = [Truck, Warehouse, Package, Cpu];
+
+const solutionImages = [
+  '/services/import.jpg',
+  '/services/warehouse.jpg',
+  '/services/fulfillment.jpg',
+  '/why/tech.jpg',
+];
 
 export function SupplementsClient() {
   const t = useTranslations('industries.supplements');
   const tHome = useTranslations('home.cta');
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   return (
     <>
       {/* Hero — variante B (imagen). Replica exacta del patrón canónico.
           lg:min-h-[840px] = piso para igualar home. flex flex-col + flex-1
           distribuye espacio sobrante en el copy wrapper, KPI bar pinneado al fondo. */}
-      <section className="relative overflow-hidden bg-navy-dark flex flex-col min-h-[clamp(500px,70svh,800px)] lg:min-h-[840px]">
-        <div className="absolute inset-0">
+      <section
+        className="relative overflow-hidden flex flex-col min-h-[clamp(500px,70svh,800px)] lg:min-h-[840px]"
+        style={{
+          backgroundImage: 'url(/industries/supplements/hero.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center right',
+        }}
+      >
+        {/* Navbar mask — covers image behind the fixed navbar area */}
+        <div className="absolute inset-x-0 top-0 h-20 bg-navy-dark z-[2] pointer-events-none" />
+
+        {/* Gradient overlay — single div, covers entire section */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{ background: 'linear-gradient(to right, rgba(30,42,69,0.97) 40%, rgba(30,42,69,0.15) 100%)' }}
+        />
+
+        {/* Blobs decorativos — above gradient */}
+        <div className="absolute inset-0 z-[1]">
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-teal/5 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-navy/40 rounded-full blur-3xl" />
           <div className="absolute top-0 right-0 w-72 h-72 bg-teal/3 rounded-full blur-3xl" />
         </div>
-
-        {/* Hero image — absolute right half. Placeholder until real photo shoot. */}
-        <motion.div
-          initial={{ opacity: 0, scale: 1.06 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.4, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="hidden lg:block absolute top-20 bottom-0 right-0 w-[58%] xl:w-[60%]"
-        >
-          <img
-            src="/services/warehouse.jpg"
-            alt=""
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-dark from-5% via-navy-dark/30 via-35% to-transparent to-55% pointer-events-none" />
-          <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-navy-dark/80 to-transparent pointer-events-none" />
-          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-navy-dark to-transparent pointer-events-none" />
-        </motion.div>
 
         <div className="relative flex-1 w-full mx-auto max-w-7xl px-6 pt-24 pb-8 md:pt-32 md:pb-12 lg:pt-36 lg:pb-16 xl:pt-40 xl:pb-20 2xl:pt-44 2xl:pb-24 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="relative z-10 lg:max-w-[56%] xl:max-w-[52%]"
+            className="relative z-10 lg:max-w-[55%] xl:max-w-[50%]"
           >
             {/* Eyebrow chip with pulsing dot */}
             <motion.div
@@ -135,10 +133,10 @@ export function SupplementsClient() {
         </div>
       </section>
 
-      {/* Pain Points — 3 cards, teal/navy palette (no red/orange) */}
+      {/* Pain Points — editorial 3-col with large numbers + stat line */}
       <section className="bg-navy-dark">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="max-w-3xl mb-16">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -159,38 +157,37 @@ export function SupplementsClient() {
             </motion.p>
           </div>
 
-          <div className="grid gap-5 md:grid-cols-3">
-            {[0, 1, 2].map((i) => {
-              const Icon = painPointIcons[i];
-              return (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.08 }}
-                  className="group relative rounded-2xl border border-white/10 bg-navy p-6 lg:p-7 transition-all hover:border-teal/30 hover:bg-navy/80"
-                >
-                  <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-teal/15 border border-teal/30 transition-colors group-hover:bg-teal group-hover:border-teal">
-                    <Icon className="h-5 w-5 text-teal transition-colors group-hover:text-white" />
-                  </div>
-                  <h3 className="font-display text-lg font-bold text-white leading-tight">
-                    {t(`painPoints.items.${i}.title`)}
-                  </h3>
-                  <p className="mt-2 text-sm text-[#9BA5B5] leading-relaxed">
-                    {t(`painPoints.items.${i}.description`)}
-                  </p>
-                </motion.div>
-              );
-            })}
+          <div className="grid gap-x-12 gap-y-14 md:grid-cols-3">
+            {[0, 1, 2].map((i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-60px' }}
+                transition={{ duration: 0.6, delay: i * 0.15 }}
+              >
+                <span className="font-display text-5xl font-bold text-teal/30 leading-none">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <h3 className="mt-4 font-display text-xl font-bold text-white leading-tight">
+                  {t(`painPoints.items.${i}.title`)}
+                </h3>
+                <p className="mt-2 text-sm font-semibold text-teal">
+                  {t(`painPoints.items.${i}.stat`)}
+                </p>
+                <p className="mt-3 text-base text-[#9BA5B5] leading-relaxed">
+                  {t(`painPoints.items.${i}.description`)}
+                </p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Solutions — features grid canónico (6 cards, 2x3) */}
+      {/* Solutions — alternating image/text rows (pattern from Almacenamiento whyEcommex) */}
       <section className="bg-navy-dark">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -211,38 +208,63 @@ export function SupplementsClient() {
             </motion.p>
           </div>
 
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {[0, 1, 2, 3, 4, 5].map((i) => {
-              const Icon = solutionIcons[i];
+          <div className="space-y-16 lg:space-y-0">
+            {[0, 1, 2, 3].map((i) => {
+              const imageRight = i % 2 === 1;
               return (
-                <motion.div
+                <div
                   key={i}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.06 }}
-                  className="group relative rounded-2xl border border-white/10 bg-navy p-6 lg:p-7 transition-all hover:border-teal/30 hover:bg-navy/80"
+                  className={`grid lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center ${
+                    i > 0 ? 'lg:pt-20 lg:mt-20 lg:border-t lg:border-white/5' : ''
+                  }`}
                 >
-                  <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-teal/15 border border-teal/30 transition-colors group-hover:bg-teal group-hover:border-teal">
-                    <Icon className="h-5 w-5 text-teal transition-colors group-hover:text-white" />
-                  </div>
-                  <h3 className="font-display text-lg font-bold text-white leading-tight">
-                    {t(`solutions.items.${i}.title`)}
-                  </h3>
-                  <p className="mt-2 text-sm text-[#9BA5B5] leading-relaxed">
-                    {t(`solutions.items.${i}.description`)}
-                  </p>
-                </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, x: imageRight ? 32 : -32 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, margin: '-100px' }}
+                    transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                    className={`relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 bg-navy ${
+                      imageRight ? 'lg:order-2' : ''
+                    }`}
+                  >
+                    <img
+                      src={solutionImages[i]}
+                      alt=""
+                      className="absolute inset-0 h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/40 via-transparent to-transparent pointer-events-none" />
+                  </motion.div>
+
+                  <motion.div
+                    initial={{ opacity: 0, x: imageRight ? -32 : 32 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, margin: '-100px' }}
+                    transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
+                    className={imageRight ? 'lg:order-1' : ''}
+                  >
+                    <div className="inline-flex items-center rounded-full border border-teal/20 bg-teal/5 px-3 py-1 mb-4">
+                      <span className="text-[10px] font-semibold tracking-wider text-teal uppercase">
+                        {t(`solutions.items.${i}.tag`)}
+                      </span>
+                    </div>
+                    <h3 className="font-display text-2xl lg:text-3xl xl:text-4xl font-bold text-white leading-tight">
+                      {t(`solutions.items.${i}.title`)}
+                    </h3>
+                    <p className="mt-4 text-base lg:text-lg text-[#9BA5B5] leading-relaxed">
+                      {t(`solutions.items.${i}.description`)}
+                    </p>
+                  </motion.div>
+                </div>
               );
             })}
           </div>
         </div>
       </section>
 
-      {/* Regulatory — 5 items with shield/check icons */}
+      {/* FAQ — single-open accordion with Plus→X rotation */}
       <section className="bg-navy-dark">
-        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="mx-auto max-w-[760px] px-6 py-20 md:py-28 lg:px-8">
+          <div className="text-center mb-12 lg:mb-16">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -250,7 +272,7 @@ export function SupplementsClient() {
               transition={{ duration: 0.5 }}
               className="font-display text-3xl font-bold text-white sm:text-4xl"
             >
-              {t('regulatory.headline')}
+              {t('faq.headline')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -259,31 +281,120 @@ export function SupplementsClient() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-4 text-lg text-[#9BA5B5] leading-relaxed"
             >
-              {t('regulatory.subhead')}
+              {t('faq.subhead')}
             </motion.p>
           </div>
 
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {[0, 1, 2, 3, 4].map((i) => {
-              const Icon = regulatoryIcons[i];
+          <div className="border-t border-white/10">
+            {[0, 1, 2, 3, 4, 5].map((i) => {
+              const isOpen = openFaq === i;
+              return (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: '-50px' }}
+                  transition={{ duration: 0.4, delay: i * 0.05 }}
+                  className="border-b border-white/10"
+                >
+                  <button
+                    type="button"
+                    onClick={() => setOpenFaq(isOpen ? null : i)}
+                    aria-expanded={isOpen}
+                    className="group flex w-full items-center justify-between gap-6 py-5 text-left lg:py-6"
+                  >
+                    <span className="font-display text-base font-bold text-white transition-colors group-hover:text-teal lg:text-lg">
+                      {t(`faq.items.${i}.question`)}
+                    </span>
+                    <motion.div
+                      animate={{ rotate: isOpen ? 45 : 0 }}
+                      transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-teal/30 bg-teal/5 text-teal transition-colors group-hover:border-teal group-hover:bg-teal group-hover:text-white"
+                      aria-hidden="true"
+                    >
+                      <Plus className="h-4 w-4" />
+                    </motion.div>
+                  </button>
+                  <AnimatePresence initial={false}>
+                    {isOpen && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                        className="overflow-hidden"
+                      >
+                        <p className="pb-5 pr-14 text-base leading-relaxed text-[#9BA5B5] lg:pb-6">
+                          {t(`faq.items.${i}.answer`)}
+                        </p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Related services — 2x2 grid with links */}
+      <section className="bg-navy-dark">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28 lg:px-8">
+          <div className="max-w-3xl mb-12">
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="font-display text-3xl font-bold text-white sm:text-4xl"
+            >
+              {t('related.headline')}
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="mt-3 text-lg text-[#9BA5B5] leading-relaxed"
+            >
+              {t('related.subhead')}
+            </motion.p>
+          </div>
+
+          <div className="grid gap-5 md:grid-cols-2">
+            {[0, 1, 2, 3].map((i) => {
+              const slug = t(`related.items.${i}.href`);
+              const href = `/services/${slug}` as '/services/fulfillment';
+              const Icon = relatedIcons[i];
               return (
                 <motion.div
                   key={i}
                   initial={{ opacity: 0, y: 24 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.06 }}
-                  className="group relative rounded-2xl border border-white/10 bg-navy p-6 lg:p-7 transition-all hover:border-teal/30 hover:bg-navy/80"
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  className="h-full"
                 >
-                  <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-teal/15 border border-teal/30 transition-colors group-hover:bg-teal group-hover:border-teal">
-                    <Icon className="h-5 w-5 text-teal transition-colors group-hover:text-white" />
-                  </div>
-                  <h3 className="font-display text-lg font-bold text-white leading-tight">
-                    {t(`regulatory.items.${i}.title`)}
-                  </h3>
-                  <p className="mt-2 text-sm text-[#9BA5B5] leading-relaxed">
-                    {t(`regulatory.items.${i}.description`)}
-                  </p>
+                  <Link
+                    href={href}
+                    className="group relative block h-full overflow-hidden rounded-2xl border border-white/10 bg-navy p-6 transition-all hover:border-teal/30 hover:bg-navy/80 lg:p-7"
+                  >
+                    <div className="pointer-events-none absolute -top-20 -right-20 h-48 w-48 rounded-full bg-teal/10 blur-3xl opacity-0 transition-opacity group-hover:opacity-100" />
+
+                    <div className="relative mb-5 flex items-center justify-between">
+                      <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-teal/30 bg-teal/15 transition-colors group-hover:border-teal group-hover:bg-teal">
+                        <Icon className="h-5 w-5 text-teal transition-colors group-hover:text-white" />
+                      </div>
+                      <ArrowRight className="h-5 w-5 text-teal transition-transform group-hover:translate-x-1" />
+                    </div>
+
+                    <h3 className="relative font-display text-xl font-bold leading-tight text-white lg:text-2xl">
+                      {t(`related.items.${i}.title`)}
+                    </h3>
+                    <p className="relative mt-2 text-sm leading-relaxed text-[#9BA5B5]">
+                      {t(`related.items.${i}.description`)}
+                    </p>
+                  </Link>
                 </motion.div>
               );
             })}
