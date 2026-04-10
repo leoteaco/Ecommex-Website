@@ -79,6 +79,36 @@
         }
       }
     },
+    "industriesDropdown": {
+      "label": "Industries we serve",
+      "viewAll": "See all industries",
+      "items": {
+        "supplements": {
+          "title": "Health & Supplements",
+          "description": "COFEPRIS, lot tracking, and temperature control"
+        },
+        "beauty": {
+          "title": "Beauty & Cosmetics",
+          "description": "Ingredient compliance and premium packaging"
+        },
+        "fashion": {
+          "title": "Fashion & Apparel",
+          "description": "High SKU counts and seasonal demand"
+        },
+        "electronics": {
+          "title": "Consumer Electronics",
+          "description": "NOM certifications and serial tracking"
+        },
+        "food": {
+          "title": "Food & Beverage",
+          "description": "Cold chain and food safety compliance"
+        },
+        "home": {
+          "title": "Home & Lifestyle",
+          "description": "Oversized items, fragile products, and kitting"
+        }
+      }
+    },
     "cta": "Get a Quote",
     "mobileMenuOpen": "Open menu",
     "mobileMenuClose": "Close menu",
@@ -1754,8 +1784,10 @@
   },
   "industries": {
     "hero": {
+      "eyebrow": "Industries",
       "headline": "Fulfillment Built for Your Industry",
-      "subtext": "Every product category has unique logistics challenges. We have the expertise, infrastructure, and processes to handle yours."
+      "subtext": "Every product category has unique logistics challenges. We have the expertise, infrastructure, and processes to handle yours.",
+      "cta": "Explore Industries"
     },
     "items": [
       {
@@ -1794,7 +1826,101 @@
         "pain": "Diverse product dimensions, fragile items, heavy goods, and the need for kitting and bundling make home products a logistics challenge that requires adaptable operations.",
         "cta": "Learn about home fulfillment"
       }
-    ]
+    ],
+    "supplements": {
+      "meta": {
+        "title": "Supplement Fulfillment in Mexico | Ecommex",
+        "description": "Specialized fulfillment for vitamins, supplements, and health products in Mexico. COFEPRIS, lot tracking, temperature control, and NOM compliance."
+      },
+      "hero": {
+        "eyebrow": "Health & Supplements",
+        "headline": "Dietary Supplement Fulfillment in Mexico",
+        "subheadline": "COFEPRIS, lot tracking, expiry, and temperature control. We handle it.",
+        "cta": "Get Your Quote",
+        "ctaSecondary": "Our Services",
+        "stats": [
+          { "value": "500+", "display": "500+", "label": "Health SKUs managed" },
+          { "value": "99.8", "display": "99.8%", "label": "Compliance rate" },
+          { "value": "72", "display": "72h", "label": "Avg. import clearance" },
+          { "value": "15", "display": "15+", "label": "Active health brands" },
+          { "value": "100", "display": "100%", "label": "Lot traceability" }
+        ]
+      },
+      "painPoints": {
+        "headline": "Why Supplements Are Hard to Sell in Mexico",
+        "subhead": "Health products face some of the strictest import and fulfillment requirements in the country.",
+        "items": [
+          {
+            "title": "COFEPRIS Registration",
+            "description": "Every supplement entering Mexico requires a sanitary registration with COFEPRIS — a process that can take months without expert guidance and blocks your product from entering the market."
+          },
+          {
+            "title": "Lot & Expiry Tracking",
+            "description": "Mexican regulations require lot-level traceability and strict expiry management. Selling expired products means fines, recalls, and destroyed brand trust."
+          },
+          {
+            "title": "NOM Labeling Compliance",
+            "description": "Products must meet NOM-051 nutritional labeling, including front-of-pack warnings, Spanish-language ingredients, and specific health claims restrictions."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "How Ecommex Solves It",
+        "subhead": "Purpose-built operations for health product logistics in Mexico.",
+        "items": [
+          {
+            "title": "COFEPRIS Registration Support",
+            "description": "We guide you through the full sanitary registration process, from documentation to approval, cutting months off your timeline."
+          },
+          {
+            "title": "Lot-Level WMS Tracking",
+            "description": "Our warehouse management system tracks every unit by lot number, manufacture date, and expiry — with automatic FEFO rotation."
+          },
+          {
+            "title": "Temperature-Controlled Storage",
+            "description": "Dedicated zones for products that require ambient temperature control, with continuous monitoring and alerts."
+          },
+          {
+            "title": "NOM-Compliant Labeling",
+            "description": "We handle label review, front-of-pack warning placement, and Spanish-language adaptation to meet NOM-051 requirements."
+          },
+          {
+            "title": "Customs & Import Management",
+            "description": "Specialized customs brokerage for health products, including sanitary permits, tariff classification, and recurring shipment workflows."
+          },
+          {
+            "title": "Multi-Channel Fulfillment",
+            "description": "Ship to Amazon Mexico, Mercado Libre, Shopify, or your own DTC store — all from a single inventory pool with real-time sync."
+          }
+        ]
+      },
+      "regulatory": {
+        "headline": "Regulatory Requirements We Handle",
+        "subhead": "Navigating Mexico's health product regulations doesn't have to slow you down.",
+        "items": [
+          {
+            "title": "COFEPRIS Sanitary Registration",
+            "description": "Mandatory registration for all dietary supplements and health products sold in Mexico. We manage the full application process."
+          },
+          {
+            "title": "NOM-051-SCFI/SSA1",
+            "description": "Nutritional labeling standard requiring front-of-pack warnings for excess sugar, sodium, calories, and saturated fat."
+          },
+          {
+            "title": "Lot & Expiry Management",
+            "description": "Legal requirement for full lot traceability and FEFO (First Expired, First Out) inventory rotation on all health products."
+          },
+          {
+            "title": "Spanish-Language Labeling",
+            "description": "All product labels must include ingredients, directions, warnings, and manufacturer information in Spanish."
+          },
+          {
+            "title": "Import Health Permits",
+            "description": "Sanitary import permits required for each shipment of health products entering Mexico through customs."
+          }
+        ]
+      }
+    }
   },
   "caseStudies": {
     "hero": {

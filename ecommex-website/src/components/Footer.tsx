@@ -80,8 +80,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="text-sm text-white/70 hover:text-teal transition-colors">
-                  {t('columns.services.links.pricing')}
+                <Link href="/industries" className="text-sm text-white/70 hover:text-teal transition-colors">
+                  {t('columns.company.links.about')}
                 </Link>
               </li>
             </ul>

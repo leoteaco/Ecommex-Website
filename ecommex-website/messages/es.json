@@ -79,6 +79,36 @@
         }
       }
     },
+    "industriesDropdown": {
+      "label": "Industrias que atendemos",
+      "viewAll": "Ver todas las industrias",
+      "items": {
+        "supplements": {
+          "title": "Salud y Suplementos",
+          "description": "COFEPRIS, rastreo de lotes y control de temperatura"
+        },
+        "beauty": {
+          "title": "Belleza y Cosméticos",
+          "description": "Cumplimiento de ingredientes y empaque premium"
+        },
+        "fashion": {
+          "title": "Moda y Ropa",
+          "description": "Alto número de SKUs y demanda estacional"
+        },
+        "electronics": {
+          "title": "Electrónica de Consumo",
+          "description": "Certificaciones NOM y rastreo de series"
+        },
+        "food": {
+          "title": "Alimentos y Bebidas",
+          "description": "Cadena de frío y seguridad alimentaria"
+        },
+        "home": {
+          "title": "Hogar y Estilo de Vida",
+          "description": "Artículos grandes, frágiles y kitting"
+        }
+      }
+    },
     "cta": "Cotizar",
     "mobileMenuOpen": "Abrir menú",
     "mobileMenuClose": "Cerrar menú",
@@ -1754,8 +1784,10 @@
   },
   "industries": {
     "hero": {
+      "eyebrow": "Industrias",
       "headline": "Fulfillment Diseñado para Tu Industria",
-      "subtext": "Cada categoría de producto tiene retos logísticos únicos. Tenemos la experiencia, infraestructura y procesos para manejar los tuyos."
+      "subtext": "Cada categoría de producto tiene retos logísticos únicos. Tenemos la experiencia, infraestructura y procesos para manejar los tuyos.",
+      "cta": "Explorar Industrias"
     },
     "items": [
       {
@@ -1794,7 +1826,101 @@
         "pain": "Diversas dimensiones de producto, artículos frágiles, bienes pesados y la necesidad de kitting y bundling hacen de los productos para el hogar un reto logístico que requiere operaciones adaptables.",
         "cta": "Conoce el fulfillment para hogar"
       }
-    ]
+    ],
+    "supplements": {
+      "meta": {
+        "title": "Fulfillment de Suplementos en México | Ecommex",
+        "description": "Fulfillment especializado para vitaminas, suplementos y productos de salud en México. COFEPRIS, rastreo de lotes, control de temperatura y cumplimiento NOM."
+      },
+      "hero": {
+        "eyebrow": "Salud y Suplementos",
+        "headline": "Fulfillment de Suplementos Alimenticios en México",
+        "subheadline": "COFEPRIS, lotes, caducidad y temperatura controlada. Nosotros lo resolvemos.",
+        "cta": "Obtén Tu Cotización",
+        "ctaSecondary": "Nuestros Servicios",
+        "stats": [
+          { "value": "500+", "display": "500+", "label": "SKUs de salud gestionados" },
+          { "value": "99.8", "display": "99.8%", "label": "Tasa de cumplimiento" },
+          { "value": "72", "display": "72h", "label": "Despacho promedio" },
+          { "value": "15", "display": "15+", "label": "Marcas de salud activas" },
+          { "value": "100", "display": "100%", "label": "Trazabilidad por lote" }
+        ]
+      },
+      "painPoints": {
+        "headline": "Por Qué Es Difícil Vender Suplementos en México",
+        "subhead": "Los productos de salud enfrentan algunos de los requisitos de importación y fulfillment más estrictos del país.",
+        "items": [
+          {
+            "title": "Registro COFEPRIS",
+            "description": "Cada suplemento que entra a México requiere un registro sanitario ante COFEPRIS — un proceso que puede tomar meses sin guía experta y bloquea tu producto de entrar al mercado."
+          },
+          {
+            "title": "Rastreo de Lote y Caducidad",
+            "description": "Las regulaciones mexicanas exigen trazabilidad a nivel de lote y gestión estricta de caducidad. Vender productos caducados significa multas, recalls y confianza de marca destruida."
+          },
+          {
+            "title": "Etiquetado NOM",
+            "description": "Los productos deben cumplir con el etiquetado nutricional NOM-051, incluyendo sellos frontales de advertencia, ingredientes en español y restricciones específicas de claims de salud."
+          }
+        ]
+      },
+      "solutions": {
+        "headline": "Cómo Lo Resuelve Ecommex",
+        "subhead": "Operaciones diseñadas específicamente para la logística de productos de salud en México.",
+        "items": [
+          {
+            "title": "Soporte en Registro COFEPRIS",
+            "description": "Te guiamos en todo el proceso de registro sanitario, desde la documentación hasta la aprobación, recortando meses de tu timeline."
+          },
+          {
+            "title": "Tracking WMS por Lote",
+            "description": "Nuestro sistema de gestión de almacén rastrea cada unidad por número de lote, fecha de manufactura y caducidad — con rotación FEFO automática."
+          },
+          {
+            "title": "Almacenamiento con Temperatura Controlada",
+            "description": "Zonas dedicadas para productos que requieren control de temperatura ambiente, con monitoreo continuo y alertas."
+          },
+          {
+            "title": "Etiquetado NOM-Compliant",
+            "description": "Manejamos la revisión de etiquetas, colocación de sellos frontales de advertencia y adaptación al español para cumplir con NOM-051."
+          },
+          {
+            "title": "Gestión de Aduanas e Importación",
+            "description": "Agente aduanal especializado en productos de salud, incluyendo permisos sanitarios, clasificación arancelaria y flujos de importación recurrente."
+          },
+          {
+            "title": "Fulfillment Multi-Canal",
+            "description": "Envía a Amazon México, Mercado Libre, Shopify o tu propia tienda DTC — todo desde un solo inventario con sincronización en tiempo real."
+          }
+        ]
+      },
+      "regulatory": {
+        "headline": "Requisitos Regulatorios Que Manejamos",
+        "subhead": "Navegar las regulaciones de productos de salud de México no tiene que frenarte.",
+        "items": [
+          {
+            "title": "Registro Sanitario COFEPRIS",
+            "description": "Registro obligatorio para todos los suplementos alimenticios y productos de salud vendidos en México. Gestionamos todo el proceso de solicitud."
+          },
+          {
+            "title": "NOM-051-SCFI/SSA1",
+            "description": "Norma de etiquetado nutricional que requiere sellos frontales de advertencia por exceso de azúcar, sodio, calorías y grasas saturadas."
+          },
+          {
+            "title": "Gestión de Lote y Caducidad",
+            "description": "Requisito legal de trazabilidad completa por lote y rotación de inventario FEFO (First Expired, First Out) en todos los productos de salud."
+          },
+          {
+            "title": "Etiquetado en Español",
+            "description": "Todas las etiquetas deben incluir ingredientes, instrucciones, advertencias e información del fabricante en español."
+          },
+          {
+            "title": "Permisos Sanitarios de Importación",
+            "description": "Permisos sanitarios de importación requeridos para cada embarque de productos de salud que entra a México por aduana."
+          }
+        ]
+      }
+    }
   },
   "caseStudies": {
     "hero": {

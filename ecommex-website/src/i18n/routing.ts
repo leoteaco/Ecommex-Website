@@ -38,6 +38,10 @@ export const routing = defineRouting({
       en: '/industries',
       es: '/industrias',
     },
+    '/industries/supplements': {
+      en: '/industries/supplements',
+      es: '/industrias/suplementos',
+    },
     '/pricing': {
       en: '/pricing',
       es: '/precios',
